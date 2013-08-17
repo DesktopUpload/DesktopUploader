@@ -1,7 +1,7 @@
 Desktop Uploader
 ===============
 
-Desktop Uploader is an Open Source Windows application for mass uploading.
+Desktop Uploader is a Windows application for mass uploading.
 <br>
 Patches welcome.
 <br><br>
