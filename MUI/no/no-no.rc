@@ -1,0 +1,27 @@
+﻿/*---------------------------------------------------------------------------
+$Id: no-no.rc 451 2010-03-11 17:34:45Z fwhite $
+---------------------------------------------------------------------------*/
+
+#include "MUI.h"
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+
+STRINGTABLE
+begin
+    LANG_NOCATEGORY, "Velg en kategori"
+    LANG_PREPARING, "Forbereder"
+    LANG_PROCESSED, "Behandlet"
+    LANG_PROCESSING, "Prosessering"
+    LANG_PROCESSING_FILE, "Prosessering fil"
+    LANG_UPLOADED, "Opplastet"
+    LANG_UPLOADING, "Opplasting"
+    LANG_USERNAME, "Brukernavn"
+    LANG_LOGGEDINAS, "Logget inn som:  "
+    LANG_NOT_LOGGEDIN, "Ikke logget inn"
+    LANG_LOG_ON, "Logg på"
+    LANG_LOG_ON_TO, "Logg på"
+    LANG_USERNAME_EMPTY, "Brukernavn ikke spesifisert"
+    LANG_PASSWORD_EMPTY, "Passord ikke spesifisert"
+    LANG_INVALID_SERVER_RESPONSE, "Ugyldig server svar"
+end
+

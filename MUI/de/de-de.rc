@@ -1,0 +1,27 @@
+﻿/*---------------------------------------------------------------------------
+$Id: de-de.rc 451 2010-03-11 17:34:45Z fwhite $
+---------------------------------------------------------------------------*/
+
+#include "MUI.h"
+
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+
+STRINGTABLE
+begin
+    LANG_NOCATEGORY, "Bitte wählen Sie eine Kategorie"
+    LANG_PREPARING, "Vorbereiten"
+    LANG_PROCESSED, "Verarbeitete"
+    LANG_PROCESSING, "Verarbeitung"
+    LANG_PROCESSING_FILE, "Verarbeitung-Datei"
+    LANG_UPLOADED, "Hochladen abgeschlossen"
+    LANG_UPLOADING, "Hochladen"
+    LANG_USERNAME, "Benutzername"
+    LANG_LOGGEDINAS, "Angemeldet als:  "
+    LANG_NOT_LOGGEDIN, "Nicht angemeldet"
+    LANG_LOG_ON, "Melden Sie sich"
+    LANG_LOG_ON_TO, "Melden Sie sich an"
+    LANG_USERNAME_EMPTY, "Benutzername nicht angegeben"
+    LANG_PASSWORD_EMPTY, "Kennwort nicht angegeben"
+    LANG_INVALID_SERVER_RESPONSE, "Ungültige Server-Antwort"
+end
+

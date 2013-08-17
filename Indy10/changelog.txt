@@ -1,0 +1,2438 @@
+------------------------------------------------------------------------
+r3539 | RemyLebeau | 2009-03-19 23:03:09 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced enUTF8() with TIdTextEncoding.UTF8
+------------------------------------------------------------------------
+r3538 | RemyLebeau | 2009-03-19 23:02:59 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdTelnetReadThread.HandleIncomingData() to retrieve the data string as 8-bit
+------------------------------------------------------------------------
+r3537 | RemyLebeau | 2009-03-19 23:02:05 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdSMTPBase.SendPipelining() to check the IOHandler's WriteBufferingActive() method before calling WriteBufferOpen()
+------------------------------------------------------------------------
+r3536 | RemyLebeau | 2009-03-19 23:01:40 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3535 | RemyLebeau | 2009-03-19 22:59:38 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en7Bit() with TIdTextEncoding.ASCII
+------------------------------------------------------------------------
+r3534 | RemyLebeau | 2009-03-19 22:59:26 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3533 | RemyLebeau | 2009-03-19 22:59:09 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3532 | RemyLebeau | 2009-03-19 22:58:35 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3531 | RemyLebeau | 2009-03-19 22:58:06 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdHTTPProtocol.BuildAndSendRequest() to check the IOHandler's WriteBufferingActive() method before calling WriteBufferOpen()
+------------------------------------------------------------------------
+r3530 | RemyLebeau | 2009-03-19 22:56:45 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3529 | RemyLebeau | 2009-03-19 22:56:30 +0100 (jeu., 19 mars 2009) | 3 lines
+
+Updated CharsetToEncoding() to return an 8-bit encoding when a more suitable encoding cannot be determined.
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3528 | RemyLebeau | 2009-03-19 22:53:28 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3527 | RemyLebeau | 2009-03-19 22:53:21 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced enXXX() with TIdTextEncoding.XXX
+------------------------------------------------------------------------
+r3526 | RemyLebeau | 2009-03-19 22:52:48 +0100 (jeu., 19 mars 2009) | 1 line
+
+Removed compiler warning in IdDNSCommon.pas
+------------------------------------------------------------------------
+r3525 | RemyLebeau | 2009-03-19 22:52:37 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdCustomHTTPServer to check the IOHandler's WriteBufferingActive() method before calling WriteBufferOpen()
+------------------------------------------------------------------------
+r3524 | RemyLebeau | 2009-03-19 22:50:44 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced enUTF8() with TIdTextEncoding.UTF8
+------------------------------------------------------------------------
+r3523 | RemyLebeau | 2009-03-19 22:50:33 +0100 (jeu., 19 mars 2009) | 1 line
+
+Replaced en8Bit() with Indy8BitEncoding()
+------------------------------------------------------------------------
+r3522 | RemyLebeau | 2009-03-19 22:48:05 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdUDPBase.ReceiveString() to use 8-bit encoding for the string
+------------------------------------------------------------------------
+r3521 | RemyLebeau | 2009-03-19 22:47:46 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdTCPConnection.WriteHeader() to check the IOHandler's WriteBufferingActive() method before calling WriteBufferOpen()
+------------------------------------------------------------------------
+r3520 | RemyLebeau | 2009-03-19 22:47:30 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdSocksInfo.MakeSocks4Request() to check the IOHandler's WriteBufferingActive() method before calling WriteBufferOpen()
+------------------------------------------------------------------------
+r3519 | RemyLebeau | 2009-03-19 22:47:04 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdLogBase to use 8-bit encoding for strings.
+------------------------------------------------------------------------
+r3518 | RemyLebeau | 2009-03-19 22:46:43 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdIOHandlerStream to default to 8-bit encoding for strings.
+------------------------------------------------------------------------
+r3517 | RemyLebeau | 2009-03-19 22:46:21 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdIcmpClient to use 8-bit strings.
+------------------------------------------------------------------------
+r3516 | RemyLebeau | 2009-03-19 22:43:51 +0100 (jeu., 19 mars 2009) | 3 lines
+
+Marked enDefault(), en7Bit(), en8Bit(), and enUTF8() functions as deprecated.
+
+Merged Get8BitEncoding() and Create8BitEncoding() functions together, and then renamed Get8BitEncoding() to Indy8BitEncoding().
+------------------------------------------------------------------------
+r3515 | RemyLebeau | 2009-03-19 22:05:51 +0100 (jeu., 19 mars 2009) | 1 line
+
+Updated TIdIOHandler.Write(TStrings) to check WriteBufferingActive() before calling WriteBufferOpen()
+------------------------------------------------------------------------
+r3514 | RemyLebeau | 2009-03-19 18:07:56 +0100 (jeu., 19 mars 2009) | 1 line
+
+Reverted change made to TIdCustomHTTPServer.pas in Rev 3499.  It broke HTTP replies from working correctly.
+------------------------------------------------------------------------
+r3513 | RemyLebeau | 2009-03-13 19:51:24 +0100 (ven., 13 mars 2009) | 1 line
+
+Updated TIdFTP.Size() to put the connection into Binary mode before sending the SIZE command.  Some FTP servers require this.
+------------------------------------------------------------------------
+r3512 | RemyLebeau | 2009-03-12 22:45:28 +0100 (jeu., 12 mars 2009) | 1 line
+
+Updated TIdFTP.List() to not call ExtListDir() when the ADetails parameter is False.
+------------------------------------------------------------------------
+r3511 | ArvidWinkelsdorf | 2009-03-11 09:12:08 +0100 (mer., 11 mars 2009) | 1 line
+
+Bug fix for IdSSLOpenSSL to allow connection timeout under Vista+
+------------------------------------------------------------------------
+r3510 | RemyLebeau | 2009-03-10 22:06:19 +0100 (mar., 10 mars 2009) | 1 line
+
+Bug fix for TIdIOHandler.ReadStream()
+------------------------------------------------------------------------
+r3509 | RemyLebeau | 2009-03-10 20:14:15 +0100 (mar., 10 mars 2009) | 1 line
+
+Removed inline flag from GmtOffsetStrToDateTime()
+------------------------------------------------------------------------
+r3508 | RemyLebeau | 2009-03-10 02:49:35 +0100 (mar., 10 mars 2009) | 1 line
+
+Updated TIdMessageDecoderMIME.ReadBody() to look for '8bit' in the ContentTransferEncoding
+------------------------------------------------------------------------
+r3507 | RemyLebeau | 2009-03-10 02:46:22 +0100 (mar., 10 mars 2009) | 1 line
+
+Updated Echo() to use TIdTextEncoding.Unicode on D2009 and .NET
+------------------------------------------------------------------------
+r3506 | RemyLebeau | 2009-03-10 02:45:19 +0100 (mar., 10 mars 2009) | 1 line
+
+Updated CreateEncodeRange() to use en8bit when calling BytesToString()
+------------------------------------------------------------------------
+r3505 | RemyLebeau | 2009-03-10 02:43:17 +0100 (mar., 10 mars 2009) | 1 line
+
+Updated TIdAntiFreezeBase destructor to only reset the global GAntiFreeze pointer if that is the object being destroyed.  Otherwise, if an exception occurs in InitComponent(), the pointer could be reset prematurely.
+------------------------------------------------------------------------
+r3504 | RemyLebeau | 2009-03-09 21:56:06 +0100 (lun., 09 mars 2009) | 1 line
+
+Additional RFC 2616 handling for date/time fields
+------------------------------------------------------------------------
+r3503 | RemyLebeau | 2009-03-09 21:51:32 +0100 (lun., 09 mars 2009) | 1 line
+
+Added new TimeZoneToGmtOffsetStr() function
+------------------------------------------------------------------------
+r3502 | RemyLebeau | 2009-03-09 21:50:06 +0100 (lun., 09 mars 2009) | 1 line
+
+Changes to TIdMessage for MIMEBoundary handling
+------------------------------------------------------------------------
+r3501 | RemyLebeau | 2009-03-07 00:18:20 +0100 (sam., 07 mars 2009) | 1 line
+
+Promoted the inherited TIdCustomTCPClient Host/Port properties to published in TIdLPR.
+------------------------------------------------------------------------
+r3500 | JPeterMugaas | 2009-02-28 09:02:19 +0100 (sam., 28 f‚vr. 2009) | 1 line
+
+SHA256, SHA386, and SHA512 now work in Microsoft.NET.  We use the crypto API.
+------------------------------------------------------------------------
+r3499 | RemyLebeau | 2009-02-27 03:38:45 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Changed TIdHTTPResponseInfo.WriteHeader() to call TIdIOHandler.Write(TStrings) instead of calling TIdIOHandler.WriteLn() in a loop manually.
+------------------------------------------------------------------------
+r3498 | RemyLebeau | 2009-02-27 03:37:23 +0100 (ven., 27 f‚vr. 2009) | 3 lines
+
+Updated TIdFTPServer's CommandRETR(), CommandSSAP(), CommandLIST() methods to kill the data channel before sending error messages
+
+Updated TIdFTPServer.CommandCheckSum() to use new IndyStrToStreamSize() function.
+------------------------------------------------------------------------
+r3497 | RemyLebeau | 2009-02-27 03:31:39 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Bug fix for RawStrInternetToDateTime()
+------------------------------------------------------------------------
+r3496 | RemyLebeau | 2009-02-27 03:29:41 +0100 (ven., 27 f‚vr. 2009) | 3 lines
+
+Updated TIdHTTPProxyServer.TransferData() to validate the "Content-Length" header.
+
+Updated TIdHTTPProxyServer.CommandCONNECT() to use TransferData() so the OnBeforeHTTPDocument, OnHTTPDocument, and OnHTTPResponse events can be fired.
+------------------------------------------------------------------------
+r3495 | RemyLebeau | 2009-02-27 03:26:18 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Removed compiler warning in WriteTextPart()
+------------------------------------------------------------------------
+r3494 | RemyLebeau | 2009-02-27 03:24:31 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Updated TCompressionStream constructor to use CharsetToEncoding() instead of TIdTextEncoding.GetEncoding() directly.
+------------------------------------------------------------------------
+r3493 | RemyLebeau | 2009-02-27 03:19:54 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Updated TIdIOHandler.ReadChar() to handle byte conversions that involve UTF-16 surrogates
+------------------------------------------------------------------------
+r3492 | RemyLebeau | 2009-02-27 03:18:54 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Updated BytesToChar() and ReadCharFromStream() to handle byte conversions that involve UTF-16 surrogates
+------------------------------------------------------------------------
+r3491 | RemyLebeau | 2009-02-27 02:23:54 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Updated TIdStreamHelperNET.Seek() to use TIdStreamSize type
+------------------------------------------------------------------------
+r3490 | RemyLebeau | 2009-02-27 02:22:47 +0100 (ven., 27 f‚vr. 2009) | 1 line
+
+Added IndyStrToStreamSize() functions
+------------------------------------------------------------------------
+r3489 | GrahameGrieve | 2009-02-26 12:17:47 +0100 (jeu., 26 f‚vr. 2009) | 1 line
+
+D5 syntax
+------------------------------------------------------------------------
+r3488 | GrahameGrieve | 2009-02-26 12:11:25 +0100 (jeu., 26 f‚vr. 2009) | 1 line
+
+Syntax fixes for D5
+------------------------------------------------------------------------
+r3487 | RemyLebeau | 2009-02-25 09:21:37 +0100 (mer., 25 f‚vr. 2009) | 3 lines
+
+Updated TIdSSLSocket.Recv() and TIdSSLSocket.Send() to return 0 if OPENSSL_SSL_ERROR_ZERO_RETURN is encountered.
+
+Updated TIdSSLSocket.Send() to loop until all pending bytes have been sent.
+------------------------------------------------------------------------
+r3486 | JPeterMugaas | 2009-02-24 07:07:38 +0100 (mar., 24 f‚vr. 2009) | 1 line
+
+adjustments for API changes  TIdStreamSize.
+------------------------------------------------------------------------
+r3485 | RemyLebeau | 2009-02-23 22:26:51 +0100 (lun., 23 f‚vr. 2009) | 1 line
+
+Updated TCompressionStream.CreateEx() constructor to force ISO-8859-1 for the filename, per RFC 1952.
+------------------------------------------------------------------------
+r3484 | RemyLebeau | 2009-02-23 22:22:42 +0100 (lun., 23 f‚vr. 2009) | 1 line
+
+Fix for redirection being performed on 201 replies when it shouldn't be.
+------------------------------------------------------------------------
+r3483 | RemyLebeau | 2009-02-23 22:15:24 +0100 (lun., 23 f‚vr. 2009) | 1 line
+
+Updated TIdFTPServerContext.ReInitialize() to call inherited.
+------------------------------------------------------------------------
+r3482 | RemyLebeau | 2009-02-23 22:14:49 +0100 (lun., 23 f‚vr. 2009) | 1 line
+
+Re-wrote TIdEncoderQuotedPrintable.Encode() to handle Unicode strings better.
+------------------------------------------------------------------------
+r3481 | RemyLebeau | 2009-02-23 21:28:00 +0100 (lun., 23 f‚vr. 2009) | 1 line
+
+Updated TIdEncoderBinHex4.Encode() to not type-cast the FileName to AnsiString in pre-2009 versions
+------------------------------------------------------------------------
+r3480 | RemyLebeau | 2009-02-23 21:24:50 +0100 (lun., 23 f‚vr. 2009) | 1 line
+
+Compiler fix for InterlockedCompareExchangePtr() in D2005
+------------------------------------------------------------------------
+r3479 | JPeterMugaas | 2009-02-23 21:18:32 +0100 (lun., 23 f‚vr. 2009) | 1 line
+
+Fix compile error in the ToBytes char overload.
+------------------------------------------------------------------------
+r3478 | RemyLebeau | 2009-02-21 12:40:25 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Minor tweak inside of TIdEncoderQuotedPrintable.Encode()
+------------------------------------------------------------------------
+r3477 | RemyLebeau | 2009-02-21 12:39:20 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3476 | RemyLebeau | 2009-02-21 12:39:08 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3475 | RemyLebeau | 2009-02-21 12:36:41 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3474 | RemyLebeau | 2009-02-21 12:36:23 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3473 | RemyLebeau | 2009-02-21 12:33:40 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3472 | RemyLebeau | 2009-02-21 12:32:11 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Additional Unicode support in IdHTTPWebBrokerBridge.pas
+------------------------------------------------------------------------
+r3471 | RemyLebeau | 2009-02-21 12:09:16 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3470 | RemyLebeau | 2009-02-21 12:08:28 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3469 | RemyLebeau | 2009-02-21 12:04:54 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3468 | RemyLebeau | 2009-02-21 12:01:22 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Changed TIdEncoderQuotedPrintable.Encode() to not use ShortString/AnsiString explicitally anymore.  Was causing bad encodings in D2009.
+------------------------------------------------------------------------
+r3467 | RemyLebeau | 2009-02-21 11:58:11 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3466 | RemyLebeau | 2009-02-21 11:57:54 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3465 | RemyLebeau | 2009-02-21 11:56:11 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added RSRequiresLargeStream and RDDataTooLarge resource strings
+------------------------------------------------------------------------
+r3464 | RemyLebeau | 2009-02-21 11:54:06 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3463 | RemyLebeau | 2009-02-21 11:46:54 +0100 (sam., 21 f‚vr. 2009) | 1 line
+
+Added TIdStreamSize typedef.
+------------------------------------------------------------------------
+r3462 | RemyLebeau | 2009-02-21 11:46:30 +0100 (sam., 21 f‚vr. 2009) | 3 lines
+
+Added TIdStreamSize typedef.
+
+Updated AppendString() to support its AEncoding parameter better.
+------------------------------------------------------------------------
+r3461 | RemyLebeau | 2009-02-19 12:09:51 +0100 (jeu., 19 f‚vr. 2009) | 1 line
+
+Updated TIdEncoder00E.Encode() to support encoding larger amounts of data and to separate them with line breaks when needed
+------------------------------------------------------------------------
+r3460 | RemyLebeau | 2009-02-19 12:06:54 +0100 (jeu., 19 f‚vr. 2009) | 1 line
+
+Various Char/String <-> TIdBytes tweaks
+------------------------------------------------------------------------
+r3459 | JPeterMugaas | 2009-02-19 06:19:38 +0100 (jeu., 19 f‚vr. 2009) | 1 line
+
+Hash errors can now be reported.
+------------------------------------------------------------------------
+r3458 | JPeterMugaas | 2009-02-19 06:18:38 +0100 (jeu., 19 f‚vr. 2009) | 1 line
+
+Moved SSL Exception routines down to the headers unit so that we can use them in other units that may come.
+------------------------------------------------------------------------
+r3457 | JPeterMugaas | 2009-02-18 23:28:06 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+New unit, IdHashIntf.  This uses our hash object framework and provides SHA224, SHA256, SHA386, and SHA512.  Still a little more minor work but it's a good start.  I'm not sure how well this will integrate but I hope we can use this functionality to help with FIPS 140-2 compliance.
+------------------------------------------------------------------------
+r3456 | JPeterMugaas | 2009-02-18 23:22:43 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+More EVP functions missing from the header.  Exposed some Digest functions from OpenSSL so we can use those for hashing.
+------------------------------------------------------------------------
+r3455 | RemyLebeau | 2009-02-18 10:45:14 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Reimplemented TNTPGram as a packed record instead of a class
+------------------------------------------------------------------------
+r3454 | RemyLebeau | 2009-02-18 10:44:12 +0100 (mer., 18 f‚vr. 2009) | 5 lines
+
+Changed EncodeStrings() to encode to call IOHandler.WriteRFCStrings() so strings are period-escaped properly.
+
+Updated WriteTextPart() to not treat quoted-printable separately anymore.
+
+Updated SendBody() to not treat binhex40 separately anymore.
+------------------------------------------------------------------------
+r3453 | RemyLebeau | 2009-02-18 10:36:50 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Bug fix for TIdEMailAddressItem.SetText()
+------------------------------------------------------------------------
+r3452 | RemyLebeau | 2009-02-18 10:35:55 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Added new units to indymaster-Makefile.fpc
+------------------------------------------------------------------------
+r3451 | RemyLebeau | 2009-02-18 10:34:51 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Added GetCmdHandlerClass() method to TIdCmdTCPClient
+------------------------------------------------------------------------
+r3450 | RemyLebeau | 2009-02-18 09:48:32 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Removed HPPEMIT from IdCoderHeader.pas
+------------------------------------------------------------------------
+r3449 | RemyLebeau | 2009-02-18 09:47:27 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Removed TIdAttachment.ContentTypeName property.  Name property added to TIdMessagePart base class.
+------------------------------------------------------------------------
+r3448 | RemyLebeau | 2009-02-18 07:11:57 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Updated TIdAttachmentFile destructor to call SysUtils.DeleteFile() instead of Windows.DeleteFile()
+------------------------------------------------------------------------
+r3447 | RemyLebeau | 2009-02-18 07:10:06 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Updated TIdMessagePart.SetContentType() to use RemoveHeaderEntries() function
+------------------------------------------------------------------------
+r3446 | RemyLebeau | 2009-02-18 07:07:51 +0100 (mer., 18 f‚vr. 2009) | 1 line
+
+Added IdMessageCoderBinHex4.pas
+------------------------------------------------------------------------
+r3445 | RemyLebeau | 2009-02-15 02:46:17 +0100 (dim., 15 f‚vr. 2009) | 1 line
+
+Changed the text of the RSFTPNoListParseUnitsRegistered resource string
+------------------------------------------------------------------------
+r3444 | RemyLebeau | 2009-02-15 02:41:48 +0100 (dim., 15 f‚vr. 2009) | 1 line
+
+Added HPPEMIT statements to IdAll... units for C++Builder
+------------------------------------------------------------------------
+r3443 | RemyLebeau | 2009-02-15 02:38:40 +0100 (dim., 15 f‚vr. 2009) | 1 line
+
+Added HPPEMIT statements to IdFTPListParse... units for C++Builder
+------------------------------------------------------------------------
+r3442 | RemyLebeau | 2009-02-14 15:02:28 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Replaced IdHeaderCoderDotNet.pas with IdHeaderCoderIndy.pas, and added IdMessageCoderBinHex4.pas
+------------------------------------------------------------------------
+r3441 | RemyLebeau | 2009-02-14 14:58:04 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Replaced BuildUnicodeLE() function with TIdTextEncoding.Unicode
+------------------------------------------------------------------------
+r3440 | RemyLebeau | 2009-02-14 14:56:48 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdMessageEncoderYenc.Encode() to support 64bit streams
+------------------------------------------------------------------------
+r3439 | RemyLebeau | 2009-02-14 14:55:39 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdMessageEncoderUUEBase.Encode() to encode directly to the destination TStream without using a temporary String
+------------------------------------------------------------------------
+r3438 | RemyLebeau | 2009-02-14 14:54:25 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Changed TIdMessageEncoderQuotedPrintable.Encode() to not use WriteStringToStream() anymore
+------------------------------------------------------------------------
+r3437 | RemyLebeau | 2009-02-14 14:52:48 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Bug fix in TIdMessageDecoderMIME.ReadBody() for binhex40 encoding
+------------------------------------------------------------------------
+r3436 | RemyLebeau | 2009-02-14 14:51:23 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Added TStream->TStrings overload for TIdMessageEncoder.Encode() method
+------------------------------------------------------------------------
+r3435 | RemyLebeau | 2009-02-14 14:49:19 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Added new TIdMessageBuilderPlain class, and CharSet properties.
+------------------------------------------------------------------------
+r3434 | RemyLebeau | 2009-02-14 14:48:36 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdMessage.GenerateHeader() to use new LocalDateTimeToGMT() and RemoveHeaderEntry() functions
+------------------------------------------------------------------------
+r3433 | RemyLebeau | 2009-02-14 14:42:01 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdRequestHeaderInfo class to use new ReplaceHeaderSubItem() and LocalDateTimeToHttpStr() functions
+------------------------------------------------------------------------
+r3432 | RemyLebeau | 2009-02-14 14:40:02 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Added Params property to TIdHeaderList class
+------------------------------------------------------------------------
+r3431 | RemyLebeau | 2009-02-14 14:36:59 +0100 (sam., 14 f‚vr. 2009) | 5 lines
+
+Added ExtractHeaderItem() and ReplaceHeaderSubItem() functions.
+
+Updated GMT timestamp handling.
+
+Moved Linux GOffsetFromUTC global variable to IdGlobal.pas for use in OffsetFromUTC() function
+------------------------------------------------------------------------
+r3430 | RemyLebeau | 2009-02-14 14:32:44 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Tweaks to TIdFTPServer.DoDataChannelOperation()
+------------------------------------------------------------------------
+r3429 | RemyLebeau | 2009-02-14 14:30:40 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdHTTPServer to use new LocalDateTimeToHttpStr() function
+------------------------------------------------------------------------
+r3428 | RemyLebeau | 2009-02-14 14:29:58 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdCookie to use new LocalDateTimeToCookieStr() function
+------------------------------------------------------------------------
+r3427 | RemyLebeau | 2009-02-14 14:26:23 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdEncoderQuotedPrintable.Encode() to read lines as 8bit instead of 7bit
+------------------------------------------------------------------------
+r3426 | RemyLebeau | 2009-02-14 14:25:03 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Reimplemented TIdEncoderBinHex4.EncodeFile() as a TIdEncoder.Encode() override, to be consistent with other encoders.  Added new FileName property to help facilitate this.
+------------------------------------------------------------------------
+r3425 | RemyLebeau | 2009-02-14 14:23:10 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdDecoder.Decode(string) to process the string as 8bit instead of 7bit
+------------------------------------------------------------------------
+r3424 | RemyLebeau | 2009-02-14 14:22:08 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Added additional code pages to lookup table.  Not finished yet.
+------------------------------------------------------------------------
+r3423 | RemyLebeau | 2009-02-14 14:20:57 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Removed TIdHeaderCoderDotNet.pas and TIdHeaderCoderUTF8.pas from SVN
+------------------------------------------------------------------------
+r3422 | RemyLebeau | 2009-02-14 14:18:08 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Replaced .NET-specific TIdHeaderCoderDotNet class with generic TIdHeaderCoderIndy class that is enabled for all platforms
+------------------------------------------------------------------------
+r3421 | RemyLebeau | 2009-02-14 14:16:52 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Replaced .NET-specific TIdHeaderCoderDotNet class with generic TIdHeaderCoderIndy class that is enabled for all platforms
+------------------------------------------------------------------------
+r3420 | RemyLebeau | 2009-02-14 14:15:20 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Added DEPRECATED and DEPRECATED_MSG compiler defines
+------------------------------------------------------------------------
+r3419 | RemyLebeau | 2009-02-14 14:14:10 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Updated TIdIOHandler.ReadChar() to better support Unicode.
+------------------------------------------------------------------------
+r3418 | RemyLebeau | 2009-02-14 14:13:08 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Added DEPRECATED and DEPRECATED_MSG compiler defines
+------------------------------------------------------------------------
+r3417 | RemyLebeau | 2009-02-14 14:12:51 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+Added DEPRECATED and DEPRECATED_MSG compiler defines
+------------------------------------------------------------------------
+r3416 | RemyLebeau | 2009-02-14 14:11:58 +0100 (sam., 14 f‚vr. 2009) | 5 lines
+
+Updated TIdTextEncoded class to use WideString in pre-2009 compiler versions.
+
+Added additional GMT related functions.
+
+Updated CopyTIdChar(), ToBytes(string), ToBytes/F(Char), BytesToChar(), ReadCharFromStream() to better support Unicode.
+------------------------------------------------------------------------
+r3415 | JPeterMugaas | 2009-02-14 07:17:32 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+minor cleanups.
+------------------------------------------------------------------------
+r3414 | JPeterMugaas | 2009-02-14 07:15:33 +0100 (sam., 14 f‚vr. 2009) | 1 line
+
+minor updates.  Configure values updated based on Configure script.  
+------------------------------------------------------------------------
+r3413 | RemyLebeau | 2009-02-12 12:14:22 +0100 (jeu., 12 f‚vr. 2009) | 1 line
+
+Updated DSN property editors to use TIdGStack.AddLocalAddressesToList()
+------------------------------------------------------------------------
+r3412 | RemyLebeau | 2009-02-12 12:09:57 +0100 (jeu., 12 f‚vr. 2009) | 1 line
+
+Bug fixes in TIdHeaderCoderUTF
+------------------------------------------------------------------------
+r3411 | RemyLebeau | 2009-02-12 12:05:25 +0100 (jeu., 12 f‚vr. 2009) | 1 line
+
+Removed AEncodeEvent/ADecodeEvent parameters.  New hooks exposed instead.
+------------------------------------------------------------------------
+r3410 | RemyLebeau | 2009-02-12 12:04:09 +0100 (jeu., 12 f‚vr. 2009) | 3 lines
+
+Removed AEncodeEvent/ADecodeEvent parameters.  New hooks exposed in IdHeaderCoderBase.pas instead.
+
+Updated EncodeHeader() to better handle Unicode data
+------------------------------------------------------------------------
+r3409 | JPeterMugaas | 2009-02-09 05:55:49 +0100 (lun., 09 f‚vr. 2009) | 1 line
+
+OpenSSL 0.9.8j updates.  X509 certificates now can be displayed using the output from the OpenSSL library.  This is useful for certificate validation prompts.  OpenSSL headers now also work better in the IDE.
+------------------------------------------------------------------------
+r3408 | RemyLebeau | 2009-02-06 11:56:39 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Bug fixes for TIdEncoder3To4.InternalEncode() and TIdDecoder4to3.InternalDecode()
+------------------------------------------------------------------------
+r3407 | RemyLebeau | 2009-02-06 08:55:35 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Bug fixes
+------------------------------------------------------------------------
+r3406 | RemyLebeau | 2009-02-06 08:50:39 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Tweaks to TIdSMTPRelay.ResolveMXServers()
+------------------------------------------------------------------------
+r3405 | RemyLebeau | 2009-02-06 08:47:19 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Removed BytesToUnicodeLEStr() function, it is redundant.  It does the same thing that IdGlobal.ToBytes() does
+------------------------------------------------------------------------
+r3404 | RemyLebeau | 2009-02-06 08:43:25 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Added Name property to TIdMessagePart
+------------------------------------------------------------------------
+r3403 | RemyLebeau | 2009-02-06 08:32:46 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Bug fix for TIdMessageEncoderUUEBase.Encode()
+------------------------------------------------------------------------
+r3402 | RemyLebeau | 2009-02-06 08:27:18 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Updated TIdMessage.GenerateHeader() to include the 'Priority' header.
+------------------------------------------------------------------------
+r3401 | RemyLebeau | 2009-02-06 08:06:07 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Updated GetAdapterAddresses() to use TIdStack.AddLocalAddressesToList()
+------------------------------------------------------------------------
+r3400 | RemyLebeau | 2009-02-06 08:03:05 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Removed ANoDecode parameter from InternalRetrieve()
+------------------------------------------------------------------------
+r3399 | RemyLebeau | 2009-02-06 07:54:20 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Updated chunked downloads to fire the OnWork events
+------------------------------------------------------------------------
+r3398 | RemyLebeau | 2009-02-06 07:53:22 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Updated TIdHeaderCoderUTF.Encode() to use a different byte encoder depending on which charset is being encoded
+------------------------------------------------------------------------
+r3397 | RemyLebeau | 2009-02-06 07:44:15 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Added ATimeout parameter to TIdIOHandler.WaitFor()
+------------------------------------------------------------------------
+r3396 | RemyLebeau | 2009-02-06 07:38:16 +0100 (ven., 06 f‚vr. 2009) | 3 lines
+
+Removed TIdStack.Make() and IdStackFactory().  All usage of the GStack variable needs to use TIdStack.IncUsage() and TIdStack.DecUsage() to ensure proper reference counting.
+
+Updated GetLocalAddress() to use a local TStringList instead of the LocalAddresses property.
+------------------------------------------------------------------------
+r3395 | RemyLebeau | 2009-02-06 07:31:12 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Added additional compiler defines
+------------------------------------------------------------------------
+r3394 | RemyLebeau | 2009-02-06 07:30:54 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Added additional compiler defines
+------------------------------------------------------------------------
+r3393 | RemyLebeau | 2009-02-06 07:29:29 +0100 (ven., 06 f‚vr. 2009) | 1 line
+
+Added additional compiler defines
+------------------------------------------------------------------------
+r3392 | RemyLebeau | 2009-01-19 10:43:22 +0100 (lun., 19 janv. 2009) | 1 line
+
+Removed ContentType and CharSet property setters.  Handled by TIdMessagePart base class now.
+------------------------------------------------------------------------
+r3391 | RemyLebeau | 2009-01-19 10:41:37 +0100 (lun., 19 janv. 2009) | 1 line
+
+D2009 compiler workaround for characters >= #128
+------------------------------------------------------------------------
+r3390 | RemyLebeau | 2009-01-19 10:40:18 +0100 (lun., 19 janv. 2009) | 1 line
+
+Added setter method for ContentType property to fill in the CharSet property if the input contains such a value.
+------------------------------------------------------------------------
+r3389 | RemyLebeau | 2009-01-19 10:37:33 +0100 (lun., 19 janv. 2009) | 1 line
+
+Updated ReadBody() to exit if the end of a message is detected prematurely.
+------------------------------------------------------------------------
+r3388 | RemyLebeau | 2009-01-19 10:33:02 +0100 (lun., 19 janv. 2009) | 1 line
+
+Removed redundant calls to Headers.Add().  Extra ContentType and CharSet header handling.
+------------------------------------------------------------------------
+r3387 | RemyLebeau | 2009-01-19 10:28:38 +0100 (lun., 19 janv. 2009) | 1 line
+
+Added setter method for ContentType property to fill in the CharSet property if the input contains such a value.
+------------------------------------------------------------------------
+r3386 | RemyLebeau | 2009-01-19 10:24:27 +0100 (lun., 19 janv. 2009) | 1 line
+
+Added CharSet handling in ProcessTextPart()
+------------------------------------------------------------------------
+r3385 | RemyLebeau | 2009-01-19 10:21:51 +0100 (lun., 19 janv. 2009) | 1 line
+
+Updated SetContentType() to not override the CharSet property unless the input contains a new charset value.
+------------------------------------------------------------------------
+r3384 | RemyLebeau | 2009-01-08 08:28:54 +0100 (jeu., 08 janv. 2009) | 1 line
+
+Changed to use TIdBytes instead of strings for Telnet replies
+------------------------------------------------------------------------
+r3383 | RemyLebeau | 2009-01-08 08:27:15 +0100 (jeu., 08 janv. 2009) | 1 line
+
+D2009 compiler workaround for characters >= #128
+------------------------------------------------------------------------
+r3382 | RemyLebeau | 2009-01-08 08:06:26 +0100 (jeu., 08 janv. 2009) | 1 line
+
+D2009 compiler workaround for characters >= #128
+------------------------------------------------------------------------
+r3381 | RemyLebeau | 2009-01-07 11:06:22 +0100 (mer., 07 janv. 2009) | 1 line
+
+Updated to better conform to RFC 3164
+------------------------------------------------------------------------
+r3380 | RemyLebeau | 2009-01-07 10:38:25 +0100 (mer., 07 janv. 2009) | 1 line
+
+Updated ExecuteCMD() to not explicitly set the TIdTCPClient.IOHandler property anymore.
+------------------------------------------------------------------------
+r3379 | RemyLebeau | 2009-01-07 10:36:59 +0100 (mer., 07 janv. 2009) | 1 line
+
+Updated to reflect changes in how TIdCustomHTTPServer prepares TIdRequestInfo before calling DoCommandGet()
+------------------------------------------------------------------------
+r3378 | RemyLebeau | 2009-01-07 10:29:36 +0100 (mer., 07 janv. 2009) | 1 line
+
+Updated DoExecute() to not create a TStream object for the TIdHTTPRequestInfo.PostStream property unless actual content is being received.
+------------------------------------------------------------------------
+r3377 | RemyLebeau | 2009-01-07 10:24:43 +0100 (mer., 07 janv. 2009) | 1 line
+
+Removed default value from second parameter of ReadLn(string, TIdTextEncoding)
+------------------------------------------------------------------------
+r3376 | RemyLebeau | 2009-01-07 10:23:24 +0100 (mer., 07 janv. 2009) | 1 line
+
+Re-wrote CharPosInSet() to not use IndyStrScan() anymore, as it did not support character #0.
+------------------------------------------------------------------------
+r3375 | RemyLebeau | 2009-01-05 12:16:33 +0100 (lun., 05 janv. 2009) | 1 line
+
+Updated RawStrInternetToDateTime(), GmtOffsetStrToDateTime(), and GMTToLocalDateTime() to support additional parsing rules as specified in RFC 2822 Section 4.3
+------------------------------------------------------------------------
+r3374 | RemyLebeau | 2009-01-03 08:27:51 +0100 (sam., 03 janv. 2009) | 1 line
+
+Added CharSet property to TIdEntityHeaderInfo
+------------------------------------------------------------------------
+r3373 | RemyLebeau | 2009-01-03 08:26:18 +0100 (sam., 03 janv. 2009) | 1 line
+
+Added InternalReadLn() function to TIdCustomHTTP
+------------------------------------------------------------------------
+r3372 | RemyLebeau | 2009-01-03 08:23:59 +0100 (sam., 03 janv. 2009) | 1 line
+
+Added support for new TIdEntityHeaderInfo.CharSet property
+------------------------------------------------------------------------
+r3371 | RemyLebeau | 2009-01-03 08:07:23 +0100 (sam., 03 janv. 2009) | 1 line
+
+Added HttpOnly property to TIdNetscapeCookie
+------------------------------------------------------------------------
+r3370 | RemyLebeau | 2009-01-03 08:05:45 +0100 (sam., 03 janv. 2009) | 1 line
+
+Added virtual DoParseParams() method to TIdCommandHandler for TIdIRC to override.
+------------------------------------------------------------------------
+r3369 | RemyLebeau | 2009-01-01 07:10:23 +0100 (jeu., 01 janv. 2009) | 1 line
+
+Renamed "Whitespace" set to "IdWhitespace" to avoid conflicts in HTTPApp.hpp under C++
+------------------------------------------------------------------------
+r3368 | RemyLebeau | 2008-12-31 04:55:04 +0100 (mer., 31 d‚c. 2008) | 1 line
+
+Fix for compiler error in InterlockedCompareExchangePtr() under BDS 2006-2007
+------------------------------------------------------------------------
+r3367 | RemyLebeau | 2008-12-24 11:55:52 +0100 (mer., 24 d‚c. 2008) | 1 line
+
+Bug fix in ReadLn()
+------------------------------------------------------------------------
+r3366 | RemyLebeau | 2008-12-24 11:54:50 +0100 (mer., 24 d‚c. 2008) | 1 line
+
+Compiler error when compiling InterlockedCompareExchange()
+------------------------------------------------------------------------
+r3365 | JPeterMugaas | 2008-12-21 22:40:13 +0100 (dim., 21 d‚c. 2008) | 1 line
+
+I found a way to get InterlockedCompareExchangePtr to work in earlier versions of Delphi.
+------------------------------------------------------------------------
+r3364 | JPeterMugaas | 2008-12-21 22:10:33 +0100 (dim., 21 d‚c. 2008) | 6 lines
+
+Fixes for InterlockedCompareExchangePtr.  
+1) Pointers are not always going to be the size as THandle.  THANDLE32 and THANDLE64 were only meant to be used for figuring out the size of a THandle, not the size of a pointer.
+2) The function did not compile in Delphi.
+3) FreePascal 2.2 has pointer ovloads for InterlockedCompareExchange.
+
+There's much more to do.
+------------------------------------------------------------------------
+r3363 | RemyLebeau | 2008-12-19 11:55:22 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3362 | RemyLebeau | 2008-12-19 11:51:08 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3361 | RemyLebeau | 2008-12-19 11:49:03 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3360 | RemyLebeau | 2008-12-19 11:48:41 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3359 | RemyLebeau | 2008-12-19 11:48:20 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3358 | RemyLebeau | 2008-12-19 11:46:08 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Removed commented code
+------------------------------------------------------------------------
+r3357 | RemyLebeau | 2008-12-19 11:41:44 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3356 | RemyLebeau | 2008-12-19 11:34:52 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdEncoding enum with new TIdTextEncoding class
+------------------------------------------------------------------------
+r3355 | RemyLebeau | 2008-12-19 11:34:00 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Tweaks to ResolveContentType()
+------------------------------------------------------------------------
+r3354 | RemyLebeau | 2008-12-19 11:29:49 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdEncoding enum with new TIdTextEncoding class
+------------------------------------------------------------------------
+r3353 | RemyLebeau | 2008-12-19 11:29:19 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added CodePage support functions
+------------------------------------------------------------------------
+r3352 | RemyLebeau | 2008-12-19 11:21:41 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added calls to FreeAndNil()
+------------------------------------------------------------------------
+r3351 | RemyLebeau | 2008-12-19 11:21:01 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added additional IRC command handling
+------------------------------------------------------------------------
+r3350 | RemyLebeau | 2008-12-19 11:17:17 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added CodePage support functions
+------------------------------------------------------------------------
+r3349 | RemyLebeau | 2008-12-19 11:15:57 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+D2009 compiler errors
+------------------------------------------------------------------------
+r3348 | RemyLebeau | 2008-12-19 11:14:33 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added AEncoding parameters to string-based hash methods
+------------------------------------------------------------------------
+r3347 | RemyLebeau | 2008-12-19 11:13:43 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added CodePage support functions
+------------------------------------------------------------------------
+r3346 | RemyLebeau | 2008-12-19 11:10:48 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Changed OnPASVBeforeBind event to provide a range of ports as parameters
+------------------------------------------------------------------------
+r3345 | RemyLebeau | 2008-12-19 11:00:44 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3344 | RemyLebeau | 2008-12-19 10:59:58 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added CharEquals() function
+------------------------------------------------------------------------
+r3343 | RemyLebeau | 2008-12-19 10:59:12 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3342 | RemyLebeau | 2008-12-19 10:57:24 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added try..except block
+------------------------------------------------------------------------
+r3341 | RemyLebeau | 2008-12-19 10:55:35 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdEncoding enum with new TIdTextEncoding class
+------------------------------------------------------------------------
+r3340 | RemyLebeau | 2008-12-19 10:49:30 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3339 | RemyLebeau | 2008-12-19 10:48:50 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3338 | RemyLebeau | 2008-12-19 10:48:16 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Memory leaks
+------------------------------------------------------------------------
+r3337 | RemyLebeau | 2008-12-19 10:43:37 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added ReadStringAsContentType()
+------------------------------------------------------------------------
+r3336 | RemyLebeau | 2008-12-19 10:42:21 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Re-enabled TIdObjectList.Notify() method
+------------------------------------------------------------------------
+r3335 | RemyLebeau | 2008-12-19 10:40:58 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added WriteByte() helper function
+------------------------------------------------------------------------
+r3334 | RemyLebeau | 2008-12-19 10:38:27 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Added CodePage support functions
+------------------------------------------------------------------------
+r3333 | RemyLebeau | 2008-12-19 10:34:44 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdHeaderCoderUTF8 class with new TIdHeaderCoderUTF class that handles both UTF-7 and UTF-8
+------------------------------------------------------------------------
+r3332 | RemyLebeau | 2008-12-19 10:30:58 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3331 | RemyLebeau | 2008-12-19 10:13:16 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Additional TIdBuffer resource strings
+------------------------------------------------------------------------
+r3330 | RemyLebeau | 2008-12-19 10:10:28 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdEncoding enum with new TIdTextEncoding class
+------------------------------------------------------------------------
+r3329 | RemyLebeau | 2008-12-19 10:02:56 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3328 | RemyLebeau | 2008-12-19 10:02:11 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3327 | RemyLebeau | 2008-12-19 10:01:11 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdEncoding enum with new TIdTextEncoding class
+------------------------------------------------------------------------
+r3326 | RemyLebeau | 2008-12-19 09:56:22 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdEncoding enum with new TIdTextEncoding class
+------------------------------------------------------------------------
+r3325 | RemyLebeau | 2008-12-19 09:53:33 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3324 | RemyLebeau | 2008-12-19 09:51:00 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3323 | RemyLebeau | 2008-12-19 09:50:28 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Replaced TIdEncoding enum with new TIdTextEncoding class
+------------------------------------------------------------------------
+r3322 | RemyLebeau | 2008-12-19 09:49:52 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Set gsIdVersion to '10.5.5'
+------------------------------------------------------------------------
+r3321 | RemyLebeau | 2008-12-19 09:49:11 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Renamed VCL version defines for D2005 and later
+------------------------------------------------------------------------
+r3320 | RemyLebeau | 2008-12-19 09:00:29 +0100 (ven., 19 d‚c. 2008) | 1 line
+
+Initialize GStackCriticalSection to nil
+------------------------------------------------------------------------
+r3319 | RemyLebeau | 2008-12-14 09:13:03 +0100 (dim., 14 d‚c. 2008) | 1 line
+
+Fixes for Unicode typos
+------------------------------------------------------------------------
+r3318 | RemyLebeau | 2008-12-13 05:59:22 +0100 (sam., 13 d‚c. 2008) | 2 lines
+
+Added Delete() method to TIdHTTP
+
+------------------------------------------------------------------------
+r3317 | RemyLebeau | 2008-12-13 05:56:01 +0100 (sam., 13 d‚c. 2008) | 1 line
+
+Updated with extra charset handling
+------------------------------------------------------------------------
+r3316 | RemyLebeau | 2008-12-13 05:46:20 +0100 (sam., 13 d‚c. 2008) | 1 line
+
+Added Delete() method
+------------------------------------------------------------------------
+r3315 | RemyLebeau | 2008-11-25 07:28:13 +0100 (mar., 25 nov. 2008) | 1 line
+
+Compiler error
+------------------------------------------------------------------------
+r3314 | RemyLebeau | 2008-11-25 07:26:18 +0100 (mar., 25 nov. 2008) | 1 line
+
+Compiler errors
+------------------------------------------------------------------------
+r3313 | RemyLebeau | 2008-11-24 07:53:27 +0100 (lun., 24 nov. 2008) | 1 line
+
+Updated CloseBinding() to fill in additional parameters of GStack.DropMulticastMembership()
+------------------------------------------------------------------------
+r3312 | RemyLebeau | 2008-11-24 07:52:20 +0100 (lun., 24 nov. 2008) | 1 line
+
+Added BoundIP and BoundPort properties.
+------------------------------------------------------------------------
+r3311 | JPeterMugaas | 2008-11-20 02:24:42 +0100 (jeu., 20 nov. 2008) | 1 line
+
+Minor cleanup.
+------------------------------------------------------------------------
+r3310 | JPeterMugaas | 2008-11-17 20:11:01 +0100 (lun., 17 nov. 2008) | 1 line
+
+Client challenge needs to be set for NTLMv2. 
+------------------------------------------------------------------------
+r3309 | JPeterMugaas | 2008-11-17 20:09:33 +0100 (lun., 17 nov. 2008) | 1 line
+
+SASL_NTLM needs to pass the LMCompatibility  value to BuildType1Msg. 
+------------------------------------------------------------------------
+r3308 | RemyLebeau | 2008-11-15 08:26:21 +0100 (sam., 15 nov. 2008) | 3 lines
+
+Updated IdGetDefaultCharSet() to return idcsUNICODE_1_1 for Delphi/C++Builder 2009.
+
+Updated ContentTypeStrToEncoding() to return en7Bit for ASCII.
+------------------------------------------------------------------------
+r3307 | JPeterMugaas | 2008-11-15 02:13:22 +0100 (sam., 15 nov. 2008) | 1 line
+
+New NTLM support.  SASL_NTLM now works with LMCOmpatabilityLevl 0,1, and 2.  I had to add a funciton to our OpenSSL headers for obtaining the cryptlib library handle for dynamically loading the RC4 functions that may be used later on with NTLM.
+------------------------------------------------------------------------
+r3306 | JPeterMugaas | 2008-11-15 02:11:20 +0100 (sam., 15 nov. 2008) | 1 line
+
+function for obtaining the CryptLib handle.  Required for new NTLM code expansion.  Ideally, I plan to support RC4 encryption with NTLM.
+------------------------------------------------------------------------
+r3305 | RemyLebeau | 2008-11-14 09:04:53 +0100 (ven., 14 nov. 2008) | 1 line
+
+Updated List() to re-check UseMLIS property each time
+------------------------------------------------------------------------
+r3304 | JPeterMugaas | 2008-11-01 04:34:13 +0100 (sam., 01 nov. 2008) | 1 line
+
+More being end formatting.
+------------------------------------------------------------------------
+r3303 | JPeterMugaas | 2008-10-29 15:14:55 +0100 (mer., 29 oct. 2008) | 1 line
+
+Fix for SNTP not working.  I think it has something to do with string data in Unicode being sent and received by Delphi.
+------------------------------------------------------------------------
+r3302 | RemyLebeau | 2008-10-29 03:41:15 +0100 (mer., 29 oct. 2008) | 1 line
+
+Updated TIdSysLogMessage.InitComponent() to use TIdStack.IncUsage() and TIdStack.DecUage() instead of IdStackFactory().
+------------------------------------------------------------------------
+r3301 | JPeterMugaas | 2008-10-28 23:36:51 +0100 (mar., 28 oct. 2008) | 1 line
+
+Code formatting changes.  All "if"s should have a "begin .. end".
+------------------------------------------------------------------------
+r3300 | JPeterMugaas | 2008-10-28 20:52:35 +0100 (mar., 28 oct. 2008) | 1 line
+
+Minor code formatting
+------------------------------------------------------------------------
+r3299 | RemyLebeau | 2008-10-28 07:34:21 +0100 (mar., 28 oct. 2008) | 1 line
+
+Updated TIdSysLogMessage.InitComponent() to prevent errors when constructing instances in multiple threads at the same time.
+------------------------------------------------------------------------
+r3298 | JPeterMugaas | 2008-10-27 03:20:11 +0100 (lun., 27 oct. 2008) | 1 line
+
+Also use an alternate Korean symbol for month.  Added Japanese date support.
+------------------------------------------------------------------------
+r3297 | JPeterMugaas | 2008-10-27 03:18:03 +0100 (lun., 27 oct. 2008) | 1 line
+
+Minor improvements to French months.  Remove binary 8bit charactor from string constant.  Added "jui" which seems to be an alternative abbreviation for July in French.
+------------------------------------------------------------------------
+r3296 | JPeterMugaas | 2008-10-26 11:44:37 +0100 (dim., 26 oct. 2008) | 2 lines
+
+Work from Craig Peterson with some of my modifications.
+Some Unix file servers output dates in a non-English form.  The Unix parser now can parse dates Chinese, Korean, German, Dutch, French, and Spanish.
+------------------------------------------------------------------------
+r3295 | RemyLebeau | 2008-10-22 09:03:58 +0200 (mer., 22 oct. 2008) | 1 line
+
+Added TSelectionEditor and BrokenFmtStr defines
+------------------------------------------------------------------------
+r3294 | RemyLebeau | 2008-10-22 09:03:07 +0200 (mer., 22 oct. 2008) | 1 line
+
+Added BrokenFmtStr define
+------------------------------------------------------------------------
+r3293 | RemyLebeau | 2008-10-22 08:54:15 +0200 (mer., 22 oct. 2008) | 1 line
+
+Fix for IndyFormat() in Tiburon
+------------------------------------------------------------------------
+r3292 | RemyLebeau | 2008-10-22 08:42:39 +0200 (mer., 22 oct. 2008) | 1 line
+
+Added TSelectionEditor and BrokenFmtStr defines
+------------------------------------------------------------------------
+r3289 | JPeterMugaas | 2008-10-21 16:12:21 +0200 (mar., 21 oct. 2008) | 1 line
+
+Indicate that sometimes size is not available.
+------------------------------------------------------------------------
+r3288 | JPeterMugaas | 2008-10-21 16:12:01 +0200 (mar., 21 oct. 2008) | 1 line
+
+Fix for some parsing errors.
+------------------------------------------------------------------------
+r3287 | RemyLebeau | 2008-10-20 13:00:33 +0200 (lun., 20 oct. 2008) | 1 line
+
+Added CopyCookie() method
+------------------------------------------------------------------------
+r3286 | RemyLebeau | 2008-10-20 12:38:24 +0200 (lun., 20 oct. 2008) | 1 line
+
+Updated TIdCookies to allow cookies to be added/assigned from another TIdCookies instance
+------------------------------------------------------------------------
+r3285 | JPeterMugaas | 2008-10-18 06:16:02 +0200 (sam., 18 oct. 2008) | 1 line
+
+Fix for issue with FTP data channel connections when there is a file error.  Note that this is not the fix for the ultimate problem which is a recv call from an IOHandler descendant.
+------------------------------------------------------------------------
+r3284 | JPeterMugaas | 2008-10-17 12:00:15 +0200 (ven., 17 oct. 2008) | 1 line
+
+REIN also reinitializes the HOST setting the client makes.
+------------------------------------------------------------------------
+r3283 | JPeterMugaas | 2008-10-17 10:42:17 +0200 (ven., 17 oct. 2008) | 1 line
+
+Host command support for virtual domains.  Many clients do not support this feature but it's a good idea anyway.  Minor tweaks.
+------------------------------------------------------------------------
+r3282 | JPeterMugaas | 2008-10-17 10:40:34 +0200 (ven., 17 oct. 2008) | 1 line
+
+Fix UpCaseFirstWord.  It was not capitalizing the first word some times.
+------------------------------------------------------------------------
+r3281 | JPeterMugaas | 2008-10-15 18:25:43 +0200 (mer., 15 oct. 2008) | 5 lines
+
+Minor FTP Server adjustments:
+
+1) Help for FTP site command.  
+2) In FEAT command, list what OPTS are supported (Serv-U 7.x does this), report compliance with RFC 4217 if SSL is enabled.
+3) minor refinement for STAT command.
+------------------------------------------------------------------------
+r3280 | RemyLebeau | 2008-10-15 09:37:00 +0200 (mer., 15 oct. 2008) | 1 line
+
+Changed TIdMessageBuilderHtml.HtmlFiles property to be a collection instead of a TStrings so that an optional user-defined ContentID can be associated with each "multipart/related" attachment.
+------------------------------------------------------------------------
+r3279 | JPeterMugaas | 2008-10-08 18:22:06 +0200 (mer., 08 oct. 2008) | 1 line
+
+Fix for UTF8.  Note that this temporary until the UTF8 stuff is rewritten.
+------------------------------------------------------------------------
+r3278 | ArvidWinkelsdorf | 2008-10-08 08:06:24 +0200 (mer., 08 oct. 2008) | 1 line
+
+removed user-specific configurations files preventing package installation under D2007
+------------------------------------------------------------------------
+r3277 | RemyLebeau | 2008-10-08 05:06:00 +0200 (mer., 08 oct. 2008) | 1 line
+
+Fix for compiler error in DAVMakeCollection()
+------------------------------------------------------------------------
+r3276 | RemyLebeau | 2008-10-08 05:05:03 +0200 (mer., 08 oct. 2008) | 1 line
+
+Rewrote to not use TIdLongWord anymore.  The logic was not taking endians into account correctly.  Using a raw byte array and manual parsing now.
+------------------------------------------------------------------------
+r3275 | JPeterMugaas | 2008-10-06 23:13:10 +0200 (lun., 06 oct. 2008) | 3 lines
+
+Fix for ftp.ctrl-c.liu.se.  That returns error messages in the dir listing preceded by a tab. In addition, there is no period ending the footer line:
+
+Total of 349 files, 138/795 blocks
+------------------------------------------------------------------------
+r3274 | JPeterMugaas | 2008-10-06 04:57:58 +0200 (lun., 06 oct. 2008) | 3 lines
+
+Added support for some Windows servers that might return a directory listing like this (similar to typing dir at the command line):
+
++09/09/2008  03:51 PM    <DIR>          .
+------------------------------------------------------------------------
+r3273 | JPeterMugaas | 2008-10-04 08:49:26 +0200 (sam., 04 oct. 2008) | 1 line
+
+Support for the WebDav MKCOL method for making collections.
+------------------------------------------------------------------------
+r3272 | JPeterMugaas | 2008-10-04 08:49:09 +0200 (sam., 04 oct. 2008) | 3 lines
+
+Manually applied patch from Craig Peterson, Scooter Software for the FTP HOST which is described at http://tools.ietf.org/html/draft-hethmon-mcmurray-ftp-hosts-01 .
+
+This should permit us to support some virtual FTP sites where a single IP address has more than one DNS name.
+------------------------------------------------------------------------
+r3271 | RemyLebeau | 2008-10-04 04:21:59 +0200 (sam., 04 oct. 2008) | 1 line
+
+Added a Trim() when Fetch()'ing parameters, as Apache and IIS behave differently in their use of whitespace.
+------------------------------------------------------------------------
+r3270 | RemyLebeau | 2008-10-04 04:19:21 +0200 (sam., 04 oct. 2008) | 1 line
+
+Tweaks to better conform algorithm handling as per RFC 2617.
+------------------------------------------------------------------------
+r3269 | JPeterMugaas | 2008-09-29 01:15:00 +0200 (lun., 29 sept. 2008) | 1 line
+
+Version bump to 10.5.
+------------------------------------------------------------------------
+r3268 | RemyLebeau | 2008-09-27 18:32:17 +0200 (sam., 27 sept. 2008) | 1 line
+
+Fix for abstract error when IndyProtocols package is installed in D5
+------------------------------------------------------------------------
+r3267 | JPeterMugaas | 2008-09-27 08:21:31 +0200 (sam., 27 sept. 2008) | 1 line
+
+err.h, crypto.h, ui.h, engine.h API definitions.  Adjustments for new OpenSSL 0.9.8i.
+------------------------------------------------------------------------
+r3266 | JPeterMugaas | 2008-09-27 03:43:48 +0200 (sam., 27 sept. 2008) | 7 lines
+
+Patch from Craig Peterson, Scooter Software.  Some VMS listings such as 
+
+CII-MANUAL.TEX;1  213/216  29-JAN-1996 03:33:12  [ANONYMOU,ANONYMOUS] 
+   (RWED,RWED,,) 
+
+ were not being read correctly.
+
+------------------------------------------------------------------------
+r3265 | JPeterMugaas | 2008-09-26 11:10:49 +0200 (ven., 26 sept. 2008) | 1 line
+
+Fix so that this will compile for the Tiburon branch.
+------------------------------------------------------------------------
+r3264 | JPeterMugaas | 2008-09-24 14:16:35 +0200 (mer., 24 sept. 2008) | 1 line
+
+Some x509v3.h header constants.  More err.h API funciton names. Start of update for OpenSSL 0.9.8i.
+------------------------------------------------------------------------
+r3263 | JPeterMugaas | 2008-09-23 07:25:49 +0200 (mar., 23 sept. 2008) | 1 line
+
+Use PtrUInt instead of Integer.
+------------------------------------------------------------------------
+r3262 | JPeterMugaas | 2008-09-22 15:32:17 +0200 (lun., 22 sept. 2008) | 1 line
+
+DES API fixes.  Enabled stuff from des_old.h.  
+------------------------------------------------------------------------
+r3261 | RemyLebeau | 2008-09-20 11:25:31 +0200 (sam., 20 sept. 2008) | 1 line
+
+Removed redundant Port assignment in InitComponent().
+------------------------------------------------------------------------
+r3260 | RemyLebeau | 2008-09-20 10:52:13 +0200 (sam., 20 sept. 2008) | 1 line
+
+Bug fix for SendBody() not sending semi-colons when outputting an attachment's filename
+------------------------------------------------------------------------
+r3259 | ArvidWinkelsdorf | 2008-09-19 10:12:50 +0200 (ven., 19 sept. 2008) | 1 line
+
+Fixed a Compile Error in NTLM for anything below Tiburon
+------------------------------------------------------------------------
+r3258 | RemyLebeau | 2008-09-14 00:10:47 +0200 (dim., 14 sept. 2008) | 1 line
+
+OnSetModifiedTime and OnSetCreationTime changes
+------------------------------------------------------------------------
+r3257 | RemyLebeau | 2008-09-13 11:01:31 +0200 (sam., 13 sept. 2008) | 1 line
+
+Added IdCoreSelectionEditors.pas unit
+------------------------------------------------------------------------
+r3256 | RemyLebeau | 2008-09-13 11:00:51 +0200 (sam., 13 sept. 2008) | 1 line
+
+Added IdCoreSelectionEditors.pas unit
+------------------------------------------------------------------------
+r3255 | RemyLebeau | 2008-09-13 10:36:48 +0200 (sam., 13 sept. 2008) | 1 line
+
+Added TSelectionEditor define
+------------------------------------------------------------------------
+r3254 | RemyLebeau | 2008-09-13 10:36:12 +0200 (sam., 13 sept. 2008) | 1 line
+
+Added IdCoreSelectionEditors.pas unit
+------------------------------------------------------------------------
+r3253 | RemyLebeau | 2008-09-10 09:44:37 +0200 (mer., 10 sept. 2008) | 1 line
+
+Bug fix for CommandMFMT() processing parameters in the wrong order
+------------------------------------------------------------------------
+r3252 | RemyLebeau | 2008-09-07 10:04:03 +0200 (dim., 07 sept. 2008) | 1 line
+
+Updated ReleaseYarn() to not deposit a thread back into the pool if it has been terminated.
+------------------------------------------------------------------------
+r3251 | JPeterMugaas | 2008-09-02 20:21:55 +0200 (mar., 02 sept. 2008) | 1 line
+
+Fixed incorrect function "SSLeay".  It returns an unsigned long.
+------------------------------------------------------------------------
+r3250 | JPeterMugaas | 2008-08-31 22:03:27 +0200 (dim., 31 ao–t 2008) | 1 line
+
+.bat file to rebuild .rc files in Indy.
+------------------------------------------------------------------------
+r3249 | JPeterMugaas | 2008-08-31 22:01:32 +0200 (dim., 31 ao–t 2008) | 1 line
+
+Omitted files.
+------------------------------------------------------------------------
+r3248 | JPeterMugaas | 2008-08-31 22:00:48 +0200 (dim., 31 ao–t 2008) | 1 line
+
+Omitted files from resource build.
+------------------------------------------------------------------------
+r3247 | JPeterMugaas | 2008-08-31 21:59:42 +0200 (dim., 31 ao–t 2008) | 1 line
+
+Omitted files.
+------------------------------------------------------------------------
+r3246 | JPeterMugaas | 2008-08-31 21:57:05 +0200 (dim., 31 ao–t 2008) | 1 line
+
+Update version info.  Fix *120.dpk for TIburon, update copyright.  Version is 10.2.5 as discussed earlier.Rebuild .res files.
+------------------------------------------------------------------------
+r3245 | JPeterMugaas | 2008-08-22 21:45:27 +0200 (ven., 22 ao–t 2008) | 1 line
+
+Double-checked big endian NTLM values.
+------------------------------------------------------------------------
+r3244 | JPeterMugaas | 2008-08-22 10:47:33 +0200 (ven., 22 ao–t 2008) | 1 line
+
+Another fix for host length in msg one on big endian machines.
+------------------------------------------------------------------------
+r3243 | JPeterMugaas | 2008-08-22 10:14:31 +0200 (ven., 22 ao–t 2008) | 1 line
+
+Fixes for NTLM with big endian machines.  This has not been tested.
+------------------------------------------------------------------------
+r3242 | RemyLebeau | 2008-08-20 11:24:06 +0200 (mer., 20 ao–t 2008) | 1 line
+
+Type casts for Tiburon
+------------------------------------------------------------------------
+r3241 | RemyLebeau | 2008-08-20 11:20:46 +0200 (mer., 20 ao–t 2008) | 1 line
+
+Type casts for Tiburon
+------------------------------------------------------------------------
+r3240 | RemyLebeau | 2008-08-20 11:19:46 +0200 (mer., 20 ao–t 2008) | 1 line
+
+Type casts for Tiburon
+------------------------------------------------------------------------
+r3239 | JPeterMugaas | 2008-08-20 06:04:08 +0200 (mer., 20 ao–t 2008) | 1 line
+
+Fixes in IdURI.pas to get it to compile.  I also fixed some things in the non-Tiburon code for exceptions.
+------------------------------------------------------------------------
+r3238 | JPeterMugaas | 2008-08-20 06:02:42 +0200 (mer., 20 ao–t 2008) | 1 line
+
+Define TCharacter for Tiburon.  We have starting using some code from that for a UTF16 conversion.
+------------------------------------------------------------------------
+r3237 | RemyLebeau | 2008-08-19 11:25:52 +0200 (mar., 19 ao–t 2008) | 1 line
+
+Type casts for Tiburon
+------------------------------------------------------------------------
+r3236 | RemyLebeau | 2008-08-19 11:13:20 +0200 (mar., 19 ao–t 2008) | 1 line
+
+Type casts for Tiburon
+------------------------------------------------------------------------
+r3235 | RemyLebeau | 2008-08-19 11:12:27 +0200 (mar., 19 ao–t 2008) | 1 line
+
+Unicode support
+------------------------------------------------------------------------
+r3234 | RemyLebeau | 2008-08-19 11:07:02 +0200 (mar., 19 ao–t 2008) | 1 line
+
+Type casts for Tiburon
+------------------------------------------------------------------------
+r3233 | RemyLebeau | 2008-08-19 11:00:52 +0200 (mar., 19 ao–t 2008) | 1 line
+
+Updated DoExecute() to check the ContentType before reading the FormParams data
+------------------------------------------------------------------------
+r3232 | RemyLebeau | 2008-08-19 10:58:42 +0200 (mar., 19 ao–t 2008) | 1 line
+
+Type casts for Tiburon
+------------------------------------------------------------------------
+r3231 | JPeterMugaas | 2008-08-19 07:58:12 +0200 (mar., 19 ao–t 2008) | 1 line
+
+Implicit string conversion.
+------------------------------------------------------------------------
+r3230 | JPeterMugaas | 2008-08-18 20:43:04 +0200 (lun., 18 ao–t 2008) | 1 line
+
+Tiburon fixes for Ansi to string conversion and back.
+------------------------------------------------------------------------
+r3229 | JPeterMugaas | 2008-08-13 06:26:54 +0200 (mer., 13 ao–t 2008) | 1 line
+
+Remove warning about casting String as AnsiString.  We have to do this deliberately because "RFC1952 - GZIP file format specification version 4.3" specifies that the FName field must consist of ISO 8859-1 (LATIN-1) characters.
+------------------------------------------------------------------------
+r3228 | JPeterMugaas | 2008-08-13 06:23:03 +0200 (mer., 13 ao–t 2008) | 1 line
+
+Remove shortstring warning.
+------------------------------------------------------------------------
+r3227 | JPeterMugaas | 2008-08-12 19:45:57 +0200 (mar., 12 ao–t 2008) | 1 line
+
+Fix for warnings about implicit conversions from ANsiString to string and vice-versa.
+------------------------------------------------------------------------
+r3226 | JPeterMugaas | 2008-08-09 21:06:22 +0200 (sam., 09 ao–t 2008) | 1 line
+
+Tiburon fix.  You have to specifically cast an AnsiString to a String to avoid warnings about an implicit typecast from AnsiString to String.  We have been doing this because there's a few Winsock functions where there is no Unicode (WideString) version such as gethostname and getservbyport.
+------------------------------------------------------------------------
+r3225 | JPeterMugaas | 2008-08-09 21:04:03 +0200 (sam., 09 ao–t 2008) | 1 line
+
+/etc/ is the correct path for the services file in most Unix flavors.
+------------------------------------------------------------------------
+r3224 | RemyLebeau | 2008-08-07 09:36:10 +0200 (jeu., 07 ao–t 2008) | 1 line
+
+Updated ReleaseYarn() to attempt to prevent a deadlock.
+------------------------------------------------------------------------
+r3223 | RemyLebeau | 2008-08-07 08:30:38 +0200 (jeu., 07 ao–t 2008) | 1 line
+
+Bug fix for CheckException()
+------------------------------------------------------------------------
+r3222 | JPeterMugaas | 2008-08-01 07:15:24 +0200 (ven., 01 ao–t 2008) | 1 line
+
+Removed override for Open.  It was causing an second authentication that would fail with "Authentication failed because the remote party has closed the transport stream.".  I have verified that this works on WindowsXP SP3 using https://shop.borland.com/, https://sf.net, and https://www.swreg.org/
+------------------------------------------------------------------------
+r3221 | JPeterMugaas | 2008-07-30 16:30:15 +0200 (mer., 30 juil. 2008) | 1 line
+
+{$MINENUMSIZE 4}
+------------------------------------------------------------------------
+r3220 | JPeterMugaas | 2008-07-30 02:51:51 +0200 (mer., 30 juil. 2008) | 1 line
+
+Fix compiler warnings about Unicode characters.  Array of char really means AnsiChar.
+------------------------------------------------------------------------
+r3219 | RemyLebeau | 2008-07-27 08:57:06 +0200 (dim., 27 juil. 2008) | 1 line
+
+Added
+------------------------------------------------------------------------
+r3218 | JPeterMugaas | 2008-07-26 09:02:43 +0200 (sam., 26 juil. 2008) | 1 line
+
+Enable SSL_Pending.
+------------------------------------------------------------------------
+r3217 | JPeterMugaas | 2008-07-25 15:33:42 +0200 (ven., 25 juil. 2008) | 1 line
+
+Fix for compiler warning.
+------------------------------------------------------------------------
+r3216 | JPeterMugaas | 2008-07-25 15:15:26 +0200 (ven., 25 juil. 2008) | 1 line
+
+SSL sockets now use the OPENSSL_SSL_MODE_AUTO_RETRY mode.
+------------------------------------------------------------------------
+r3215 | JPeterMugaas | 2008-07-25 15:14:29 +0200 (ven., 25 juil. 2008) | 1 line
+
+More SSL Mode constants.  Fixed a few macros.
+------------------------------------------------------------------------
+r3214 | JPeterMugaas | 2008-07-25 15:13:31 +0200 (ven., 25 juil. 2008) | 1 line
+
+AbortCmd now can be used even without IdFSP running a command.  That should allow you call disconnect after words if necessary.
+------------------------------------------------------------------------
+r3213 | RemyLebeau | 2008-07-25 10:49:13 +0200 (ven., 25 juil. 2008) | 1 line
+
+Added Begin/EndUpdate() calls to AddLocalAddressesToList()
+------------------------------------------------------------------------
+r3212 | RemyLebeau | 2008-07-25 10:36:37 +0200 (ven., 25 juil. 2008) | 1 line
+
+Removed destructor, freeing of FLocalAddresses is done in TIdStack destructor now
+------------------------------------------------------------------------
+r3211 | RemyLebeau | 2008-07-25 10:35:42 +0200 (ven., 25 juil. 2008) | 1 line
+
+Replaced protected PopulateLocalAddresses() method with new public AddLocalAddressesToList() method
+------------------------------------------------------------------------
+r3210 | RemyLebeau | 2008-07-25 10:17:33 +0200 (ven., 25 juil. 2008) | 1 line
+
+Updated TIdHTTPAppRequest.GetStringVariable() to fix a compiler in Fetch() when the method signature was changed to return an AnsiString instead of a UnicodeString
+------------------------------------------------------------------------
+r3209 | RemyLebeau | 2008-07-25 10:12:30 +0200 (ven., 25 juil. 2008) | 1 line
+
+Moved CustomHeaders property back to TIdEntityHeaderInfo.  Moving it to TIdRequestHeaderInfo broke TIdHTTPWebBrokerBridge
+------------------------------------------------------------------------
+r3207 | RemyLebeau | 2008-07-22 08:16:05 +0200 (mar., 22 juil. 2008) | 1 line
+
+Updated ParseFTPList() to assign the DirFormat property under all scenarios
+------------------------------------------------------------------------
+r3206 | JPeterMugaas | 2008-07-19 18:00:00 +0200 (sam., 19 juil. 2008) | 1 line
+
+Commmented out IdSslSessionGetIdCtx.  I'm not sure where that macro came from and it was causing a type error.
+------------------------------------------------------------------------
+r3205 | JPeterMugaas | 2008-07-19 17:55:35 +0200 (sam., 19 juil. 2008) | 1 line
+
+typecast @LBuf[0] to PAnsiChar.  This is required for typed-pointer compiling.
+------------------------------------------------------------------------
+r3204 | JPeterMugaas | 2008-07-17 22:01:46 +0200 (jeu., 17 juil. 2008) | 1 line
+
+DICT must be UTF8-aware according to the RFC.
+------------------------------------------------------------------------
+r3203 | JPeterMugaas | 2008-07-17 11:17:36 +0200 (jeu., 17 juil. 2008) | 1 line
+
+Fix for FEAT reply in Ipswitch's WS-FTP Server.
+------------------------------------------------------------------------
+r3202 | JPeterMugaas | 2008-07-17 10:10:26 +0200 (jeu., 17 juil. 2008) | 1 line
+
+Fix for compiling with Typed @ Operator.
+------------------------------------------------------------------------
+r3201 | JPeterMugaas | 2008-07-17 04:14:17 +0200 (jeu., 17 juil. 2008) | 1 line
+
+getaddrinfo should accept PaddrInfoW instead of PaddrInfo when compiling for Unicode.
+------------------------------------------------------------------------
+r3197 | JPeterMugaas | 2008-07-12 20:13:14 +0200 (sam., 12 juil. 2008) | 1 line
+
+SendBuffer should support IPv6.  It wasn't passing the right parameter for that to Binding.Send.
+------------------------------------------------------------------------
+r3196 | RemyLebeau | 2008-07-12 12:56:43 +0200 (sam., 12 juil. 2008) | 1 line
+
+Added IsDomainMatch() and IsRejectedCookie() functions
+------------------------------------------------------------------------
+r3195 | RemyLebeau | 2008-07-12 12:55:18 +0200 (sam., 12 juil. 2008) | 1 line
+
+Removed IsValidCookie() method.  It was not accurate to begin with.  New logic added to TIdCookieManager directly.
+------------------------------------------------------------------------
+r3194 | RemyLebeau | 2008-07-12 11:15:03 +0200 (sam., 12 juil. 2008) | 2 lines
+
+Changed EZlibError constructor to fix a compiler error in C++
+
+------------------------------------------------------------------------
+r3193 | RemyLebeau | 2008-07-12 10:57:03 +0200 (sam., 12 juil. 2008) | 1 line
+
+Added additional HPPEMIT statements to prevent naming conflicts with wincrypt.h in C++
+------------------------------------------------------------------------
+r3192 | RemyLebeau | 2008-07-12 10:54:31 +0200 (sam., 12 juil. 2008) | 1 line
+
+Swapped parameters of ESSPIException.CreateError() constructor to fix a compiler error in C++
+------------------------------------------------------------------------
+r3191 | JPeterMugaas | 2008-07-11 23:29:18 +0200 (ven., 11 juil. 2008) | 1 line
+
+IPv6 multicast addresses added to IdAssignedNumbers.  Helper class function added for making an IPv6 variable multicast address into a usable address allowing you to specify the scope that address.
+------------------------------------------------------------------------
+r3190 | JPeterMugaas | 2008-07-10 19:24:01 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Added a comment explaining why you have to preserve the value from GStack.WSGetLastError.
+------------------------------------------------------------------------
+r3189 | JPeterMugaas | 2008-07-10 19:23:09 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Fix compiler warning about an unitialized result.
+------------------------------------------------------------------------
+r3188 | RemyLebeau | 2008-07-10 10:05:48 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Tweaks to Assign()
+------------------------------------------------------------------------
+r3187 | RemyLebeau | 2008-07-10 10:02:06 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Misc tweaks
+------------------------------------------------------------------------
+r3186 | RemyLebeau | 2008-07-10 10:00:06 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Moved over FileName property from TIdAttachment, as text parts can have filenames as well.
+------------------------------------------------------------------------
+r3185 | RemyLebeau | 2008-07-10 09:56:15 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Removed unused LPos variable from GetAttachmentFilename()
+------------------------------------------------------------------------
+r3184 | RemyLebeau | 2008-07-10 09:55:34 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Updated to support FileName property on text parts, per RFC 2183
+------------------------------------------------------------------------
+r3183 | RemyLebeau | 2008-07-10 09:53:39 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Moved CustomHeaders property from TIdEntityHeaderInfo to TIdRequestHeaderInfo, where it belongs.  It does not belong in TIdEntityHeaderInfo as it has no meaning in TIdResponseHeaderInfo.
+------------------------------------------------------------------------
+r3182 | RemyLebeau | 2008-07-10 09:50:49 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Moved FileName property to TIdMessagePart
+------------------------------------------------------------------------
+r3181 | RemyLebeau | 2008-07-10 09:39:55 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Updated MulticastBuffer() to use Binding.IPVersion instead
+------------------------------------------------------------------------
+r3180 | RemyLebeau | 2008-07-10 09:38:51 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Added 'const' to IsValidMulticastGroup()
+------------------------------------------------------------------------
+r3179 | JPeterMugaas | 2008-07-10 07:38:24 +0200 (jeu., 10 juil. 2008) | 1 line
+
+Changed a Cardinal to a LongWord for FreePascal.
+------------------------------------------------------------------------
+r3178 | JPeterMugaas | 2008-07-10 05:24:12 +0200 (jeu., 10 juil. 2008) | 1 line
+
+These should now be able to handle IPv6 broadcasts.  Note that the IPVersion dictates what type of MulticastGroup addresses will be accepted.
+------------------------------------------------------------------------
+r3177 | MatthijsterWoord | 2008-07-08 18:24:07 +0200 (mar., 08 juil. 2008) | 1 line
+
+Undo of Remy's move of CustomHeaders
+------------------------------------------------------------------------
+r3176 | JPeterMugaas | 2008-07-07 23:28:21 +0200 (lun., 07 juil. 2008) | 1 line
+
+OpenSSL fixes.  Wrong constants in header, we need to call WSASetLastError in the info callback, one record needed to use C byptes, and we didn't need a ThreadID callback in Windows.
+------------------------------------------------------------------------
+r3175 | JPeterMugaas | 2008-07-07 21:10:51 +0200 (lun., 07 juil. 2008) | 1 line
+
+Expose SetLastError calls in various GStack objects.  This is required for some OpenSSL API calls and eventually, some other things.  It's a good idea to do it anyway.
+------------------------------------------------------------------------
+r3174 | RemyLebeau | 2008-07-06 11:02:09 +0200 (dim., 06 juil. 2008) | 1 line
+
+Added ContentDisposition setter override
+------------------------------------------------------------------------
+r3173 | RemyLebeau | 2008-07-06 11:00:26 +0200 (dim., 06 juil. 2008) | 1 line
+
+Added ContentDisposition property
+------------------------------------------------------------------------
+r3172 | RemyLebeau | 2008-07-06 10:57:23 +0200 (dim., 06 juil. 2008) | 1 line
+
+Moved CharToHex() to IdCoderQuotedPrintable unit
+------------------------------------------------------------------------
+r3171 | RemyLebeau | 2008-07-06 10:55:27 +0200 (dim., 06 juil. 2008) | 1 line
+
+Moved over CharToHex() function from IdGlobalProtocols unit
+------------------------------------------------------------------------
+r3170 | RemyLebeau | 2008-07-06 10:53:35 +0200 (dim., 06 juil. 2008) | 1 line
+
+Moved ContentDisposition property to TIdMessagePart class
+------------------------------------------------------------------------
+r3169 | JPeterMugaas | 2008-07-02 07:18:24 +0200 (mer., 02 juil. 2008) | 1 line
+
+Improved error handling for SSL_ERROR_SYSCAL and SSL_ERROR_SSL
+------------------------------------------------------------------------
+r3168 | RemyLebeau | 2008-07-01 08:43:49 +0200 (mar., 01 juil. 2008) | 1 line
+
+Removed UNICODE define for Tiburon
+------------------------------------------------------------------------
+r3167 | RemyLebeau | 2008-07-01 08:43:10 +0200 (mar., 01 juil. 2008) | 1 line
+
+Removed UNICODE define for Tiburon
+------------------------------------------------------------------------
+r3166 | RemyLebeau | 2008-07-01 08:42:25 +0200 (mar., 01 juil. 2008) | 1 line
+
+Removed UNICODE define for Tiburon
+------------------------------------------------------------------------
+r3165 | JPeterMugaas | 2008-06-30 05:58:48 +0200 (lun., 30 juin 2008) | 1 line
+
+More constants from dh.h header and another error constant from ssl.h
+------------------------------------------------------------------------
+r3164 | RemyLebeau | 2008-06-28 08:43:29 +0200 (sam., 28 juin 2008) | 1 line
+
+Additional 'Cache-control' support
+------------------------------------------------------------------------
+r3163 | RemyLebeau | 2008-06-27 07:00:36 +0200 (ven., 27 juin 2008) | 1 line
+
+Updated CharPosInSet() to use PtrInt
+------------------------------------------------------------------------
+r3162 | JPeterMugaas | 2008-06-27 04:22:35 +0200 (ven., 27 juin 2008) | 1 line
+
+disable inlining when compiling with the "DEBUG" define.  inlining can make debugging more difficult.
+------------------------------------------------------------------------
+r3161 | JPeterMugaas | 2008-06-27 04:21:52 +0200 (ven., 27 juin 2008) | 1 line
+
+CharPosInSet was returning zero if the first char in the string is the one that is found.  strings are 1-based anyway.
+------------------------------------------------------------------------
+r3160 | JPeterMugaas | 2008-06-26 06:23:50 +0200 (jeu., 26 juin 2008) | 1 line
+
+Removed empty record types. We were only using them with pointers and they were creating other problems.
+------------------------------------------------------------------------
+r3159 | JPeterMugaas | 2008-06-24 18:14:50 +0200 (mar., 24 juin 2008) | 1 line
+
+We shouldn't limit the number of ssl_read and ssl_write calls when the errors SSL_ERROR_WANT_WRITE and SSL_ERROR_WANT_READ occur.
+------------------------------------------------------------------------
+r3158 | RemyLebeau | 2008-06-20 09:59:44 +0200 (ven., 20 juin 2008) | 1 line
+
+Removed Subject property, as it is redundant.  Can just access the TIdMessage.Subject directly when desired
+------------------------------------------------------------------------
+r3157 | RemyLebeau | 2008-06-20 09:06:44 +0200 (ven., 20 juin 2008) | 1 line
+
+Added ETag property to TIdEntityHeaderInfo, and moved CustomHeaders property to TIdRequestHeaderInfo.  CustomHeaders only apply to requests, not responses, so it does not need to be in the common base class.
+------------------------------------------------------------------------
+r3156 | RemyLebeau | 2008-06-20 08:46:45 +0200 (ven., 20 juin 2008) | 2 lines
+
+Moved Broadcast functionality to TIdSocketHandle
+
+------------------------------------------------------------------------
+r3155 | RemyLebeau | 2008-06-20 08:44:53 +0200 (ven., 20 juin 2008) | 2 lines
+
+Moved Broadcast functionality to TIdSocketHandle
+
+------------------------------------------------------------------------
+r3154 | RemyLebeau | 2008-06-20 08:27:22 +0200 (ven., 20 juin 2008) | 1 line
+
+Move over Broadcast functionality from TIdUDPBase
+------------------------------------------------------------------------
+r3152 | RemyLebeau | 2008-06-18 20:16:34 +0200 (mer., 18 juin 2008) | 1 line
+
+Added AEncoding parameter to SendCmd()
+------------------------------------------------------------------------
+r3151 | JPeterMugaas | 2008-06-18 17:44:11 +0200 (mer., 18 juin 2008) | 4 lines
+
+Attempt to fix bug described at:
+http://groups.google.fr/group/borland.public.delphi.internet.winsock/browse_thread/thread/1a77e94544c8a60a/fddca87882b0a586
+
+A workaround probably should only be done with SSL Version 0.9.8a.
+------------------------------------------------------------------------
+r3150 | JPeterMugaas | 2008-06-18 15:18:34 +0200 (mer., 18 juin 2008) | 1 line
+
+Updated for OpenSSL 0.9.8h.  Also fixed some bugs in the earlier headers.  Hopefully, fixed a conflict with a macro in WinCrypt named X509_NAME.  Added some stuff from ocsp.h.  Added some macros for SSL_ctrl, SSL_CTX_ctrl, SSL_callback_ctrl, and SSL_CTX_callback_ctrl.
+------------------------------------------------------------------------
+r3149 | JPeterMugaas | 2008-06-18 15:13:09 +0200 (mer., 18 juin 2008) | 1 line
+
+Changes in Core broke IdNNTP.  Fixed.
+------------------------------------------------------------------------
+r3148 | RemyLebeau | 2008-06-18 08:57:02 +0200 (mer., 18 juin 2008) | 1 line
+
+Added various AEncoding parameters
+------------------------------------------------------------------------
+r3147 | RemyLebeau | 2008-06-18 08:42:13 +0200 (mer., 18 juin 2008) | 1 line
+
+Moved ExtractHeaderSubItem() to IdGlobalProtocols.pas
+------------------------------------------------------------------------
+r3146 | RemyLebeau | 2008-06-18 08:41:42 +0200 (mer., 18 juin 2008) | 1 line
+
+Removed TIdMIMEBoundary.FindBoundary(), redundant now in leau of new  ExtractHeaderSubItem() function in IdGlobalProtocols.pas
+------------------------------------------------------------------------
+r3145 | RemyLebeau | 2008-06-18 08:41:12 +0200 (mer., 18 juin 2008) | 1 line
+
+Removed TIdMIMEBoundary.FindBoundary() and TIdMessage.ExtractCharSet(), redundant now in leau of new  ExtractHeaderSubItem() function in IdGlobalProtocols.pas
+------------------------------------------------------------------------
+r3144 | RemyLebeau | 2008-06-18 08:35:21 +0200 (mer., 18 juin 2008) | 1 line
+
+Updated GetAttachmentFilename() to use ExtractHeaderSubItem()
+------------------------------------------------------------------------
+r3143 | RemyLebeau | 2008-06-18 08:34:30 +0200 (mer., 18 juin 2008) | 1 line
+
+Moved ExtractHeaderSubItem() to IdGlobalProtocols.pas
+------------------------------------------------------------------------
+r3142 | RemyLebeau | 2008-06-18 08:33:43 +0200 (mer., 18 juin 2008) | 1 line
+
+Moved ExtractHeaderSubItem() from IdMessageParts.pas and merged with related logic from various areas of Indy that had not been consolidated yet.
+------------------------------------------------------------------------
+r3141 | RemyLebeau | 2008-06-18 07:40:09 +0200 (mer., 18 juin 2008) | 1 line
+
+Recoded the Encode() and Decode() methods
+------------------------------------------------------------------------
+r3140 | RemyLebeau | 2008-06-17 10:26:02 +0200 (mar., 17 juin 2008) | 1 line
+
+Tweak to DoConnect()
+------------------------------------------------------------------------
+r3139 | RemyLebeau | 2008-06-17 10:25:17 +0200 (mar., 17 juin 2008) | 1 line
+
+Compiler warning in Authentication()
+------------------------------------------------------------------------
+r3138 | RemyLebeau | 2008-06-17 10:02:07 +0200 (mar., 17 juin 2008) | 1 line
+
+Added OnQuerySSLPort event
+------------------------------------------------------------------------
+r3137 | RemyLebeau | 2008-06-17 10:01:04 +0200 (mar., 17 juin 2008) | 1 line
+
+Typo fix
+------------------------------------------------------------------------
+r3136 | RemyLebeau | 2008-06-17 09:54:15 +0200 (mar., 17 juin 2008) | 1 line
+
+Updated ReadLn() to take multi-character terminators into account when looping through the InputBuffer more than once.
+------------------------------------------------------------------------
+r3135 | RemyLebeau | 2008-06-11 07:49:06 +0200 (mer., 11 juin 2008) | 1 line
+
+Fix for compiler error in CommandRMDA()
+------------------------------------------------------------------------
+r3134 | RemyLebeau | 2008-06-11 07:41:26 +0200 (mer., 11 juin 2008) | 1 line
+
+Updated CommandSTAT() to use TIdIOHandler.Write(TStrings) instead of calling WriteLn() in a loop manually
+------------------------------------------------------------------------
+r3133 | RemyLebeau | 2008-06-11 07:19:38 +0200 (mer., 11 juin 2008) | 1 line
+
+String indexing fix for CopyTIdString()
+------------------------------------------------------------------------
+r3132 | RemyLebeau | 2008-06-11 07:09:31 +0200 (mer., 11 juin 2008) | 1 line
+
+CodeGear fix
+------------------------------------------------------------------------
+r3130 | JPeterMugaas | 2008-06-07 03:33:49 +0200 (sam., 07 juin 2008) | 1 line
+
+Same fix has to be applied for Delphi.
+------------------------------------------------------------------------
+r3129 | JPeterMugaas | 2008-06-07 00:48:12 +0200 (sam., 07 juin 2008) | 1 line
+
+Workaround for some mingw32 OpenSSL builds.  One part of openssl is named "libssl32.dll" instead of "ssleay32.dll" like you would expect.  You have to attempt to load "ssleay32.dll"  and if that fails, you load "libssl32.dll".
+------------------------------------------------------------------------
+r3128 | JPeterMugaas | 2008-06-06 02:08:04 +0200 (ven., 06 juin 2008) | 1 line
+
+Rearranged exception types so they are easier to read and you see the hierarchy.
+------------------------------------------------------------------------
+r3127 | JPeterMugaas | 2008-06-06 01:53:14 +0200 (ven., 06 juin 2008) | 1 line
+
+Return code fix in EIdOpenSSLAPISSLError.RaiseException
+------------------------------------------------------------------------
+r3120 | RemyLebeau | 2008-06-04 10:43:16 +0200 (mer., 04 juin 2008) | 2 lines
+
+Tiburon makefiles
+
+------------------------------------------------------------------------
+r3119 | RemyLebeau | 2008-06-04 10:42:44 +0200 (mer., 04 juin 2008) | 1 line
+
+Tiburon makefiles
+------------------------------------------------------------------------
+r3118 | JPeterMugaas | 2008-06-03 04:07:03 +0200 (mar., 03 juin 2008) | 1 line
+
+Bitmaps for new components.
+------------------------------------------------------------------------
+r3117 | JPeterMugaas | 2008-06-03 04:04:46 +0200 (mar., 03 juin 2008) | 1 line
+
+Temp fix so this could compile in Microsoft.NET 2.0 Framework.
+------------------------------------------------------------------------
+r3116 | JPeterMugaas | 2008-06-02 21:23:28 +0200 (lun., 02 juin 2008) | 1 line
+
+Add TIdSocksServer to pallete as well as TIdSASLDigest and TIdSASLCRAMSHA1
+------------------------------------------------------------------------
+r3115 | JPeterMugaas | 2008-06-02 21:11:24 +0200 (lun., 02 juin 2008) | 1 line
+
+Tiburon Delphi .dpk's
+------------------------------------------------------------------------
+r3114 | JPeterMugaas | 2008-05-23 23:42:49 +0200 (ven., 23 mai 2008) | 1 line
+
+Fix for Microsoft.NET UTF8 out of range exception.  in the MIcrosoft.NET API, strings are 0-indexed, not 1-indexed like Delphi.  IFDEF some pointer references in Microsoft.NET.
+------------------------------------------------------------------------
+r3113 | RemyLebeau | 2008-05-16 08:48:08 +0200 (ven., 16 mai 2008) | 1 line
+
+Tiburon makefiles
+------------------------------------------------------------------------
+r3112 | RemyLebeau | 2008-05-16 08:47:33 +0200 (ven., 16 mai 2008) | 1 line
+
+Tiburon makefiles
+------------------------------------------------------------------------
+r3111 | RemyLebeau | 2008-05-16 08:46:41 +0200 (ven., 16 mai 2008) | 1 line
+
+Tiburon makefiles
+------------------------------------------------------------------------
+r3110 | RemyLebeau | 2008-05-16 08:45:26 +0200 (ven., 16 mai 2008) | 1 line
+
+Tiburon makefiles
+------------------------------------------------------------------------
+r3109 | JPeterMugaas | 2008-05-14 18:27:56 +0200 (mer., 14 mai 2008) | 1 line
+
+New FTP commands from draft-peterson-streamlined-ftp-command-extensions-04.txt , AVBL, DISZ, and RDMA.  Changed FEAT complience level to match NcFTPD, and STAT -l will now output UTF8 if UTF8 is enabled for the connection.  
+------------------------------------------------------------------------
+r3108 | RemyLebeau | 2008-05-14 06:00:52 +0200 (mer., 14 mai 2008) | 1 line
+
+D12 support
+------------------------------------------------------------------------
+r3107 | RemyLebeau | 2008-05-14 05:38:10 +0200 (mer., 14 mai 2008) | 1 line
+
+Added OnCommandError event
+------------------------------------------------------------------------
+r3106 | RemyLebeau | 2008-05-13 09:02:27 +0200 (mar., 13 mai 2008) | 1 line
+
+Updated CharPosInSet() to use StrScan() instead of Pos()
+------------------------------------------------------------------------
+r3105 | RemyLebeau | 2008-05-13 08:08:21 +0200 (mar., 13 mai 2008) | 1 line
+
+Updated DoCommandGet() to use the IWebRequestHandler interface when available
+------------------------------------------------------------------------
+r3104 | JPeterMugaas | 2008-05-07 18:47:14 +0200 (mer., 07 mai 2008) | 1 line
+
+You should only enable UTF8 decoding in Delphi versions prior to Tiburon.  Tiburon has Unicode encoding and we utilize that at the StringList level, not in the parsers.  In prior versions, UTF8 decoding does need to be done at the list parser level.
+------------------------------------------------------------------------
+r3103 | RemyLebeau | 2008-05-07 09:26:38 +0200 (mer., 07 mai 2008) | 1 line
+
+Fix for duplicate IdCustomTCPServer references
+------------------------------------------------------------------------
+r3102 | RemyLebeau | 2008-05-07 09:23:37 +0200 (mer., 07 mai 2008) | 1 line
+
+Fix for duplicate IdCustomTCPServer references
+------------------------------------------------------------------------
+r3101 | RemyLebeau | 2008-05-07 09:21:52 +0200 (mer., 07 mai 2008) | 1 line
+
+Fix for duplicate IdCustomTCPServer references
+------------------------------------------------------------------------
+r3100 | RemyLebeau | 2008-05-07 09:21:19 +0200 (mer., 07 mai 2008) | 1 line
+
+Tiburon changes to use AnsiChar array indexes
+------------------------------------------------------------------------
+r3099 | RemyLebeau | 2008-05-07 09:01:04 +0200 (mer., 07 mai 2008) | 1 line
+
+Changed TWideCharArray to TCharArray
+------------------------------------------------------------------------
+r3098 | JPeterMugaas | 2008-05-05 17:23:38 +0200 (lun., 05 mai 2008) | 1 line
+
+TIdFTPFileName must be used instead of string for filename and path parameters in order to process multi-byte filenames.
+------------------------------------------------------------------------
+r3097 | JPeterMugaas | 2008-05-05 17:21:49 +0200 (lun., 05 mai 2008) | 1 line
+
+File and Dir events must use TIdFTPFileName instead of string for filename parameters in order to process multi-byte char filenames.
+------------------------------------------------------------------------
+r3096 | RemyLebeau | 2008-05-02 09:57:50 +0200 (ven., 02 mai 2008) | 1 line
+
+Reverted GetProcAddress() back to using PChar, as a Unicode version is available in the VCL
+------------------------------------------------------------------------
+r3095 | RemyLebeau | 2008-05-02 09:53:39 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads and CharEquals()
+------------------------------------------------------------------------
+r3094 | RemyLebeau | 2008-05-02 09:52:25 +0200 (ven., 02 mai 2008) | 1 line
+
+Reverted GetProcAddress() back to using PChar, as a Unicode version is available in the VCL
+------------------------------------------------------------------------
+r3093 | RemyLebeau | 2008-05-02 09:49:53 +0200 (ven., 02 mai 2008) | 1 line
+
+Added IdCustomTCPServer to uses clause for TIdServerContext definition.
+------------------------------------------------------------------------
+r3092 | RemyLebeau | 2008-05-02 09:46:14 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads
+------------------------------------------------------------------------
+r3091 | RemyLebeau | 2008-05-02 09:39:37 +0200 (ven., 02 mai 2008) | 1 line
+
+Removed redundant property setters
+------------------------------------------------------------------------
+r3090 | RemyLebeau | 2008-05-02 09:38:38 +0200 (ven., 02 mai 2008) | 1 line
+
+Added IdCustomTCPServer to uses clause for TIdServerContext definition.
+------------------------------------------------------------------------
+r3089 | RemyLebeau | 2008-05-02 09:37:38 +0200 (ven., 02 mai 2008) | 1 line
+
+Removed IsItANumber() method, no longer used.
+------------------------------------------------------------------------
+r3088 | RemyLebeau | 2008-05-02 09:36:51 +0200 (ven., 02 mai 2008) | 1 line
+
+Removed TIdReplyIMAP4.IsItANumber() method, no longer used.
+------------------------------------------------------------------------
+r3087 | RemyLebeau | 2008-05-02 09:34:54 +0200 (ven., 02 mai 2008) | 1 line
+
+Added IdCustomTCPServer to uses clause for TIdServerContext definition.
+------------------------------------------------------------------------
+r3086 | RemyLebeau | 2008-05-02 09:32:52 +0200 (ven., 02 mai 2008) | 1 line
+
+Removed UseUtf8 property, no longer used
+------------------------------------------------------------------------
+r3085 | RemyLebeau | 2008-05-02 09:32:20 +0200 (ven., 02 mai 2008) | 1 line
+
+Removed commented code
+------------------------------------------------------------------------
+r3084 | RemyLebeau | 2008-05-02 09:27:05 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads
+------------------------------------------------------------------------
+r3083 | RemyLebeau | 2008-05-02 09:26:17 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads
+------------------------------------------------------------------------
+r3082 | RemyLebeau | 2008-05-02 09:25:37 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads
+------------------------------------------------------------------------
+r3081 | RemyLebeau | 2008-05-02 09:22:54 +0200 (ven., 02 mai 2008) | 1 line
+
+UTF-8 and IsAlpha()
+------------------------------------------------------------------------
+r3080 | RemyLebeau | 2008-05-02 09:22:18 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads
+------------------------------------------------------------------------
+r3079 | RemyLebeau | 2008-05-02 09:13:37 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads
+------------------------------------------------------------------------
+r3078 | RemyLebeau | 2008-05-02 09:09:10 +0200 (ven., 02 mai 2008) | 1 line
+
+UTF-8
+------------------------------------------------------------------------
+r3077 | RemyLebeau | 2008-05-02 09:04:02 +0200 (ven., 02 mai 2008) | 1 line
+
+New IsNumeric() overloads
+------------------------------------------------------------------------
+r3076 | RemyLebeau | 2008-05-02 08:40:26 +0200 (ven., 02 mai 2008) | 1 line
+
+Undefined REGISTER_EXPECTED_MEMORY_LEAK for .NET
+------------------------------------------------------------------------
+r3075 | RemyLebeau | 2008-05-02 08:36:26 +0200 (ven., 02 mai 2008) | 3 lines
+
+Replace Cardinal with LongWord.
+
+Tweak to Timeout calculation in Receive()
+------------------------------------------------------------------------
+r3074 | RemyLebeau | 2008-05-02 08:32:15 +0200 (ven., 02 mai 2008) | 1 line
+
+
+------------------------------------------------------------------------
+r3073 | RemyLebeau | 2008-05-02 08:31:59 +0200 (ven., 02 mai 2008) | 1 line
+
+
+------------------------------------------------------------------------
+r3072 | RemyLebeau | 2008-05-02 08:31:42 +0200 (ven., 02 mai 2008) | 1 line
+
+
+------------------------------------------------------------------------
+r3071 | JPeterMugaas | 2008-05-01 23:45:50 +0200 (jeu., 01 mai 2008) | 1 line
+
+Start on making FTP Server process pathnames in Unicode.
+------------------------------------------------------------------------
+r3070 | RemyLebeau | 2008-05-01 10:30:59 +0200 (jeu., 01 mai 2008) | 1 line
+
+Fix for UTCTime2DateTime() calling EncodeDate() when it should be calling EncodeTime() instead
+------------------------------------------------------------------------
+r3069 | RemyLebeau | 2008-05-01 09:33:24 +0200 (jeu., 01 mai 2008) | 1 line
+
+Added Project Groups to SVN
+------------------------------------------------------------------------
+r3068 | RemyLebeau | 2008-05-01 09:23:32 +0200 (jeu., 01 mai 2008) | 1 line
+
+Undefined REGISTER_EXPECTED_MEMORY_LEAK for .NET
+------------------------------------------------------------------------
+r3067 | RemyLebeau | 2008-05-01 09:23:02 +0200 (jeu., 01 mai 2008) | 1 line
+
+Renamed TIdContextAccess to TIdServerContextAccess
+------------------------------------------------------------------------
+r3066 | RemyLebeau | 2008-05-01 09:22:30 +0200 (jeu., 01 mai 2008) | 1 line
+
+Renamed TIdContextAccess to TIdCmdClientContextAccess
+------------------------------------------------------------------------
+r3065 | RemyLebeau | 2008-05-01 09:21:48 +0200 (jeu., 01 mai 2008) | 1 line
+
+Undefined REGISTER_EXPECTED_MEMORY_LEAK for .NET
+------------------------------------------------------------------------
+r3064 | RemyLebeau | 2008-05-01 09:21:02 +0200 (jeu., 01 mai 2008) | 1 line
+
+Undefined REGISTER_EXPECTED_MEMORY_LEAK for .NET
+------------------------------------------------------------------------
+r3063 | JPeterMugaas | 2008-04-29 10:18:58 +0200 (mar., 29 avr. 2008) | 1 line
+
+Fix for out of range error I stumbled across with the FTP client.  When decoding UTF8 in TIdIOHandler.ReadLn, LTermPos could be greater than the result string length if there's a multi byte character.
+------------------------------------------------------------------------
+r3062 | JPeterMugaas | 2008-04-25 21:36:13 +0200 (ven., 25 avr. 2008) | 1 line
+
+class methods should be public instead of published.
+------------------------------------------------------------------------
+r3061 | JPeterMugaas | 2008-04-25 21:35:40 +0200 (ven., 25 avr. 2008) | 1 line
+
+TIdContextAccess should not directly descend from TIdContext.  That doesn't work in Microsoft.NET.
+------------------------------------------------------------------------
+r3060 | JPeterMugaas | 2008-04-25 21:34:04 +0200 (ven., 25 avr. 2008) | 1 line
+
+IFDEF out memory manager stuff in VCL.NET.
+------------------------------------------------------------------------
+r3059 | JPeterMugaas | 2008-04-24 23:02:18 +0200 (jeu., 24 avr. 2008) | 1 line
+
+Remove UTF8 parsing functionality from the list parsers.  The FTP client is doing the conversions with the IOHandler.
+------------------------------------------------------------------------
+r3058 | JPeterMugaas | 2008-04-24 23:01:00 +0200 (jeu., 24 avr. 2008) | 1 line
+
+Fix bug in MLSD implementation.  It was not processing a directory listing because the stream position was not set to zero.
+------------------------------------------------------------------------
+r3057 | JPeterMugaas | 2008-04-24 21:22:06 +0200 (jeu., 24 avr. 2008) | 1 line
+
+TIdServerContext must be used instead of TIdContext for some customized servers in Indy.
+------------------------------------------------------------------------
+r3056 | JPeterMugaas | 2008-04-24 21:04:54 +0200 (jeu., 24 avr. 2008) | 1 line
+
+TIdFTPServerContextBase must descend from TIdServerContext instead of TIdContext
+------------------------------------------------------------------------
+r3055 | JPeterMugaas | 2008-04-24 09:34:22 +0200 (jeu., 24 avr. 2008) | 1 line
+
+UseMLIS should now be set to true since current FTP RFC's support the MLST command.  This change will not break much and may improve parsing.
+------------------------------------------------------------------------
+r3054 | RemyLebeau | 2008-04-23 02:18:31 +0200 (mer., 23 avr. 2008) | 1 line
+
+Removed use of System.UnicodeToUTF8String(), not an actual function
+------------------------------------------------------------------------
+r3053 | RemyLebeau | 2008-04-23 02:17:57 +0200 (mer., 23 avr. 2008) | 1 line
+
+Removed use of TIdAnsiStringStream, using TMemoryStream directly now in order to handle Unicode/UTF-8 data.
+------------------------------------------------------------------------
+r3052 | RemyLebeau | 2008-04-23 02:17:11 +0200 (mer., 23 avr. 2008) | 1 line
+
+UTF-8 changes
+------------------------------------------------------------------------
+r3051 | RemyLebeau | 2008-04-23 02:16:10 +0200 (mer., 23 avr. 2008) | 1 line
+
+Got AnsiString coding tables working now
+------------------------------------------------------------------------
+r3050 | RemyLebeau | 2008-04-23 02:14:39 +0200 (mer., 23 avr. 2008) | 1 line
+
+Removed TIdAnsiStringStream, no longer being used.  It was being used in places that need to handle Unicode data now.
+------------------------------------------------------------------------
+r3049 | RemyLebeau | 2008-04-22 23:23:38 +0200 (mar., 22 avr. 2008) | 1 line
+
+Fix for StrPLCopy() usage
+------------------------------------------------------------------------
+r3048 | RemyLebeau | 2008-04-22 23:20:16 +0200 (mar., 22 avr. 2008) | 1 line
+
+Updated to use StrPLCopy() when constructing a message header
+------------------------------------------------------------------------
+r3047 | RemyLebeau | 2008-04-22 22:55:22 +0200 (mar., 22 avr. 2008) | 1 line
+
+Reverted ConstructDecodeTable() back to use String instead of AnsiString
+------------------------------------------------------------------------
+r3046 | RemyLebeau | 2008-04-22 22:00:44 +0200 (mar., 22 avr. 2008) | 1 line
+
+Changed TIdDecoder4to3.ConstructDecodeTable() to use AnsiString explicitly
+------------------------------------------------------------------------
+r3045 | RemyLebeau | 2008-04-22 21:58:57 +0200 (mar., 22 avr. 2008) | 1 line
+
+Unicode changes
+------------------------------------------------------------------------
+r3044 | RemyLebeau | 2008-04-22 21:57:18 +0200 (mar., 22 avr. 2008) | 1 line
+
+Updated Authentication() to use new TIdDecoder.DecodeBytes() method
+------------------------------------------------------------------------
+r3043 | RemyLebeau | 2008-04-22 21:51:46 +0200 (mar., 22 avr. 2008) | 1 line
+
+Added TIdServerContext class
+------------------------------------------------------------------------
+r3042 | RemyLebeau | 2008-04-22 21:49:38 +0200 (mar., 22 avr. 2008) | 1 line
+
+Added TIdCmdClientContext class
+------------------------------------------------------------------------
+r3041 | RemyLebeau | 2008-04-22 21:47:51 +0200 (mar., 22 avr. 2008) | 1 line
+
+Fixed Range Check error in NewSocketHandle()
+------------------------------------------------------------------------
+r3040 | RemyLebeau | 2008-04-22 21:46:36 +0200 (mar., 22 avr. 2008) | 1 line
+
+Removed AnsiString cast in FixupStub() under Tiburon as a Unicode GetProcAddress() overload is now available.
+------------------------------------------------------------------------
+r3039 | RemyLebeau | 2008-04-22 21:44:15 +0200 (mar., 22 avr. 2008) | 1 line
+
+Added ALength and AIndex parameters to IsAlpha(), IsAlphaNumeric(), IsHexidecimal(), and IsOctal()
+------------------------------------------------------------------------
+r3038 | RemyLebeau | 2008-04-22 02:44:28 +0200 (mar., 22 avr. 2008) | 1 line
+
+Changed IndyRegisterExpectedMemoryLeak() to call System.SysRegisterExpectedMemoryLeak() instead of System.RegisterExpectedMemoryLeak() to avoud stack overflows when FastMM is not active.
+------------------------------------------------------------------------
+r3037 | RemyLebeau | 2008-04-18 08:28:39 +0200 (ven., 18 avr. 2008) | 1 line
+
+Unicode changes
+------------------------------------------------------------------------
+r3036 | RemyLebeau | 2008-04-18 08:23:12 +0200 (ven., 18 avr. 2008) | 1 line
+
+Updated FixupStub() to use AnsiString explicitly
+------------------------------------------------------------------------
+r3035 | RemyLebeau | 2008-04-18 08:21:32 +0200 (ven., 18 avr. 2008) | 1 line
+
+Added EncodeBytes() and DecodeBytes() methods
+------------------------------------------------------------------------
+r3034 | RemyLebeau | 2008-04-18 08:21:00 +0200 (ven., 18 avr. 2008) | 1 line
+
+More Tiburon changes
+------------------------------------------------------------------------
+r3033 | RemyLebeau | 2008-04-18 08:14:28 +0200 (ven., 18 avr. 2008) | 1 line
+
+Added TIdFTPFileName
+------------------------------------------------------------------------
+r3032 | RemyLebeau | 2008-04-18 07:58:37 +0200 (ven., 18 avr. 2008) | 1 line
+
+Updated Encode() to use UnicodeToUTF8String() in Tiburon
+------------------------------------------------------------------------
+r3031 | RemyLebeau | 2008-04-18 07:49:09 +0200 (ven., 18 avr. 2008) | 1 line
+
+Updated FillBytes() to not use FillChar() in Tiburon due to Unicode changes to Char.
+------------------------------------------------------------------------
+r3030 | RemyLebeau | 2008-04-11 07:50:11 +0200 (ven., 11 avr. 2008) | 1 line
+
+New VER200 compiler define for Tiburon
+------------------------------------------------------------------------
+r3029 | RemyLebeau | 2008-04-11 07:49:04 +0200 (ven., 11 avr. 2008) | 1 line
+
+New VER200 compiler define for Tiburon
+------------------------------------------------------------------------
+r3028 | RemyLebeau | 2008-04-11 07:44:35 +0200 (ven., 11 avr. 2008) | 1 line
+
+New VER200 compiler define for Tiburon
+------------------------------------------------------------------------
+r3027 | JPeterMugaas | 2008-04-02 02:28:26 +0200 (mer., 02 avr. 2008) | 1 line
+
+UTF8Decode is being depreciated.
+------------------------------------------------------------------------
+r3026 | RemyLebeau | 2008-04-01 10:56:41 +0200 (mar., 01 avr. 2008) | 3 lines
+
+UTF-8 tweaks.
+
+PASV transfer BoundPortMin/Max fixes
+------------------------------------------------------------------------
+r3025 | RemyLebeau | 2008-04-01 10:49:41 +0200 (mar., 01 avr. 2008) | 1 line
+
+UTF-8 tweaks
+------------------------------------------------------------------------
+r3024 | RemyLebeau | 2008-04-01 08:51:51 +0200 (mar., 01 avr. 2008) | 1 line
+
+TIdEncoding tweaks
+------------------------------------------------------------------------
+r3023 | JPeterMugaas | 2008-04-01 08:39:25 +0200 (mar., 01 avr. 2008) | 1 line
+
+Expanded FileName, LocalFileName proprties to WideChar.  The MLSD and Unix list parsers now can decode UTF8 filenames.
+------------------------------------------------------------------------
+r3022 | JPeterMugaas | 2008-04-01 08:38:32 +0200 (mar., 01 avr. 2008) | 1 line
+
+FTP should now be UTF8-aware.
+------------------------------------------------------------------------
+r3021 | JPeterMugaas | 2008-04-01 08:09:07 +0200 (mar., 01 avr. 2008) | 1 line
+
+Added DefStringEncoding property to IdIOHandler.  Exceptions for no encoding specified now use a distinct exception class and the error message string was moved down to IdResourceStrings so it can be localized.
+------------------------------------------------------------------------
+r3020 | JPeterMugaas | 2008-04-01 08:06:58 +0200 (mar., 01 avr. 2008) | 1 line
+
+ifdef out IsLeadChar in Tiburon.  
+------------------------------------------------------------------------
+r3019 | RemyLebeau | 2008-04-01 08:03:09 +0200 (mar., 01 avr. 2008) | 1 line
+
+Cleanup
+------------------------------------------------------------------------
+r3018 | RemyLebeau | 2008-04-01 07:39:52 +0200 (mar., 01 avr. 2008) | 1 line
+
+Additional AnsiChar updates
+------------------------------------------------------------------------
+r3017 | RemyLebeau | 2008-04-01 07:18:52 +0200 (mar., 01 avr. 2008) | 3 lines
+
+Added internal handlers for TIdSSLIOHandlerSocketOpenSSL events.
+
+Removed unnecessary calls to StrNew() and StrDispose().
+------------------------------------------------------------------------
+r3016 | RemyLebeau | 2008-04-01 07:04:29 +0200 (mar., 01 avr. 2008) | 1 line
+
+Removed CaseSensitive property.  No reason for GetNameFromLine() to force a name to upper-case when returned.  The caller should handle case-sensitivity on its own when needed.
+------------------------------------------------------------------------
+r3015 | RemyLebeau | 2008-04-01 06:56:14 +0200 (mar., 01 avr. 2008) | 1 line
+
+Updated CopyFileTo() to overwrite the destination file under Win32, now consistent with .NET and Linux behaviors.
+------------------------------------------------------------------------
+r3014 | RemyLebeau | 2008-04-01 05:50:34 +0200 (mar., 01 avr. 2008) | 1 line
+
+Updated CloseBinding() to not call DropMulticastMembership() if the Binding is not allocated.
+------------------------------------------------------------------------
+r3013 | RemyLebeau | 2008-04-01 05:42:55 +0200 (mar., 01 avr. 2008) | 1 line
+
+Updated MembershipSockOpt() to use the ALocalIP parameter under IPv4.  IPv6 support for the ALocalIP parameter still needs to be implemented.
+------------------------------------------------------------------------
+r3012 | RemyLebeau | 2008-04-01 05:39:51 +0200 (mar., 01 avr. 2008) | 1 line
+
+Updated ReadBytes() to call CheckForDisconnect() only if actually needed.
+------------------------------------------------------------------------
+r3011 | RemyLebeau | 2008-04-01 05:36:06 +0200 (mar., 01 avr. 2008) | 3 lines
+
+Added ABinding parameter to TIdConnectThread constructor.
+
+Tweaks to DoConnectTimeout().
+------------------------------------------------------------------------
+r3010 | RemyLebeau | 2008-04-01 05:33:54 +0200 (mar., 01 avr. 2008) | 1 line
+
+Updated TIdCmdTCPServer.DoReplyUnknownCommand() to check the TIdCommandHandlers.PerformReplies property
+------------------------------------------------------------------------
+r3009 | RemyLebeau | 2008-04-01 05:32:58 +0200 (mar., 01 avr. 2008) | 1 line
+
+Added new DoReplyUnknownCommand() method
+------------------------------------------------------------------------
+r3008 | RemyLebeau | 2008-04-01 05:26:26 +0200 (mar., 01 avr. 2008) | 1 line
+
+Added ParseParamsDefault property to TIdCommandHandlers class
+------------------------------------------------------------------------
+r3007 | JPeterMugaas | 2008-03-27 22:34:42 +0100 (jeu., 27 mars 2008) | 1 line
+
+The encode and decode string should use en8bit encoding for string conversions.
+------------------------------------------------------------------------
+r3006 | JPeterMugaas | 2008-03-27 20:42:51 +0100 (jeu., 27 mars 2008) | 1 line
+
+Do not use the encoders for en8bit in some string conversion routines.  The Windows code page (Windows 1262) may convert characters ($80-$9F) to Unicode characters that can be displayed.  That doesn't work well for 8-bit binary data that is not meant to be displayed.
+------------------------------------------------------------------------
+r3005 | JPeterMugaas | 2008-03-25 03:55:42 +0100 (mar., 25 mars 2008) | 1 line
+
+ToBytes(String,en8bit) wasn't handling 8bit byte values as we would expect.  I have verified that this fix works in Microsoft.NET and Tiburon.
+------------------------------------------------------------------------
+r3004 | JPeterMugaas | 2008-03-22 11:58:27 +0100 (sam., 22 mars 2008) | 1 line
+
+function from Marco Cant— for determining which encoder to use with ReadStringFromStream in TIdHTTP.Get.  I renamed it "ContentTypeStrToEncoding" and changed en7bit to en8bit out of concern for what would happen with binary files and because there are so many charsets.
+------------------------------------------------------------------------
+r3003 | JPeterMugaas | 2008-03-20 14:27:15 +0100 (jeu., 20 mars 2008) | 1 line
+
+Minor cleanups.  begin..end should always be used instead of "if condition" then statement.  This should help prevent error and make things more clear in the debugger.
+------------------------------------------------------------------------
+r3002 | JPeterMugaas | 2008-03-18 22:26:59 +0100 (mar., 18 mars 2008) | 1 line
+
+Move SysUtils reference to interface section to facilitate inlining in Delphi.
+------------------------------------------------------------------------
+r3001 | JPeterMugaas | 2008-03-13 15:07:07 +0100 (jeu., 13 mars 2008) | 1 line
+
+Fix for FSP in Tiburon.
+------------------------------------------------------------------------
+r3000 | olaf | 2008-03-12 21:36:59 +0100 (mer., 12 mars 2008) | 1 line
+
+Scope issue with DeleteFile fixed
+------------------------------------------------------------------------
+r2999 | olaf | 2008-03-12 20:27:56 +0100 (mer., 12 mars 2008) | 1 line
+
+Ansi/Unicode typecast fixes
+------------------------------------------------------------------------
+r2998 | olaf | 2008-03-12 20:17:44 +0100 (mer., 12 mars 2008) | 1 line
+
+Suspicious Unicode/Ansi cast warning fixed
+------------------------------------------------------------------------
+r2997 | RemyLebeau | 2008-03-11 07:06:32 +0100 (mar., 11 mars 2008) | 1 line
+
+Tweak to TIdTelnetReadThread constructor
+------------------------------------------------------------------------
+r2996 | JPeterMugaas | 2008-03-10 22:12:52 +0100 (lun., 10 mars 2008) | 1 line
+
+AnsiChar version of CharToHex for NET.  This is provided so the quotedprinter clases can compile.
+------------------------------------------------------------------------
+r2995 | JPeterMugaas | 2008-02-26 11:23:11 +0100 (mar., 26 f‚vr. 2008) | 1 line
+
+Fix to insure that this compiles.  You have to access the owner collection as a TIdCommandHandlers class to obtain the PerformReplies property value.
+------------------------------------------------------------------------
+r2994 | JPeterMugaas | 2008-02-25 16:26:54 +0100 (lun., 25 f‚vr. 2008) | 1 line
+
+TIdAnsiStringStream class replacement for TStringStream which does not work the same for Tiburon.
+------------------------------------------------------------------------
+r2993 | JPeterMugaas | 2008-02-22 09:42:21 +0100 (ven., 22 f‚vr. 2008) | 1 line
+
+Remove TStringStream usage.  It seems to cause problems and we already have some stuff in IdGlobal which works well.
+------------------------------------------------------------------------
+r2992 | RemyLebeau | 2008-02-22 09:25:22 +0100 (ven., 22 f‚vr. 2008) | 1 line
+
+Added PerformReplies property to TIdCommandHandlers class
+------------------------------------------------------------------------
+r2991 | RemyLebeau | 2008-02-22 09:24:48 +0100 (ven., 22 f‚vr. 2008) | 1 line
+
+Added PerformReplies property to TIdCommandHandlers class
+------------------------------------------------------------------------
+r2990 | JPeterMugaas | 2008-02-21 19:52:00 +0100 (jeu., 21 f‚vr. 2008) | 1 line
+
+IdCoderQuotedPrintable should now compile.  I made an overload for AnsiChar in IdGlobalProtocols.
+------------------------------------------------------------------------
+r2989 | JPeterMugaas | 2008-02-21 09:58:54 +0100 (jeu., 21 f‚vr. 2008) | 1 line
+
+Fix for password callback function.  Unless there's a Unicode API for it, the password has to be an AnsiString.
+------------------------------------------------------------------------
+r2988 | JPeterMugaas | 2008-02-17 20:26:32 +0100 (dim., 17 f‚vr. 2008) | 1 line
+
+IdWinsock fix for WIndows CE.  We don't want to typecast a string as a PWideChar.
+------------------------------------------------------------------------
+r2987 | JPeterMugaas | 2008-02-17 03:29:15 +0100 (dim., 17 f‚vr. 2008) | 1 line
+
+OpenSSL calls must all be ASCII and information from them must be processed as ASCII.
+------------------------------------------------------------------------
+r2986 | RemyLebeau | 2008-02-13 08:27:48 +0100 (mer., 13 f‚vr. 2008) | 1 line
+
+Updated IsLeadChar() to return False under Tiburon
+------------------------------------------------------------------------
+r2985 | RemyLebeau | 2008-02-13 08:25:46 +0100 (mer., 13 f‚vr. 2008) | 1 line
+
+Windows CE tweak
+------------------------------------------------------------------------
+r2984 | JPeterMugaas | 2008-02-12 23:24:51 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+Windows CE fix in SetLocalTime.
+------------------------------------------------------------------------
+r2983 | JPeterMugaas | 2008-02-12 23:04:14 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+Make sure MakeTempFilename is defined consistantly.  TFileName is probably a WideString in WindowsCE.
+------------------------------------------------------------------------
+r2982 | JPeterMugaas | 2008-02-12 22:53:16 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+In WindowsCE, GetProcAddress takes a PWideChar instead of a PAnsiChar.
+------------------------------------------------------------------------
+r2981 | JPeterMugaas | 2008-02-12 22:30:38 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+CompareString takes a PWideChar parameter in FreePascal Windows CE compiler.
+------------------------------------------------------------------------
+r2980 | JPeterMugaas | 2008-02-12 22:00:37 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+All files must have {$i IdCompilerDefines.inc} so they can be flipped into Delphi mode when compiling for FreePascal.  Besides, it's the only way that the USEINLINE define could be used.
+------------------------------------------------------------------------
+r2979 | JPeterMugaas | 2008-02-12 21:40:20 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+
+------------------------------------------------------------------------
+r2978 | JPeterMugaas | 2008-02-12 21:32:20 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+IdAboutVCL.lrs.  Lazarus resource-file.  I'm including it for testbuilding the Tiburon branch with FreePascal.
+------------------------------------------------------------------------
+r2977 | JPeterMugaas | 2008-02-12 21:28:59 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+FreePascal test suite.  This is required for Testbuilding Indy with FPCl  I'm doing from the Tiburon branch so that we don't wind up breaking something in FreePascal when coding TIburon.
+------------------------------------------------------------------------
+r2976 | RemyLebeau | 2008-02-12 12:02:24 +0100 (mar., 12 f‚vr. 2008) | 3 lines
+
+Changed CharToHex() to not use ShortString anymore, and to better support Unicode
+
+TIdFileName changes
+------------------------------------------------------------------------
+r2975 | RemyLebeau | 2008-02-12 11:38:47 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+Added IdResourceStrings to uses clause
+------------------------------------------------------------------------
+r2974 | RemyLebeau | 2008-02-12 11:38:18 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+Replacement for fDecoder.Reset() in TIdUTF8DecoderNET.ProcessByte() under .NET 1.x
+------------------------------------------------------------------------
+r2973 | RemyLebeau | 2008-02-12 11:25:33 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+Further Unicode changes
+------------------------------------------------------------------------
+r2968 | JPeterMugaas | 2008-02-12 04:12:47 +0100 (mar., 12 f‚vr. 2008) | 1 line
+
+Char to AnsiChar and String to AnsiString.  This should be more friendly to Tiburon.  We will have to see about a unicode API in OpenSSL.
+------------------------------------------------------------------------
+r2967 | JPeterMugaas | 2008-02-10 09:05:30 +0100 (dim., 10 f‚vr. 2008) | 1 line
+
+Change Char references to AnsiChar references for Tiburon.
+------------------------------------------------------------------------
+r2966 | JPeterMugaas | 2008-02-10 09:04:24 +0100 (dim., 10 f‚vr. 2008) | 2 lines
+
+Fix CharToHex to Tiburon.
+Added reference to Messages for WM_TIMECHANGE message value.
+------------------------------------------------------------------------
+r2965 | JPeterMugaas | 2008-02-10 08:56:56 +0100 (dim., 10 f‚vr. 2008) | 1 line
+
+Change Char references to AnsiChar references for Tiburon.
+------------------------------------------------------------------------
+r2964 | JPeterMugaas | 2008-02-10 08:50:31 +0100 (dim., 10 f‚vr. 2008) | 1 line
+
+Temporary workaround for issue with Assert and ShortString names.
+------------------------------------------------------------------------
+r2963 | JPeterMugaas | 2008-02-10 08:49:18 +0100 (dim., 10 f‚vr. 2008) | 1 line
+
+Copy of IdCompilerDefines.inc from System dir.
+------------------------------------------------------------------------
+r2962 | JPeterMugaas | 2008-02-10 08:47:56 +0100 (dim., 10 f‚vr. 2008) | 1 line
+
+Copy of IdCompilerDefines.inc from System directory.  All IdCompilerDefines.inc must be identical.  The ultimate fix is to consolidate all of the Indy RTL packages into one package.
+------------------------------------------------------------------------
+r2961 | JPeterMugaas | 2008-02-10 01:30:36 +0100 (dim., 10 f‚vr. 2008) | 1 line
+
+These should now compile in Tiburon.  
+------------------------------------------------------------------------
+r2960 | JPeterMugaas | 2008-02-09 08:23:13 +0100 (sam., 09 f‚vr. 2008) | 1 line
+
+I had to move the Id8BitEncoder to the interface section so things can be inlined.
+------------------------------------------------------------------------
+r2958 | JPeterMugaas | 2008-02-08 22:18:05 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Fix typeo.  IPACKRECORDS should be PACKRECORDS.
+------------------------------------------------------------------------
+r2941 | RemyLebeau | 2008-02-08 09:56:43 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Cleanup
+------------------------------------------------------------------------
+r2940 | RemyLebeau | 2008-02-08 09:36:13 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Added Clear() method
+------------------------------------------------------------------------
+r2939 | RemyLebeau | 2008-02-08 09:29:03 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Updated ConnectToHost() to no longer filter the Method type when sending post data
+------------------------------------------------------------------------
+r2938 | RemyLebeau | 2008-02-08 09:24:29 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Fixes for IndySetLocalTime()
+------------------------------------------------------------------------
+r2937 | RemyLebeau | 2008-02-08 08:49:23 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Added ALIGN statement
+------------------------------------------------------------------------
+r2936 | RemyLebeau | 2008-02-08 08:39:18 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Added setter method for TIdThreadWithTask.Task property
+------------------------------------------------------------------------
+r2935 | RemyLebeau | 2008-02-08 08:12:29 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Removed Reset() override, now redundant
+------------------------------------------------------------------------
+r2934 | RemyLebeau | 2008-02-08 08:10:56 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Removed Reset() override, now redundant
+------------------------------------------------------------------------
+r2933 | RemyLebeau | 2008-02-08 08:10:11 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Added GetSteps() override
+------------------------------------------------------------------------
+r2932 | RemyLebeau | 2008-02-08 08:09:07 +0100 (ven., 08 f‚vr. 2008) | 3 lines
+
+Changed KeepAlive() to not be abstract anymore
+
+Updated Reset() to assign the FCurrentStep member to 0
+------------------------------------------------------------------------
+r2931 | RemyLebeau | 2008-02-08 08:07:28 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Removed redundant include statement
+------------------------------------------------------------------------
+r2930 | RemyLebeau | 2008-02-08 07:58:07 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+DoStatus() cleanup
+------------------------------------------------------------------------
+r2929 | RemyLebeau | 2008-02-08 07:57:19 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+USEINLINE tweak
+------------------------------------------------------------------------
+r2928 | RemyLebeau | 2008-02-08 07:55:46 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Update version number
+------------------------------------------------------------------------
+r2927 | RemyLebeau | 2008-02-08 07:55:08 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------
+r2926 | RemyLebeau | 2008-02-08 07:53:46 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Various IPv6 and Unicode tweaks
+------------------------------------------------------------------------
+r2925 | RemyLebeau | 2008-02-08 07:49:55 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Updated various function parameters to force Ansi character pointers regardless of whether compiling for Ansi or Unicode
+------------------------------------------------------------------------
+r2924 | RemyLebeau | 2008-02-08 07:48:12 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Updated most records and functions to force Ansi character pointers to be used regardless of whether compiling for Ansi or Unicode
+------------------------------------------------------------------------
+r2923 | RemyLebeau | 2008-02-08 07:40:59 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Added Tiburon defines
+------------------------------------------------------------------------
+r2922 | RemyLebeau | 2008-02-08 07:35:37 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------
+r2921 | RemyLebeau | 2008-02-08 07:35:13 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Removed file/folder
+------------------------------------------------------------------------
+r2919 | RemyLebeau | 2008-02-08 07:28:34 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------
+r2918 | RemyLebeau | 2008-02-08 07:26:54 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------
+r2915 | RemyLebeau | 2008-02-08 07:18:01 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Added Tiburon defines
+------------------------------------------------------------------------
+r2914 | RemyLebeau | 2008-02-08 07:12:30 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------
+r2913 | RemyLebeau | 2008-02-08 07:12:10 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------
+r2912 | RemyLebeau | 2008-02-08 07:11:31 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------
+r2911 | RemyLebeau | 2008-02-08 07:04:51 +0100 (ven., 08 f‚vr. 2008) | 1 line
+
+Begin Tiburon Unicode support
+------------------------------------------------------------------------

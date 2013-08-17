@@ -1,0 +1,48 @@
+/*---------------------------------------------------------------------------
+$Id: Version.rc 465 2010-04-03 20:44:16Z anton $
+---------------------------------------------------------------------------*/
+
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+#include "custom\Custom.h"
+#include "Product.h"
+
+//
+// Version Information resources
+//
+1 VERSIONINFO
+    FILEVERSION     VER_MAJOR,VER_MINOR,VER_RELEASE,VER_BUILD
+    PRODUCTVERSION  VER_MAJOR,VER_MINOR,VER_RELEASE,VER_BUILD
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_APP
+    #ifdef _DEBUG
+        FILEFLAGS   VS_FF_DEBUG
+    #endif
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904E4"
+        {
+            VALUE "CompanyName",        PRODUCT_COMPANYNAME
+            VALUE "FileDescription",    PRODUCT_NAME
+            VALUE "FileVersion",        PRODUCT_VERSION_STRICT
+            VALUE "ProductVersion",     PRODUCT_VERSION
+            VALUE "LegalCopyright",     PRODUCT_COPYRIGHT
+            VALUE "ProductName",        PRODUCT_NAME
+            VALUE "InternalName",       PRODUCT_NAME
+	    VALUE "LegalTrademarks",    PRODUCT_TRADEMARKS		
+	    VALUE "OriginalFilename",   PRODUCT_EXE_NAME
+
+        //Custom values, need localization:
+            VALUE "Original Developer", PRODUCT_ORIGINAL_DEVELOPER
+	    VALUE "Project Manager",    PRODUCT_PROJECT_MANAGER
+	    VALUE "Bug Tracker",        PRODUCT_BUG_TRACKER
+	    VALUE "Website",        	PRODUCT_SITE_URL		
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 1033, 1252
+    }
+}

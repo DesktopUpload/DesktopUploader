@@ -1,0 +1,27 @@
+﻿/*---------------------------------------------------------------------------
+$Id: es-es.rc 451 2010-03-11 17:34:45Z fwhite $
+---------------------------------------------------------------------------*/
+
+#include "MUI.h"
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+
+STRINGTABLE
+begin
+    LANG_NOCATEGORY, "Por favor seleccione una categoría"
+    LANG_PREPARING, "Preparación"
+    LANG_PROCESSED, "Procesado"
+    LANG_PROCESSING, "Procesamiento"
+    LANG_PROCESSING_FILE, "El procesamiento de archivos"
+    LANG_UPLOADED, "Carga completa"
+    LANG_UPLOADING, "Carga"
+    LANG_USERNAME, "Nombre de usuario"
+    LANG_LOGGEDINAS, "Identificados como:  "
+    LANG_NOT_LOGGEDIN, "No conectado"
+    LANG_LOG_ON, "Inicie la sesión en"
+    LANG_LOG_ON_TO, "Inicie la sesión en"
+    LANG_USERNAME_EMPTY, "Nombre de usuario no especificado"
+    LANG_PASSWORD_EMPTY, "Contraseña no especificado"
+    LANG_INVALID_SERVER_RESPONSE, "Respuesta del servidor no válido"
+end
+

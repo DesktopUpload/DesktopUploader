@@ -1,0 +1,27 @@
+﻿/*---------------------------------------------------------------------------
+$Id: ru-ru.rc 451 2010-03-11 17:34:45Z fwhite $
+---------------------------------------------------------------------------*/
+
+#include "MUI.h"
+
+LANGUAGE LANG_RUSSIAN, SUBLANG_RUSSIAN_RUSSIA
+
+STRINGTABLE
+begin
+    LANG_NOCATEGORY, "Пожалуйста, выберите категорию"
+    LANG_PREPARING, "Подготовка"
+    LANG_PROCESSED, "Обработано"
+    LANG_PROCESSING, "Обработка"
+    LANG_PROCESSING_FILE, "Обработка файла"
+    LANG_UPLOADED, "Загружено"
+    LANG_UPLOADING, "Загружается"
+    LANG_USERNAME, "Пользователь"
+    LANG_LOGGEDINAS, "Вошел как:  "
+    LANG_NOT_LOGGEDIN, "Вход не выполнен"
+    LANG_LOG_ON, "Войти"
+    LANG_LOG_ON_TO, "Войти в"
+    LANG_USERNAME_EMPTY, "Имя пользователя не указано"
+    LANG_PASSWORD_EMPTY, "Пароль не указан"
+    LANG_INVALID_SERVER_RESPONSE, "Некорректный ответ сервера"
+end
+

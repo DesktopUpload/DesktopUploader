@@ -1,0 +1,16 @@
+[ req ]
+attributes=req_attributes
+distinguished_name=req_distinguished_name
+
+[ req_attributes ]
+challengePassword               = A challenge password
+unstructuredName                = An optional company name
+
+[ req_distinguished_name ]
+countryName		= Country Name
+stateOrProvinceName	= State or Province Name
+localityName		= Locality Name
+organizationName	= Organisation Name
+organizationalUnitName	= Organization Unit Name
+commonName		= Common Name
+emailAddress		= Email Address

@@ -1,0 +1,1254 @@
+// CodeGear C++Builder
+// Copyright (c) 1995, 2008 by CodeGear
+// All rights reserved
+
+// (DO NOT EDIT: machine generated header) 'Idresourcestringsprotocols.pas' rev: 20.00
+
+#ifndef IdresourcestringsprotocolsHPP
+#define IdresourcestringsprotocolsHPP
+
+#pragma delphiheader begin
+#pragma option push
+#pragma option -w-      // All warnings off
+#pragma option -Vx      // Zero-length empty class member functions
+#pragma pack(push,8)
+#include <System.hpp>	// Pascal unit
+#include <Sysinit.hpp>	// Pascal unit
+
+//-- user supplied -----------------------------------------------------------
+
+namespace Idresourcestringsprotocols
+{
+//-- type declarations -------------------------------------------------------
+//-- var, const, procedure ---------------------------------------------------
+extern PACKAGE System::ResourceString _RSIOHandlerPropInvalid;
+#define Idresourcestringsprotocols_RSIOHandlerPropInvalid System::LoadResourceString(&Idresourcestringsprotocols::_RSIOHandlerPropInvalid)
+extern PACKAGE System::ResourceString _RSFSPNotFound;
+#define Idresourcestringsprotocols_RSFSPNotFound System::LoadResourceString(&Idresourcestringsprotocols::_RSFSPNotFound)
+extern PACKAGE System::ResourceString _RSFSPPacketTooSmall;
+#define Idresourcestringsprotocols_RSFSPPacketTooSmall System::LoadResourceString(&Idresourcestringsprotocols::_RSFSPPacketTooSmall)
+extern PACKAGE System::ResourceString _RSASLNotSupported;
+#define Idresourcestringsprotocols_RSASLNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSASLNotSupported)
+extern PACKAGE System::ResourceString _RSASLRequired;
+#define Idresourcestringsprotocols_RSASLRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSASLRequired)
+extern PACKAGE System::ResourceString _RSASLNotValidForProt;
+#define Idresourcestringsprotocols_RSASLNotValidForProt System::LoadResourceString(&Idresourcestringsprotocols::_RSASLNotValidForProt)
+extern PACKAGE System::ResourceString _RSSASLDigestMissingAlgorithm;
+#define Idresourcestringsprotocols_RSSASLDigestMissingAlgorithm System::LoadResourceString(&Idresourcestringsprotocols::_RSSASLDigestMissingAlgorithm)
+extern PACKAGE System::ResourceString _RSSASLDigestInvalidAlgorithm;
+#define Idresourcestringsprotocols_RSSASLDigestInvalidAlgorithm System::LoadResourceString(&Idresourcestringsprotocols::_RSSASLDigestInvalidAlgorithm)
+extern PACKAGE System::ResourceString _RSSASLDigestAuthConfNotSupported;
+#define Idresourcestringsprotocols_RSSASLDigestAuthConfNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSSASLDigestAuthConfNotSupported)
+extern PACKAGE System::ResourceString _RSEMailSymbolOutsideAddress;
+#define Idresourcestringsprotocols_RSEMailSymbolOutsideAddress System::LoadResourceString(&Idresourcestringsprotocols::_RSEMailSymbolOutsideAddress)
+extern PACKAGE System::ResourceString _RSZLCompressorInitializeFailure;
+#define Idresourcestringsprotocols_RSZLCompressorInitializeFailure System::LoadResourceString(&Idresourcestringsprotocols::_RSZLCompressorInitializeFailure)
+extern PACKAGE System::ResourceString _RSZLDecompressorInitializeFailure;
+#define Idresourcestringsprotocols_RSZLDecompressorInitializeFailure System::LoadResourceString(&Idresourcestringsprotocols::_RSZLDecompressorInitializeFailure)
+extern PACKAGE System::ResourceString _RSZLCompressionError;
+#define Idresourcestringsprotocols_RSZLCompressionError System::LoadResourceString(&Idresourcestringsprotocols::_RSZLCompressionError)
+extern PACKAGE System::ResourceString _RSZLDecompressionError;
+#define Idresourcestringsprotocols_RSZLDecompressionError System::LoadResourceString(&Idresourcestringsprotocols::_RSZLDecompressionError)
+extern PACKAGE System::ResourceString _RSMIMEExtensionEmpty;
+#define Idresourcestringsprotocols_RSMIMEExtensionEmpty System::LoadResourceString(&Idresourcestringsprotocols::_RSMIMEExtensionEmpty)
+extern PACKAGE System::ResourceString _RSMIMEMIMETypeEmpty;
+#define Idresourcestringsprotocols_RSMIMEMIMETypeEmpty System::LoadResourceString(&Idresourcestringsprotocols::_RSMIMEMIMETypeEmpty)
+extern PACKAGE System::ResourceString _RSMIMEMIMEExtAlreadyExists;
+#define Idresourcestringsprotocols_RSMIMEMIMEExtAlreadyExists System::LoadResourceString(&Idresourcestringsprotocols::_RSMIMEMIMEExtAlreadyExists)
+extern PACKAGE System::ResourceString _RSRegSASL;
+#define Idresourcestringsprotocols_RSRegSASL System::LoadResourceString(&Idresourcestringsprotocols::_RSRegSASL)
+extern PACKAGE System::ResourceString _RSIdMessageCannotLoad;
+#define Idresourcestringsprotocols_RSIdMessageCannotLoad System::LoadResourceString(&Idresourcestringsprotocols::_RSIdMessageCannotLoad)
+extern PACKAGE System::ResourceString _RSMsgClientEncodingText;
+#define Idresourcestringsprotocols_RSMsgClientEncodingText System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgClientEncodingText)
+extern PACKAGE System::ResourceString _RSMsgClientEncodingAttachment;
+#define Idresourcestringsprotocols_RSMsgClientEncodingAttachment System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgClientEncodingAttachment)
+extern PACKAGE System::ResourceString _RSMsgClientUnkownMessagePartType;
+#define Idresourcestringsprotocols_RSMsgClientUnkownMessagePartType System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgClientUnkownMessagePartType)
+extern PACKAGE System::ResourceString _RSMsgClientInvalidEncoding;
+#define Idresourcestringsprotocols_RSMsgClientInvalidEncoding System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgClientInvalidEncoding)
+extern PACKAGE System::ResourceString _RSMsgClientInvalidForTransferEncoding;
+#define Idresourcestringsprotocols_RSMsgClientInvalidForTransferEncoding System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgClientInvalidForTransferEncoding)
+extern PACKAGE System::ResourceString _RSNNTPConnectionRefused;
+#define Idresourcestringsprotocols_RSNNTPConnectionRefused System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPConnectionRefused)
+extern PACKAGE System::ResourceString _RSNNTPStringListNotInitialized;
+#define Idresourcestringsprotocols_RSNNTPStringListNotInitialized System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPStringListNotInitialized)
+extern PACKAGE System::ResourceString _RSNNTPNoOnNewsgroupList;
+#define Idresourcestringsprotocols_RSNNTPNoOnNewsgroupList System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPNoOnNewsgroupList)
+extern PACKAGE System::ResourceString _RSNNTPNoOnNewGroupsList;
+#define Idresourcestringsprotocols_RSNNTPNoOnNewGroupsList System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPNoOnNewGroupsList)
+extern PACKAGE System::ResourceString _RSNNTPNoOnNewNewsList;
+#define Idresourcestringsprotocols_RSNNTPNoOnNewNewsList System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPNoOnNewNewsList)
+extern PACKAGE System::ResourceString _RSNNTPNoOnXHDREntry;
+#define Idresourcestringsprotocols_RSNNTPNoOnXHDREntry System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPNoOnXHDREntry)
+extern PACKAGE System::ResourceString _RSNNTPNoOnXOVER;
+#define Idresourcestringsprotocols_RSNNTPNoOnXOVER System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPNoOnXOVER)
+extern PACKAGE System::ResourceString _RSHTTPChunkStarted;
+#define Idresourcestringsprotocols_RSHTTPChunkStarted System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPChunkStarted)
+extern PACKAGE System::ResourceString _RSHTTPContinue;
+#define Idresourcestringsprotocols_RSHTTPContinue System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPContinue)
+extern PACKAGE System::ResourceString _RSHTTPSwitchingProtocols;
+#define Idresourcestringsprotocols_RSHTTPSwitchingProtocols System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSwitchingProtocols)
+extern PACKAGE System::ResourceString _RSHTTPOK;
+#define Idresourcestringsprotocols_RSHTTPOK System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPOK)
+extern PACKAGE System::ResourceString _RSHTTPCreated;
+#define Idresourcestringsprotocols_RSHTTPCreated System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPCreated)
+extern PACKAGE System::ResourceString _RSHTTPAccepted;
+#define Idresourcestringsprotocols_RSHTTPAccepted System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPAccepted)
+extern PACKAGE System::ResourceString _RSHTTPNonAuthoritativeInformation;
+#define Idresourcestringsprotocols_RSHTTPNonAuthoritativeInformation System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPNonAuthoritativeInformation)
+extern PACKAGE System::ResourceString _RSHTTPNoContent;
+#define Idresourcestringsprotocols_RSHTTPNoContent System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPNoContent)
+extern PACKAGE System::ResourceString _RSHTTPResetContent;
+#define Idresourcestringsprotocols_RSHTTPResetContent System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPResetContent)
+extern PACKAGE System::ResourceString _RSHTTPPartialContent;
+#define Idresourcestringsprotocols_RSHTTPPartialContent System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPPartialContent)
+extern PACKAGE System::ResourceString _RSHTTPMovedPermanently;
+#define Idresourcestringsprotocols_RSHTTPMovedPermanently System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPMovedPermanently)
+extern PACKAGE System::ResourceString _RSHTTPMovedTemporarily;
+#define Idresourcestringsprotocols_RSHTTPMovedTemporarily System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPMovedTemporarily)
+extern PACKAGE System::ResourceString _RSHTTPSeeOther;
+#define Idresourcestringsprotocols_RSHTTPSeeOther System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSeeOther)
+extern PACKAGE System::ResourceString _RSHTTPNotModified;
+#define Idresourcestringsprotocols_RSHTTPNotModified System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPNotModified)
+extern PACKAGE System::ResourceString _RSHTTPUseProxy;
+#define Idresourcestringsprotocols_RSHTTPUseProxy System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPUseProxy)
+extern PACKAGE System::ResourceString _RSHTTPBadRequest;
+#define Idresourcestringsprotocols_RSHTTPBadRequest System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPBadRequest)
+extern PACKAGE System::ResourceString _RSHTTPUnauthorized;
+#define Idresourcestringsprotocols_RSHTTPUnauthorized System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPUnauthorized)
+extern PACKAGE System::ResourceString _RSHTTPForbidden;
+#define Idresourcestringsprotocols_RSHTTPForbidden System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPForbidden)
+extern PACKAGE System::ResourceString _RSHTTPNotFound;
+#define Idresourcestringsprotocols_RSHTTPNotFound System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPNotFound)
+extern PACKAGE System::ResourceString _RSHTTPMethodNotAllowed;
+#define Idresourcestringsprotocols_RSHTTPMethodNotAllowed System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPMethodNotAllowed)
+extern PACKAGE System::ResourceString _RSHTTPNotAcceptable;
+#define Idresourcestringsprotocols_RSHTTPNotAcceptable System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPNotAcceptable)
+extern PACKAGE System::ResourceString _RSHTTPProxyAuthenticationRequired;
+#define Idresourcestringsprotocols_RSHTTPProxyAuthenticationRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPProxyAuthenticationRequired)
+extern PACKAGE System::ResourceString _RSHTTPRequestTimeout;
+#define Idresourcestringsprotocols_RSHTTPRequestTimeout System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPRequestTimeout)
+extern PACKAGE System::ResourceString _RSHTTPConflict;
+#define Idresourcestringsprotocols_RSHTTPConflict System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPConflict)
+extern PACKAGE System::ResourceString _RSHTTPGone;
+#define Idresourcestringsprotocols_RSHTTPGone System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPGone)
+extern PACKAGE System::ResourceString _RSHTTPLengthRequired;
+#define Idresourcestringsprotocols_RSHTTPLengthRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPLengthRequired)
+extern PACKAGE System::ResourceString _RSHTTPPreconditionFailed;
+#define Idresourcestringsprotocols_RSHTTPPreconditionFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPPreconditionFailed)
+extern PACKAGE System::ResourceString _RSHTTPRequestEntityToLong;
+#define Idresourcestringsprotocols_RSHTTPRequestEntityToLong System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPRequestEntityToLong)
+extern PACKAGE System::ResourceString _RSHTTPRequestURITooLong;
+#define Idresourcestringsprotocols_RSHTTPRequestURITooLong System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPRequestURITooLong)
+extern PACKAGE System::ResourceString _RSHTTPUnsupportedMediaType;
+#define Idresourcestringsprotocols_RSHTTPUnsupportedMediaType System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPUnsupportedMediaType)
+extern PACKAGE System::ResourceString _RSHTTPExpectationFailed;
+#define Idresourcestringsprotocols_RSHTTPExpectationFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPExpectationFailed)
+extern PACKAGE System::ResourceString _RSHTTPInternalServerError;
+#define Idresourcestringsprotocols_RSHTTPInternalServerError System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPInternalServerError)
+extern PACKAGE System::ResourceString _RSHTTPNotImplemented;
+#define Idresourcestringsprotocols_RSHTTPNotImplemented System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPNotImplemented)
+extern PACKAGE System::ResourceString _RSHTTPBadGateway;
+#define Idresourcestringsprotocols_RSHTTPBadGateway System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPBadGateway)
+extern PACKAGE System::ResourceString _RSHTTPServiceUnavailable;
+#define Idresourcestringsprotocols_RSHTTPServiceUnavailable System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPServiceUnavailable)
+extern PACKAGE System::ResourceString _RSHTTPGatewayTimeout;
+#define Idresourcestringsprotocols_RSHTTPGatewayTimeout System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPGatewayTimeout)
+extern PACKAGE System::ResourceString _RSHTTPHTTPVersionNotSupported;
+#define Idresourcestringsprotocols_RSHTTPHTTPVersionNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPHTTPVersionNotSupported)
+extern PACKAGE System::ResourceString _RSHTTPUnknownResponseCode;
+#define Idresourcestringsprotocols_RSHTTPUnknownResponseCode System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPUnknownResponseCode)
+extern PACKAGE System::ResourceString _RSHTTPUnknownProtocol;
+#define Idresourcestringsprotocols_RSHTTPUnknownProtocol System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPUnknownProtocol)
+extern PACKAGE System::ResourceString _RSHTTPMethodRequiresVersion;
+#define Idresourcestringsprotocols_RSHTTPMethodRequiresVersion System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPMethodRequiresVersion)
+extern PACKAGE System::ResourceString _RSHTTPHeaderAlreadyWritten;
+#define Idresourcestringsprotocols_RSHTTPHeaderAlreadyWritten System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPHeaderAlreadyWritten)
+extern PACKAGE System::ResourceString _RSHTTPErrorParsingCommand;
+#define Idresourcestringsprotocols_RSHTTPErrorParsingCommand System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPErrorParsingCommand)
+extern PACKAGE System::ResourceString _RSHTTPUnsupportedAuthorisationScheme;
+#define Idresourcestringsprotocols_RSHTTPUnsupportedAuthorisationScheme System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPUnsupportedAuthorisationScheme)
+extern PACKAGE System::ResourceString _RSHTTPCannotSwitchSessionStateWhenActive;
+#define Idresourcestringsprotocols_RSHTTPCannotSwitchSessionStateWhenActive System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPCannotSwitchSessionStateWhenActive)
+extern PACKAGE System::ResourceString _RSHTTPAuthAlreadyRegistered;
+#define Idresourcestringsprotocols_RSHTTPAuthAlreadyRegistered System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPAuthAlreadyRegistered)
+extern PACKAGE System::ResourceString _RSHTTPAuthInvalidHash;
+#define Idresourcestringsprotocols_RSHTTPAuthInvalidHash System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPAuthInvalidHash)
+extern PACKAGE System::ResourceString _RSHTTPSSPISuccess;
+#define Idresourcestringsprotocols_RSHTTPSSPISuccess System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPISuccess)
+extern PACKAGE System::ResourceString _RSHTTPSSPINotEnoughMem;
+#define Idresourcestringsprotocols_RSHTTPSSPINotEnoughMem System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINotEnoughMem)
+extern PACKAGE System::ResourceString _RSHTTPSSPIInvalidHandle;
+#define Idresourcestringsprotocols_RSHTTPSSPIInvalidHandle System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIInvalidHandle)
+extern PACKAGE System::ResourceString _RSHTTPSSPIFuncNotSupported;
+#define Idresourcestringsprotocols_RSHTTPSSPIFuncNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIFuncNotSupported)
+extern PACKAGE System::ResourceString _RSHTTPSSPIUnknownTarget;
+#define Idresourcestringsprotocols_RSHTTPSSPIUnknownTarget System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIUnknownTarget)
+extern PACKAGE System::ResourceString _RSHTTPSSPIInternalError;
+#define Idresourcestringsprotocols_RSHTTPSSPIInternalError System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIInternalError)
+extern PACKAGE System::ResourceString _RSHTTPSSPISecPackageNotFound;
+#define Idresourcestringsprotocols_RSHTTPSSPISecPackageNotFound System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPISecPackageNotFound)
+extern PACKAGE System::ResourceString _RSHTTPSSPINotOwner;
+#define Idresourcestringsprotocols_RSHTTPSSPINotOwner System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINotOwner)
+extern PACKAGE System::ResourceString _RSHTTPSSPIPackageCannotBeInstalled;
+#define Idresourcestringsprotocols_RSHTTPSSPIPackageCannotBeInstalled System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIPackageCannotBeInstalled)
+extern PACKAGE System::ResourceString _RSHTTPSSPIInvalidToken;
+#define Idresourcestringsprotocols_RSHTTPSSPIInvalidToken System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIInvalidToken)
+extern PACKAGE System::ResourceString _RSHTTPSSPICannotPack;
+#define Idresourcestringsprotocols_RSHTTPSSPICannotPack System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPICannotPack)
+extern PACKAGE System::ResourceString _RSHTTPSSPIQOPNotSupported;
+#define Idresourcestringsprotocols_RSHTTPSSPIQOPNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIQOPNotSupported)
+extern PACKAGE System::ResourceString _RSHTTPSSPINoImpersonation;
+#define Idresourcestringsprotocols_RSHTTPSSPINoImpersonation System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINoImpersonation)
+extern PACKAGE System::ResourceString _RSHTTPSSPILoginDenied;
+#define Idresourcestringsprotocols_RSHTTPSSPILoginDenied System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPILoginDenied)
+extern PACKAGE System::ResourceString _RSHTTPSSPIUnknownCredentials;
+#define Idresourcestringsprotocols_RSHTTPSSPIUnknownCredentials System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIUnknownCredentials)
+extern PACKAGE System::ResourceString _RSHTTPSSPINoCredentials;
+#define Idresourcestringsprotocols_RSHTTPSSPINoCredentials System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINoCredentials)
+extern PACKAGE System::ResourceString _RSHTTPSSPIMessageAltered;
+#define Idresourcestringsprotocols_RSHTTPSSPIMessageAltered System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIMessageAltered)
+extern PACKAGE System::ResourceString _RSHTTPSSPIOutOfSequence;
+#define Idresourcestringsprotocols_RSHTTPSSPIOutOfSequence System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIOutOfSequence)
+extern PACKAGE System::ResourceString _RSHTTPSSPINoAuthAuthority;
+#define Idresourcestringsprotocols_RSHTTPSSPINoAuthAuthority System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINoAuthAuthority)
+extern PACKAGE System::ResourceString _RSHTTPSSPIContinueNeeded;
+#define Idresourcestringsprotocols_RSHTTPSSPIContinueNeeded System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIContinueNeeded)
+extern PACKAGE System::ResourceString _RSHTTPSSPICompleteNeeded;
+#define Idresourcestringsprotocols_RSHTTPSSPICompleteNeeded System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPICompleteNeeded)
+extern PACKAGE System::ResourceString _RSHTTPSSPICompleteContinueNeeded;
+#define Idresourcestringsprotocols_RSHTTPSSPICompleteContinueNeeded System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPICompleteContinueNeeded)
+extern PACKAGE System::ResourceString _RSHTTPSSPILocalLogin;
+#define Idresourcestringsprotocols_RSHTTPSSPILocalLogin System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPILocalLogin)
+extern PACKAGE System::ResourceString _RSHTTPSSPIBadPackageID;
+#define Idresourcestringsprotocols_RSHTTPSSPIBadPackageID System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIBadPackageID)
+extern PACKAGE System::ResourceString _RSHTTPSSPIContextExpired;
+#define Idresourcestringsprotocols_RSHTTPSSPIContextExpired System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIContextExpired)
+extern PACKAGE System::ResourceString _RSHTTPSSPIIncompleteMessage;
+#define Idresourcestringsprotocols_RSHTTPSSPIIncompleteMessage System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIIncompleteMessage)
+extern PACKAGE System::ResourceString _RSHTTPSSPIIncompleteCredentialNotInit;
+#define Idresourcestringsprotocols_RSHTTPSSPIIncompleteCredentialNotInit System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIIncompleteCredentialNotInit)
+extern PACKAGE System::ResourceString _RSHTTPSSPIBufferTooSmall;
+#define Idresourcestringsprotocols_RSHTTPSSPIBufferTooSmall System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIBufferTooSmall)
+extern PACKAGE System::ResourceString _RSHTTPSSPIIncompleteCredentialsInit;
+#define Idresourcestringsprotocols_RSHTTPSSPIIncompleteCredentialsInit System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIIncompleteCredentialsInit)
+extern PACKAGE System::ResourceString _RSHTTPSSPIRengotiate;
+#define Idresourcestringsprotocols_RSHTTPSSPIRengotiate System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIRengotiate)
+extern PACKAGE System::ResourceString _RSHTTPSSPIWrongPrincipal;
+#define Idresourcestringsprotocols_RSHTTPSSPIWrongPrincipal System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIWrongPrincipal)
+extern PACKAGE System::ResourceString _RSHTTPSSPINoLSACode;
+#define Idresourcestringsprotocols_RSHTTPSSPINoLSACode System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINoLSACode)
+extern PACKAGE System::ResourceString _RSHTTPSSPITimeScew;
+#define Idresourcestringsprotocols_RSHTTPSSPITimeScew System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPITimeScew)
+extern PACKAGE System::ResourceString _RSHTTPSSPIUntrustedRoot;
+#define Idresourcestringsprotocols_RSHTTPSSPIUntrustedRoot System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIUntrustedRoot)
+extern PACKAGE System::ResourceString _RSHTTPSSPIIllegalMessage;
+#define Idresourcestringsprotocols_RSHTTPSSPIIllegalMessage System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIIllegalMessage)
+extern PACKAGE System::ResourceString _RSHTTPSSPICertUnknown;
+#define Idresourcestringsprotocols_RSHTTPSSPICertUnknown System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPICertUnknown)
+extern PACKAGE System::ResourceString _RSHTTPSSPICertExpired;
+#define Idresourcestringsprotocols_RSHTTPSSPICertExpired System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPICertExpired)
+extern PACKAGE System::ResourceString _RSHTTPSSPIEncryptionFailure;
+#define Idresourcestringsprotocols_RSHTTPSSPIEncryptionFailure System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIEncryptionFailure)
+extern PACKAGE System::ResourceString _RSHTTPSSPIDecryptionFailure;
+#define Idresourcestringsprotocols_RSHTTPSSPIDecryptionFailure System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIDecryptionFailure)
+extern PACKAGE System::ResourceString _RSHTTPSSPIAlgorithmMismatch;
+#define Idresourcestringsprotocols_RSHTTPSSPIAlgorithmMismatch System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIAlgorithmMismatch)
+extern PACKAGE System::ResourceString _RSHTTPSSPISecurityQOSFailure;
+#define Idresourcestringsprotocols_RSHTTPSSPISecurityQOSFailure System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPISecurityQOSFailure)
+extern PACKAGE System::ResourceString _RSHTTPSSPIUnknwonError;
+#define Idresourcestringsprotocols_RSHTTPSSPIUnknwonError System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIUnknwonError)
+extern PACKAGE System::ResourceString _RSHTTPSSPIErrorMsg;
+#define Idresourcestringsprotocols_RSHTTPSSPIErrorMsg System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIErrorMsg)
+extern PACKAGE System::ResourceString _RSHTTPSSPIInterfaceInitFailed;
+#define Idresourcestringsprotocols_RSHTTPSSPIInterfaceInitFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIInterfaceInitFailed)
+extern PACKAGE System::ResourceString _RSHTTPSSPINoPkgInfoSpecified;
+#define Idresourcestringsprotocols_RSHTTPSSPINoPkgInfoSpecified System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINoPkgInfoSpecified)
+extern PACKAGE System::ResourceString _RSHTTPSSPINoCredentialHandle;
+#define Idresourcestringsprotocols_RSHTTPSSPINoCredentialHandle System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPINoCredentialHandle)
+extern PACKAGE System::ResourceString _RSHTTPSSPICanNotChangeCredentials;
+#define Idresourcestringsprotocols_RSHTTPSSPICanNotChangeCredentials System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPICanNotChangeCredentials)
+extern PACKAGE System::ResourceString _RSHTTPSSPIUnknwonCredentialUse;
+#define Idresourcestringsprotocols_RSHTTPSSPIUnknwonCredentialUse System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIUnknwonCredentialUse)
+extern PACKAGE System::ResourceString _RSHTTPSSPIDoAuquireCredentialHandle;
+#define Idresourcestringsprotocols_RSHTTPSSPIDoAuquireCredentialHandle System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPIDoAuquireCredentialHandle)
+extern PACKAGE System::ResourceString _RSHTTPSSPICompleteTokenNotSupported;
+#define Idresourcestringsprotocols_RSHTTPSSPICompleteTokenNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSHTTPSSPICompleteTokenNotSupported)
+extern PACKAGE System::ResourceString _RSBlockIncorrectLength;
+#define Idresourcestringsprotocols_RSBlockIncorrectLength System::LoadResourceString(&Idresourcestringsprotocols::_RSBlockIncorrectLength)
+extern PACKAGE System::ResourceString _RSFTPInvalidNumberArgs;
+#define Idresourcestringsprotocols_RSFTPInvalidNumberArgs System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPInvalidNumberArgs)
+extern PACKAGE System::ResourceString _RSFTPHostNotFound;
+#define Idresourcestringsprotocols_RSFTPHostNotFound System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPHostNotFound)
+extern PACKAGE System::ResourceString _RSFTPUnknownHost;
+#define Idresourcestringsprotocols_RSFTPUnknownHost System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPUnknownHost)
+extern PACKAGE System::ResourceString _RSFTPStatusReady;
+#define Idresourcestringsprotocols_RSFTPStatusReady System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPStatusReady)
+extern PACKAGE System::ResourceString _RSFTPStatusStartTransfer;
+#define Idresourcestringsprotocols_RSFTPStatusStartTransfer System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPStatusStartTransfer)
+extern PACKAGE System::ResourceString _RSFTPStatusDoneTransfer;
+#define Idresourcestringsprotocols_RSFTPStatusDoneTransfer System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPStatusDoneTransfer)
+extern PACKAGE System::ResourceString _RSFTPStatusAbortTransfer;
+#define Idresourcestringsprotocols_RSFTPStatusAbortTransfer System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPStatusAbortTransfer)
+extern PACKAGE System::ResourceString _RSFTPProtocolMismatch;
+#define Idresourcestringsprotocols_RSFTPProtocolMismatch System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPProtocolMismatch)
+extern PACKAGE System::ResourceString _RSFTPParamError;
+#define Idresourcestringsprotocols_RSFTPParamError System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPParamError)
+extern PACKAGE System::ResourceString _RSFTPParamNotImp;
+#define Idresourcestringsprotocols_RSFTPParamNotImp System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPParamNotImp)
+extern PACKAGE System::ResourceString _RSFTPInvalidPort;
+#define Idresourcestringsprotocols_RSFTPInvalidPort System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPInvalidPort)
+extern PACKAGE System::ResourceString _RSFTPInvalidIP;
+#define Idresourcestringsprotocols_RSFTPInvalidIP System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPInvalidIP)
+extern PACKAGE System::ResourceString _RSFTPOnCustomFTPProxyReq;
+#define Idresourcestringsprotocols_RSFTPOnCustomFTPProxyReq System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPOnCustomFTPProxyReq)
+extern PACKAGE System::ResourceString _RSFTPDataConnAssuranceFailure;
+#define Idresourcestringsprotocols_RSFTPDataConnAssuranceFailure System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnAssuranceFailure)
+extern PACKAGE System::ResourceString _RSFTPProtocolNotSupported;
+#define Idresourcestringsprotocols_RSFTPProtocolNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPProtocolNotSupported)
+extern PACKAGE System::ResourceString _RSFTPMustUseExtWithIPv6;
+#define Idresourcestringsprotocols_RSFTPMustUseExtWithIPv6 System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPMustUseExtWithIPv6)
+extern PACKAGE System::ResourceString _RSFTPMustUseExtWithNATFastTrack;
+#define Idresourcestringsprotocols_RSFTPMustUseExtWithNATFastTrack System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPMustUseExtWithNATFastTrack)
+extern PACKAGE System::ResourceString _RSFTPFTPPassiveMustBeTrueWithNATFT;
+#define Idresourcestringsprotocols_RSFTPFTPPassiveMustBeTrueWithNATFT System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFTPPassiveMustBeTrueWithNATFT)
+extern PACKAGE System::ResourceString _RSFTPServerSentInvalidPort;
+#define Idresourcestringsprotocols_RSFTPServerSentInvalidPort System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPServerSentInvalidPort)
+extern PACKAGE System::ResourceString _RSInvalidFTPListingFormat;
+#define Idresourcestringsprotocols_RSInvalidFTPListingFormat System::LoadResourceString(&Idresourcestringsprotocols::_RSInvalidFTPListingFormat)
+extern PACKAGE System::ResourceString _RSFTPNoSToSWithNATFastTrack;
+#define Idresourcestringsprotocols_RSFTPNoSToSWithNATFastTrack System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoSToSWithNATFastTrack)
+extern PACKAGE System::ResourceString _RSFTPSToSNoDataProtection;
+#define Idresourcestringsprotocols_RSFTPSToSNoDataProtection System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSToSNoDataProtection)
+extern PACKAGE System::ResourceString _RSFTPSToSProtosMustBeSame;
+#define Idresourcestringsprotocols_RSFTPSToSProtosMustBeSame System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSToSProtosMustBeSame)
+extern PACKAGE System::ResourceString _RSFTPSToSSSCNNotSupported;
+#define Idresourcestringsprotocols_RSFTPSToSSSCNNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSToSSSCNNotSupported)
+extern PACKAGE System::ResourceString _RSFTPNoDataPortProtectionAfterCCC;
+#define Idresourcestringsprotocols_RSFTPNoDataPortProtectionAfterCCC System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoDataPortProtectionAfterCCC)
+extern PACKAGE System::ResourceString _RSFTPNoDataPortProtectionWOEncryption;
+#define Idresourcestringsprotocols_RSFTPNoDataPortProtectionWOEncryption System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoDataPortProtectionWOEncryption)
+extern PACKAGE System::ResourceString _RSFTPNoCCCWOEncryption;
+#define Idresourcestringsprotocols_RSFTPNoCCCWOEncryption System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoCCCWOEncryption)
+extern PACKAGE System::ResourceString _RSFTPNoAUTHWOSSL;
+#define Idresourcestringsprotocols_RSFTPNoAUTHWOSSL System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoAUTHWOSSL)
+extern PACKAGE System::ResourceString _RSFTPNoAUTHCon;
+#define Idresourcestringsprotocols_RSFTPNoAUTHCon System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoAUTHCon)
+extern PACKAGE System::ResourceString _RSFTPSToSTransferModesMusbtSame;
+#define Idresourcestringsprotocols_RSFTPSToSTransferModesMusbtSame System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSToSTransferModesMusbtSame)
+extern PACKAGE System::ResourceString _RSFTPNoListParseUnitsRegistered;
+#define Idresourcestringsprotocols_RSFTPNoListParseUnitsRegistered System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoListParseUnitsRegistered)
+extern PACKAGE System::ResourceString _RSCMDNotRecognized;
+#define Idresourcestringsprotocols_RSCMDNotRecognized System::LoadResourceString(&Idresourcestringsprotocols::_RSCMDNotRecognized)
+extern PACKAGE System::ResourceString _RSGopherNotGopherPlus;
+#define Idresourcestringsprotocols_RSGopherNotGopherPlus System::LoadResourceString(&Idresourcestringsprotocols::_RSGopherNotGopherPlus)
+extern PACKAGE System::ResourceString _RSCodeNoError;
+#define Idresourcestringsprotocols_RSCodeNoError System::LoadResourceString(&Idresourcestringsprotocols::_RSCodeNoError)
+extern PACKAGE System::ResourceString _RSCodeQueryServer;
+#define Idresourcestringsprotocols_RSCodeQueryServer System::LoadResourceString(&Idresourcestringsprotocols::_RSCodeQueryServer)
+extern PACKAGE System::ResourceString _RSCodeQueryFormat;
+#define Idresourcestringsprotocols_RSCodeQueryFormat System::LoadResourceString(&Idresourcestringsprotocols::_RSCodeQueryFormat)
+extern PACKAGE System::ResourceString _RSCodeQueryName;
+#define Idresourcestringsprotocols_RSCodeQueryName System::LoadResourceString(&Idresourcestringsprotocols::_RSCodeQueryName)
+extern PACKAGE System::ResourceString _RSCodeQueryNotImplemented;
+#define Idresourcestringsprotocols_RSCodeQueryNotImplemented System::LoadResourceString(&Idresourcestringsprotocols::_RSCodeQueryNotImplemented)
+extern PACKAGE System::ResourceString _RSCodeQueryQueryRefused;
+#define Idresourcestringsprotocols_RSCodeQueryQueryRefused System::LoadResourceString(&Idresourcestringsprotocols::_RSCodeQueryQueryRefused)
+extern PACKAGE System::ResourceString _RSCodeQueryUnknownError;
+#define Idresourcestringsprotocols_RSCodeQueryUnknownError System::LoadResourceString(&Idresourcestringsprotocols::_RSCodeQueryUnknownError)
+extern PACKAGE System::ResourceString _RSDNSTimeout;
+#define Idresourcestringsprotocols_RSDNSTimeout System::LoadResourceString(&Idresourcestringsprotocols::_RSDNSTimeout)
+extern PACKAGE System::ResourceString _RSDNSMFIsObsolete;
+#define Idresourcestringsprotocols_RSDNSMFIsObsolete System::LoadResourceString(&Idresourcestringsprotocols::_RSDNSMFIsObsolete)
+extern PACKAGE System::ResourceString _RSDNSMDISObsolete;
+#define Idresourcestringsprotocols_RSDNSMDISObsolete System::LoadResourceString(&Idresourcestringsprotocols::_RSDNSMDISObsolete)
+extern PACKAGE System::ResourceString _RSDNSMailAObsolete;
+#define Idresourcestringsprotocols_RSDNSMailAObsolete System::LoadResourceString(&Idresourcestringsprotocols::_RSDNSMailAObsolete)
+extern PACKAGE System::ResourceString _RSDNSMailBNotImplemented;
+#define Idresourcestringsprotocols_RSDNSMailBNotImplemented System::LoadResourceString(&Idresourcestringsprotocols::_RSDNSMailBNotImplemented)
+extern PACKAGE System::ResourceString _RSQueryInvalidQueryCount;
+#define Idresourcestringsprotocols_RSQueryInvalidQueryCount System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryInvalidQueryCount)
+extern PACKAGE System::ResourceString _RSQueryInvalidPacketSize;
+#define Idresourcestringsprotocols_RSQueryInvalidPacketSize System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryInvalidPacketSize)
+extern PACKAGE System::ResourceString _RSQueryLessThanFour;
+#define Idresourcestringsprotocols_RSQueryLessThanFour System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryLessThanFour)
+extern PACKAGE System::ResourceString _RSQueryInvalidHeaderID;
+#define Idresourcestringsprotocols_RSQueryInvalidHeaderID System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryInvalidHeaderID)
+extern PACKAGE System::ResourceString _RSQueryLessThanTwelve;
+#define Idresourcestringsprotocols_RSQueryLessThanTwelve System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryLessThanTwelve)
+extern PACKAGE System::ResourceString _RSQueryPackReceivedTooSmall;
+#define Idresourcestringsprotocols_RSQueryPackReceivedTooSmall System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryPackReceivedTooSmall)
+extern PACKAGE System::ResourceString _RSQueryUnknownError;
+#define Idresourcestringsprotocols_RSQueryUnknownError System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryUnknownError)
+extern PACKAGE System::ResourceString _RSQueryInvalidIpV6;
+#define Idresourcestringsprotocols_RSQueryInvalidIpV6 System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryInvalidIpV6)
+extern PACKAGE System::ResourceString _RSQueryMustProvideSOARecord;
+#define Idresourcestringsprotocols_RSQueryMustProvideSOARecord System::LoadResourceString(&Idresourcestringsprotocols::_RSQueryMustProvideSOARecord)
+extern PACKAGE System::ResourceString _RSLPDDataFileSaved;
+#define Idresourcestringsprotocols_RSLPDDataFileSaved System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDDataFileSaved)
+extern PACKAGE System::ResourceString _RSLPDControlFileSaved;
+#define Idresourcestringsprotocols_RSLPDControlFileSaved System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDControlFileSaved)
+extern PACKAGE System::ResourceString _RSLPDDirectoryDoesNotExist;
+#define Idresourcestringsprotocols_RSLPDDirectoryDoesNotExist System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDDirectoryDoesNotExist)
+extern PACKAGE System::ResourceString _RSLPDServerStartTitle;
+#define Idresourcestringsprotocols_RSLPDServerStartTitle System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDServerStartTitle)
+extern PACKAGE System::ResourceString _RSLPDServerActive;
+#define Idresourcestringsprotocols_RSLPDServerActive System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDServerActive)
+extern PACKAGE System::ResourceString _RSLPDQueueStatus;
+#define Idresourcestringsprotocols_RSLPDQueueStatus System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDQueueStatus)
+extern PACKAGE System::ResourceString _RSLPDClosingConnection;
+#define Idresourcestringsprotocols_RSLPDClosingConnection System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDClosingConnection)
+extern PACKAGE System::ResourceString _RSLPDUnknownQueue;
+#define Idresourcestringsprotocols_RSLPDUnknownQueue System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDUnknownQueue)
+extern PACKAGE System::ResourceString _RSLPDConnectTo;
+#define Idresourcestringsprotocols_RSLPDConnectTo System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDConnectTo)
+extern PACKAGE System::ResourceString _RSLPDAbortJob;
+#define Idresourcestringsprotocols_RSLPDAbortJob System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDAbortJob)
+extern PACKAGE System::ResourceString _RSLPDReceiveControlFile;
+#define Idresourcestringsprotocols_RSLPDReceiveControlFile System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDReceiveControlFile)
+extern PACKAGE System::ResourceString _RSLPDReceiveDataFile;
+#define Idresourcestringsprotocols_RSLPDReceiveDataFile System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDReceiveDataFile)
+extern PACKAGE System::ResourceString _RSLPDNoQueuesDefined;
+#define Idresourcestringsprotocols_RSLPDNoQueuesDefined System::LoadResourceString(&Idresourcestringsprotocols::_RSLPDNoQueuesDefined)
+extern PACKAGE System::ResourceString _RSTimeOut;
+#define Idresourcestringsprotocols_RSTimeOut System::LoadResourceString(&Idresourcestringsprotocols::_RSTimeOut)
+extern PACKAGE System::ResourceString _RSTFTPUnexpectedOp;
+#define Idresourcestringsprotocols_RSTFTPUnexpectedOp System::LoadResourceString(&Idresourcestringsprotocols::_RSTFTPUnexpectedOp)
+extern PACKAGE System::ResourceString _RSTFTPUnsupportedTrxMode;
+#define Idresourcestringsprotocols_RSTFTPUnsupportedTrxMode System::LoadResourceString(&Idresourcestringsprotocols::_RSTFTPUnsupportedTrxMode)
+extern PACKAGE System::ResourceString _RSTFTPDiskFull;
+#define Idresourcestringsprotocols_RSTFTPDiskFull System::LoadResourceString(&Idresourcestringsprotocols::_RSTFTPDiskFull)
+extern PACKAGE System::ResourceString _RSTFTPFileNotFound;
+#define Idresourcestringsprotocols_RSTFTPFileNotFound System::LoadResourceString(&Idresourcestringsprotocols::_RSTFTPFileNotFound)
+extern PACKAGE System::ResourceString _RSTFTPAccessDenied;
+#define Idresourcestringsprotocols_RSTFTPAccessDenied System::LoadResourceString(&Idresourcestringsprotocols::_RSTFTPAccessDenied)
+extern PACKAGE System::ResourceString _RSTIdTextInvalidCount;
+#define Idresourcestringsprotocols_RSTIdTextInvalidCount System::LoadResourceString(&Idresourcestringsprotocols::_RSTIdTextInvalidCount)
+extern PACKAGE System::ResourceString _RSTIdMessagePartCreate;
+#define Idresourcestringsprotocols_RSTIdMessagePartCreate System::LoadResourceString(&Idresourcestringsprotocols::_RSTIdMessagePartCreate)
+extern PACKAGE System::ResourceString _RSTIdMessageErrorSavingAttachment;
+#define Idresourcestringsprotocols_RSTIdMessageErrorSavingAttachment System::LoadResourceString(&Idresourcestringsprotocols::_RSTIdMessageErrorSavingAttachment)
+extern PACKAGE System::ResourceString _RSTIdMessageErrorAttachmentBlocked;
+#define Idresourcestringsprotocols_RSTIdMessageErrorAttachmentBlocked System::LoadResourceString(&Idresourcestringsprotocols::_RSTIdMessageErrorAttachmentBlocked)
+extern PACKAGE System::ResourceString _RSPOP3FieldNotSpecified;
+#define Idresourcestringsprotocols_RSPOP3FieldNotSpecified System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3FieldNotSpecified)
+extern PACKAGE System::ResourceString _RSPOP3UnrecognizedPOP3ResponseHeader;
+#define Idresourcestringsprotocols_RSPOP3UnrecognizedPOP3ResponseHeader System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3UnrecognizedPOP3ResponseHeader)
+extern PACKAGE System::ResourceString _RSPOP3ServerDoNotSupportAPOP;
+#define Idresourcestringsprotocols_RSPOP3ServerDoNotSupportAPOP System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3ServerDoNotSupportAPOP)
+extern PACKAGE System::ResourceString _RSIMAP4ConnectionStateError;
+#define Idresourcestringsprotocols_RSIMAP4ConnectionStateError System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4ConnectionStateError)
+extern PACKAGE System::ResourceString _RSUnrecognizedIMAP4ResponseHeader;
+#define Idresourcestringsprotocols_RSUnrecognizedIMAP4ResponseHeader System::LoadResourceString(&Idresourcestringsprotocols::_RSUnrecognizedIMAP4ResponseHeader)
+extern PACKAGE System::ResourceString _RSIMAP4NumberInvalid;
+#define Idresourcestringsprotocols_RSIMAP4NumberInvalid System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4NumberInvalid)
+extern PACKAGE System::ResourceString _RSIMAP4NumberInvalidString;
+#define Idresourcestringsprotocols_RSIMAP4NumberInvalidString System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4NumberInvalidString)
+extern PACKAGE System::ResourceString _RSIMAP4NumberInvalidDigits;
+#define Idresourcestringsprotocols_RSIMAP4NumberInvalidDigits System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4NumberInvalidDigits)
+extern PACKAGE System::ResourceString _RSIMAP4DisconnectedProbablyIdledOut;
+#define Idresourcestringsprotocols_RSIMAP4DisconnectedProbablyIdledOut System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4DisconnectedProbablyIdledOut)
+extern PACKAGE System::ResourceString _RSIMAP4UTFIllegalChar;
+#define Idresourcestringsprotocols_RSIMAP4UTFIllegalChar System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4UTFIllegalChar)
+extern PACKAGE System::ResourceString _RSIMAP4UTFIllegalBitShifting;
+#define Idresourcestringsprotocols_RSIMAP4UTFIllegalBitShifting System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4UTFIllegalBitShifting)
+extern PACKAGE System::ResourceString _RSIMAP4UTFUSASCIIInUTF;
+#define Idresourcestringsprotocols_RSIMAP4UTFUSASCIIInUTF System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4UTFUSASCIIInUTF)
+extern PACKAGE System::ResourceString _RSIMAP4ConnectionStateAny;
+#define Idresourcestringsprotocols_RSIMAP4ConnectionStateAny System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4ConnectionStateAny)
+extern PACKAGE System::ResourceString _RSIMAP4ConnectionStateNonAuthenticated;
+#define Idresourcestringsprotocols_RSIMAP4ConnectionStateNonAuthenticated System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4ConnectionStateNonAuthenticated)
+extern PACKAGE System::ResourceString _RSIMAP4ConnectionStateAuthenticated;
+#define Idresourcestringsprotocols_RSIMAP4ConnectionStateAuthenticated System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4ConnectionStateAuthenticated)
+extern PACKAGE System::ResourceString _RSIMAP4ConnectionStateSelected;
+#define Idresourcestringsprotocols_RSIMAP4ConnectionStateSelected System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4ConnectionStateSelected)
+extern PACKAGE System::ResourceString _RSTELNETSRVUsernamePrompt;
+#define Idresourcestringsprotocols_RSTELNETSRVUsernamePrompt System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETSRVUsernamePrompt)
+extern PACKAGE System::ResourceString _RSTELNETSRVPasswordPrompt;
+#define Idresourcestringsprotocols_RSTELNETSRVPasswordPrompt System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETSRVPasswordPrompt)
+extern PACKAGE System::ResourceString _RSTELNETSRVInvalidLogin;
+#define Idresourcestringsprotocols_RSTELNETSRVInvalidLogin System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETSRVInvalidLogin)
+extern PACKAGE System::ResourceString _RSTELNETSRVMaxloginAttempt;
+#define Idresourcestringsprotocols_RSTELNETSRVMaxloginAttempt System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETSRVMaxloginAttempt)
+extern PACKAGE System::ResourceString _RSTELNETSRVNoAuthHandler;
+#define Idresourcestringsprotocols_RSTELNETSRVNoAuthHandler System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETSRVNoAuthHandler)
+extern PACKAGE System::ResourceString _RSTELNETSRVWelcomeString;
+#define Idresourcestringsprotocols_RSTELNETSRVWelcomeString System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETSRVWelcomeString)
+extern PACKAGE System::ResourceString _RSTELNETSRVOnDataAvailableIsNil;
+#define Idresourcestringsprotocols_RSTELNETSRVOnDataAvailableIsNil System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETSRVOnDataAvailableIsNil)
+extern PACKAGE System::ResourceString _RSTELNETCLIConnectError;
+#define Idresourcestringsprotocols_RSTELNETCLIConnectError System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETCLIConnectError)
+extern PACKAGE System::ResourceString _RSTELNETCLIReadError;
+#define Idresourcestringsprotocols_RSTELNETCLIReadError System::LoadResourceString(&Idresourcestringsprotocols::_RSTELNETCLIReadError)
+extern PACKAGE System::ResourceString _RSNETCALInvalidIPString;
+#define Idresourcestringsprotocols_RSNETCALInvalidIPString System::LoadResourceString(&Idresourcestringsprotocols::_RSNETCALInvalidIPString)
+extern PACKAGE System::ResourceString _RSNETCALCInvalidNetworkMask;
+#define Idresourcestringsprotocols_RSNETCALCInvalidNetworkMask System::LoadResourceString(&Idresourcestringsprotocols::_RSNETCALCInvalidNetworkMask)
+extern PACKAGE System::ResourceString _RSNETCALCInvalidValueLength;
+#define Idresourcestringsprotocols_RSNETCALCInvalidValueLength System::LoadResourceString(&Idresourcestringsprotocols::_RSNETCALCInvalidValueLength)
+extern PACKAGE System::ResourceString _RSNETCALConfirmLongIPList;
+#define Idresourcestringsprotocols_RSNETCALConfirmLongIPList System::LoadResourceString(&Idresourcestringsprotocols::_RSNETCALConfirmLongIPList)
+extern PACKAGE System::ResourceString _RSIdentReplyTimeout;
+#define Idresourcestringsprotocols_RSIdentReplyTimeout System::LoadResourceString(&Idresourcestringsprotocols::_RSIdentReplyTimeout)
+extern PACKAGE System::ResourceString _RSIdentInvalidPort;
+#define Idresourcestringsprotocols_RSIdentInvalidPort System::LoadResourceString(&Idresourcestringsprotocols::_RSIdentInvalidPort)
+extern PACKAGE System::ResourceString _RSIdentNoUser;
+#define Idresourcestringsprotocols_RSIdentNoUser System::LoadResourceString(&Idresourcestringsprotocols::_RSIdentNoUser)
+extern PACKAGE System::ResourceString _RSIdentHiddenUser;
+#define Idresourcestringsprotocols_RSIdentHiddenUser System::LoadResourceString(&Idresourcestringsprotocols::_RSIdentHiddenUser)
+extern PACKAGE System::ResourceString _RSIdentUnknownError;
+#define Idresourcestringsprotocols_RSIdentUnknownError System::LoadResourceString(&Idresourcestringsprotocols::_RSIdentUnknownError)
+extern PACKAGE System::ResourceString _RSTunnelGetByteRange;
+#define Idresourcestringsprotocols_RSTunnelGetByteRange System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelGetByteRange)
+extern PACKAGE System::ResourceString _RSTunnelTransformErrorBS;
+#define Idresourcestringsprotocols_RSTunnelTransformErrorBS System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelTransformErrorBS)
+extern PACKAGE System::ResourceString _RSTunnelTransformError;
+#define Idresourcestringsprotocols_RSTunnelTransformError System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelTransformError)
+extern PACKAGE System::ResourceString _RSTunnelCRCFailed;
+#define Idresourcestringsprotocols_RSTunnelCRCFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelCRCFailed)
+extern PACKAGE System::ResourceString _RSTunnelConnectMsg;
+#define Idresourcestringsprotocols_RSTunnelConnectMsg System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelConnectMsg)
+extern PACKAGE System::ResourceString _RSTunnelDisconnectMsg;
+#define Idresourcestringsprotocols_RSTunnelDisconnectMsg System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelDisconnectMsg)
+extern PACKAGE System::ResourceString _RSTunnelConnectToMasterFailed;
+#define Idresourcestringsprotocols_RSTunnelConnectToMasterFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelConnectToMasterFailed)
+extern PACKAGE System::ResourceString _RSTunnelDontAllowConnections;
+#define Idresourcestringsprotocols_RSTunnelDontAllowConnections System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelDontAllowConnections)
+extern PACKAGE System::ResourceString _RSTunnelMessageTypeError;
+#define Idresourcestringsprotocols_RSTunnelMessageTypeError System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelMessageTypeError)
+extern PACKAGE System::ResourceString _RSTunnelMessageHandlingError;
+#define Idresourcestringsprotocols_RSTunnelMessageHandlingError System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelMessageHandlingError)
+extern PACKAGE System::ResourceString _RSTunnelMessageInterpretError;
+#define Idresourcestringsprotocols_RSTunnelMessageInterpretError System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelMessageInterpretError)
+extern PACKAGE System::ResourceString _RSTunnelMessageCustomInterpretError;
+#define Idresourcestringsprotocols_RSTunnelMessageCustomInterpretError System::LoadResourceString(&Idresourcestringsprotocols::_RSTunnelMessageCustomInterpretError)
+extern PACKAGE System::ResourceString _RSDestinationFileAlreadyExists;
+#define Idresourcestringsprotocols_RSDestinationFileAlreadyExists System::LoadResourceString(&Idresourcestringsprotocols::_RSDestinationFileAlreadyExists)
+extern PACKAGE System::ResourceString _RSSSLAcceptError;
+#define Idresourcestringsprotocols_RSSSLAcceptError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLAcceptError)
+extern PACKAGE System::ResourceString _RSSSLConnectError;
+#define Idresourcestringsprotocols_RSSSLConnectError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLConnectError)
+extern PACKAGE System::ResourceString _RSSSLSettingCipherError;
+#define Idresourcestringsprotocols_RSSSLSettingCipherError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLSettingCipherError)
+extern PACKAGE System::ResourceString _RSSSLCreatingContextError;
+#define Idresourcestringsprotocols_RSSSLCreatingContextError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLCreatingContextError)
+extern PACKAGE System::ResourceString _RSSSLLoadingRootCertError;
+#define Idresourcestringsprotocols_RSSSLLoadingRootCertError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLLoadingRootCertError)
+extern PACKAGE System::ResourceString _RSSSLLoadingCertError;
+#define Idresourcestringsprotocols_RSSSLLoadingCertError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLLoadingCertError)
+extern PACKAGE System::ResourceString _RSSSLLoadingKeyError;
+#define Idresourcestringsprotocols_RSSSLLoadingKeyError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLLoadingKeyError)
+extern PACKAGE System::ResourceString _RSSSLGetMethodError;
+#define Idresourcestringsprotocols_RSSSLGetMethodError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLGetMethodError)
+extern PACKAGE System::ResourceString _RSSSLFDSetError;
+#define Idresourcestringsprotocols_RSSSLFDSetError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLFDSetError)
+extern PACKAGE System::ResourceString _RSSSLDataBindingError;
+#define Idresourcestringsprotocols_RSSSLDataBindingError System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLDataBindingError)
+extern PACKAGE System::ResourceString _RSSSLEOFViolation;
+#define Idresourcestringsprotocols_RSSSLEOFViolation System::LoadResourceString(&Idresourcestringsprotocols::_RSSSLEOFViolation)
+extern PACKAGE System::ResourceString _RSMsgCmpEdtrNew;
+#define Idresourcestringsprotocols_RSMsgCmpEdtrNew System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgCmpEdtrNew)
+extern PACKAGE System::ResourceString _RSMsgCmpEdtrExtraHead;
+#define Idresourcestringsprotocols_RSMsgCmpEdtrExtraHead System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgCmpEdtrExtraHead)
+extern PACKAGE System::ResourceString _RSMsgCmpEdtrBodyText;
+#define Idresourcestringsprotocols_RSMsgCmpEdtrBodyText System::LoadResourceString(&Idresourcestringsprotocols::_RSMsgCmpEdtrBodyText)
+extern PACKAGE System::ResourceString _RSNNTPServerNotRecognized;
+#define Idresourcestringsprotocols_RSNNTPServerNotRecognized System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPServerNotRecognized)
+extern PACKAGE System::ResourceString _RSNNTPServerGoodBye;
+#define Idresourcestringsprotocols_RSNNTPServerGoodBye System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPServerGoodBye)
+extern PACKAGE System::ResourceString _RSNNTPSvrImplicitTLSRequiresSSL;
+#define Idresourcestringsprotocols_RSNNTPSvrImplicitTLSRequiresSSL System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPSvrImplicitTLSRequiresSSL)
+extern PACKAGE System::ResourceString _RSNNTPRetreivedArticleFollows;
+#define Idresourcestringsprotocols_RSNNTPRetreivedArticleFollows System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPRetreivedArticleFollows)
+extern PACKAGE System::ResourceString _RSNNTPRetreivedBodyFollows;
+#define Idresourcestringsprotocols_RSNNTPRetreivedBodyFollows System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPRetreivedBodyFollows)
+extern PACKAGE System::ResourceString _RSNNTPRetreivedHeaderFollows;
+#define Idresourcestringsprotocols_RSNNTPRetreivedHeaderFollows System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPRetreivedHeaderFollows)
+extern PACKAGE System::ResourceString _RSNNTPRetreivedAStaticstsOnly;
+#define Idresourcestringsprotocols_RSNNTPRetreivedAStaticstsOnly System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPRetreivedAStaticstsOnly)
+extern PACKAGE System::ResourceString _RSNTTPNewsToMeSendArticle;
+#define Idresourcestringsprotocols_RSNTTPNewsToMeSendArticle System::LoadResourceString(&Idresourcestringsprotocols::_RSNTTPNewsToMeSendArticle)
+extern PACKAGE System::ResourceString _RSNTTPArticleRetrievedRequestTextSeparately;
+#define Idresourcestringsprotocols_RSNTTPArticleRetrievedRequestTextSeparately System::LoadResourceString(&Idresourcestringsprotocols::_RSNTTPArticleRetrievedRequestTextSeparately)
+extern PACKAGE System::ResourceString _RSNTTPNotInNewsgroup;
+#define Idresourcestringsprotocols_RSNTTPNotInNewsgroup System::LoadResourceString(&Idresourcestringsprotocols::_RSNTTPNotInNewsgroup)
+extern PACKAGE System::ResourceString _RSNNTPExtSupported;
+#define Idresourcestringsprotocols_RSNNTPExtSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPExtSupported)
+extern PACKAGE System::ResourceString _RSNTTPReplyHelpTextFollows;
+#define Idresourcestringsprotocols_RSNTTPReplyHelpTextFollows System::LoadResourceString(&Idresourcestringsprotocols::_RSNTTPReplyHelpTextFollows)
+extern PACKAGE System::ResourceString _RSNTTPReplyDebugOutput;
+#define Idresourcestringsprotocols_RSNTTPReplyDebugOutput System::LoadResourceString(&Idresourcestringsprotocols::_RSNTTPReplyDebugOutput)
+extern PACKAGE System::ResourceString _RSNNTPReplySvrReadyPostingAllowed;
+#define Idresourcestringsprotocols_RSNNTPReplySvrReadyPostingAllowed System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplySvrReadyPostingAllowed)
+extern PACKAGE System::ResourceString _RSNNTPReplySvrReadyNoPostingAllowed;
+#define Idresourcestringsprotocols_RSNNTPReplySvrReadyNoPostingAllowed System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplySvrReadyNoPostingAllowed)
+extern PACKAGE System::ResourceString _RSNNTPReplySlaveStatus;
+#define Idresourcestringsprotocols_RSNNTPReplySlaveStatus System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplySlaveStatus)
+extern PACKAGE System::ResourceString _RSNNTPReplyClosingGoodby;
+#define Idresourcestringsprotocols_RSNNTPReplyClosingGoodby System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyClosingGoodby)
+extern PACKAGE System::ResourceString _RSNNTPReplyNewsgroupsFollow;
+#define Idresourcestringsprotocols_RSNNTPReplyNewsgroupsFollow System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNewsgroupsFollow)
+extern PACKAGE System::ResourceString _RSNNTPReplyHeadersFollow;
+#define Idresourcestringsprotocols_RSNNTPReplyHeadersFollow System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyHeadersFollow)
+extern PACKAGE System::ResourceString _RSNNTPReplyOverViewInfoFollows;
+#define Idresourcestringsprotocols_RSNNTPReplyOverViewInfoFollows System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyOverViewInfoFollows)
+extern PACKAGE System::ResourceString _RSNNTPReplyNewNewsgroupsFollow;
+#define Idresourcestringsprotocols_RSNNTPReplyNewNewsgroupsFollow System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNewNewsgroupsFollow)
+extern PACKAGE System::ResourceString _RSNNTPReplyArticleTransferedOk;
+#define Idresourcestringsprotocols_RSNNTPReplyArticleTransferedOk System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyArticleTransferedOk)
+extern PACKAGE System::ResourceString _RSNNTPReplyArticlePostedOk;
+#define Idresourcestringsprotocols_RSNNTPReplyArticlePostedOk System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyArticlePostedOk)
+extern PACKAGE System::ResourceString _RSNNTPReplyAuthAccepted;
+#define Idresourcestringsprotocols_RSNNTPReplyAuthAccepted System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyAuthAccepted)
+extern PACKAGE System::ResourceString _RSNNTPReplySendArtTransfer;
+#define Idresourcestringsprotocols_RSNNTPReplySendArtTransfer System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplySendArtTransfer)
+extern PACKAGE System::ResourceString _RSNNTPReplySendArtPost;
+#define Idresourcestringsprotocols_RSNNTPReplySendArtPost System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplySendArtPost)
+extern PACKAGE System::ResourceString _RSNNTPReplyMoreAuthRequired;
+#define Idresourcestringsprotocols_RSNNTPReplyMoreAuthRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyMoreAuthRequired)
+extern PACKAGE System::ResourceString _RSNNTPReplyContinueTLSNegot;
+#define Idresourcestringsprotocols_RSNNTPReplyContinueTLSNegot System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyContinueTLSNegot)
+extern PACKAGE System::ResourceString _RSNNTPReplyServiceDiscont;
+#define Idresourcestringsprotocols_RSNNTPReplyServiceDiscont System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyServiceDiscont)
+extern PACKAGE System::ResourceString _RSNNTPReplyTLSTempUnavail;
+#define Idresourcestringsprotocols_RSNNTPReplyTLSTempUnavail System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyTLSTempUnavail)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoSuchNewsgroup;
+#define Idresourcestringsprotocols_RSNNTPReplyNoSuchNewsgroup System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoSuchNewsgroup)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoNewsgroupSel;
+#define Idresourcestringsprotocols_RSNNTPReplyNoNewsgroupSel System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoNewsgroupSel)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoArticleSel;
+#define Idresourcestringsprotocols_RSNNTPReplyNoArticleSel System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoArticleSel)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoNextArt;
+#define Idresourcestringsprotocols_RSNNTPReplyNoNextArt System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoNextArt)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoPrevArt;
+#define Idresourcestringsprotocols_RSNNTPReplyNoPrevArt System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoPrevArt)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoArtNumber;
+#define Idresourcestringsprotocols_RSNNTPReplyNoArtNumber System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoArtNumber)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoArtFound;
+#define Idresourcestringsprotocols_RSNNTPReplyNoArtFound System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoArtFound)
+extern PACKAGE System::ResourceString _RSNNTPReplyArtNotWanted;
+#define Idresourcestringsprotocols_RSNNTPReplyArtNotWanted System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyArtNotWanted)
+extern PACKAGE System::ResourceString _RSNNTPReplyTransferFailed;
+#define Idresourcestringsprotocols_RSNNTPReplyTransferFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyTransferFailed)
+extern PACKAGE System::ResourceString _RSNNTPReplyArtRejected;
+#define Idresourcestringsprotocols_RSNNTPReplyArtRejected System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyArtRejected)
+extern PACKAGE System::ResourceString _RSNNTPReplyNoPosting;
+#define Idresourcestringsprotocols_RSNNTPReplyNoPosting System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyNoPosting)
+extern PACKAGE System::ResourceString _RSNNTPReplyPostingFailed;
+#define Idresourcestringsprotocols_RSNNTPReplyPostingFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyPostingFailed)
+extern PACKAGE System::ResourceString _RSNNTPReplyAuthorizationRequired;
+#define Idresourcestringsprotocols_RSNNTPReplyAuthorizationRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyAuthorizationRequired)
+extern PACKAGE System::ResourceString _RSNNTPReplyAuthorizationRejected;
+#define Idresourcestringsprotocols_RSNNTPReplyAuthorizationRejected System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyAuthorizationRejected)
+extern PACKAGE System::ResourceString _RSNNTPReplyAuthRejected;
+#define Idresourcestringsprotocols_RSNNTPReplyAuthRejected System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyAuthRejected)
+extern PACKAGE System::ResourceString _RSNNTPReplyStrongEncryptionRequired;
+#define Idresourcestringsprotocols_RSNNTPReplyStrongEncryptionRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyStrongEncryptionRequired)
+extern PACKAGE System::ResourceString _RSNNTPReplyCommandNotRec;
+#define Idresourcestringsprotocols_RSNNTPReplyCommandNotRec System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyCommandNotRec)
+extern PACKAGE System::ResourceString _RSNNTPReplyCommandSyntax;
+#define Idresourcestringsprotocols_RSNNTPReplyCommandSyntax System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyCommandSyntax)
+extern PACKAGE System::ResourceString _RSNNTPReplyPermDenied;
+#define Idresourcestringsprotocols_RSNNTPReplyPermDenied System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyPermDenied)
+extern PACKAGE System::ResourceString _RSNNTPReplyProgramFault;
+#define Idresourcestringsprotocols_RSNNTPReplyProgramFault System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplyProgramFault)
+extern PACKAGE System::ResourceString _RSNNTPReplySecAlreadyActive;
+#define Idresourcestringsprotocols_RSNNTPReplySecAlreadyActive System::LoadResourceString(&Idresourcestringsprotocols::_RSNNTPReplySecAlreadyActive)
+extern PACKAGE System::ResourceString _RSGopherServerNoProgramCode;
+#define Idresourcestringsprotocols_RSGopherServerNoProgramCode System::LoadResourceString(&Idresourcestringsprotocols::_RSGopherServerNoProgramCode)
+extern PACKAGE System::ResourceString _RSInvalidSyslogPRI;
+#define Idresourcestringsprotocols_RSInvalidSyslogPRI System::LoadResourceString(&Idresourcestringsprotocols::_RSInvalidSyslogPRI)
+extern PACKAGE System::ResourceString _RSInvalidSyslogPRINumber;
+#define Idresourcestringsprotocols_RSInvalidSyslogPRINumber System::LoadResourceString(&Idresourcestringsprotocols::_RSInvalidSyslogPRINumber)
+extern PACKAGE System::ResourceString _RSInvalidSyslogTimeStamp;
+#define Idresourcestringsprotocols_RSInvalidSyslogTimeStamp System::LoadResourceString(&Idresourcestringsprotocols::_RSInvalidSyslogTimeStamp)
+extern PACKAGE System::ResourceString _RSInvalidSyslogPacketSize;
+#define Idresourcestringsprotocols_RSInvalidSyslogPacketSize System::LoadResourceString(&Idresourcestringsprotocols::_RSInvalidSyslogPacketSize)
+extern PACKAGE System::ResourceString _RSInvalidHostName;
+#define Idresourcestringsprotocols_RSInvalidHostName System::LoadResourceString(&Idresourcestringsprotocols::_RSInvalidHostName)
+extern PACKAGE System::ResourceString _RSOSSLModeNotSet;
+#define Idresourcestringsprotocols_RSOSSLModeNotSet System::LoadResourceString(&Idresourcestringsprotocols::_RSOSSLModeNotSet)
+extern PACKAGE System::ResourceString _RSOSSLCouldNotLoadSSLLibrary;
+#define Idresourcestringsprotocols_RSOSSLCouldNotLoadSSLLibrary System::LoadResourceString(&Idresourcestringsprotocols::_RSOSSLCouldNotLoadSSLLibrary)
+extern PACKAGE System::ResourceString _RSOSSLStatusString;
+#define Idresourcestringsprotocols_RSOSSLStatusString System::LoadResourceString(&Idresourcestringsprotocols::_RSOSSLStatusString)
+extern PACKAGE System::ResourceString _RSOSSLConnectionDropped;
+#define Idresourcestringsprotocols_RSOSSLConnectionDropped System::LoadResourceString(&Idresourcestringsprotocols::_RSOSSLConnectionDropped)
+extern PACKAGE System::ResourceString _RSOSSLCertificateLookup;
+#define Idresourcestringsprotocols_RSOSSLCertificateLookup System::LoadResourceString(&Idresourcestringsprotocols::_RSOSSLCertificateLookup)
+extern PACKAGE System::ResourceString _RSOSSLInternal;
+#define Idresourcestringsprotocols_RSOSSLInternal System::LoadResourceString(&Idresourcestringsprotocols::_RSOSSLInternal)
+extern PACKAGE System::ResourceString _RSWSockStack;
+#define Idresourcestringsprotocols_RSWSockStack System::LoadResourceString(&Idresourcestringsprotocols::_RSWSockStack)
+extern PACKAGE System::ResourceString _RSSMTPSvrCmdNotRecognized;
+#define Idresourcestringsprotocols_RSSMTPSvrCmdNotRecognized System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrCmdNotRecognized)
+extern PACKAGE System::ResourceString _RSSMTPSvrQuit;
+#define Idresourcestringsprotocols_RSSMTPSvrQuit System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrQuit)
+extern PACKAGE System::ResourceString _RSSMTPSvrOk;
+#define Idresourcestringsprotocols_RSSMTPSvrOk System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrOk)
+extern PACKAGE System::ResourceString _RSSMTPSvrStartData;
+#define Idresourcestringsprotocols_RSSMTPSvrStartData System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrStartData)
+extern PACKAGE System::ResourceString _RSSMTPSvrAddressOk;
+#define Idresourcestringsprotocols_RSSMTPSvrAddressOk System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrAddressOk)
+extern PACKAGE System::ResourceString _RSSMTPSvrAddressError;
+#define Idresourcestringsprotocols_RSSMTPSvrAddressError System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrAddressError)
+extern PACKAGE System::ResourceString _RSSMTPSvrNotPermitted;
+#define Idresourcestringsprotocols_RSSMTPSvrNotPermitted System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrNotPermitted)
+extern PACKAGE System::ResourceString _RSSMTPSvrNoRelay;
+#define Idresourcestringsprotocols_RSSMTPSvrNoRelay System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrNoRelay)
+extern PACKAGE System::ResourceString _RSSMTPSvrWelcome;
+#define Idresourcestringsprotocols_RSSMTPSvrWelcome System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrWelcome)
+extern PACKAGE System::ResourceString _RSSMTPSvrHello;
+#define Idresourcestringsprotocols_RSSMTPSvrHello System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrHello)
+extern PACKAGE System::ResourceString _RSSMTPSvrNoHello;
+#define Idresourcestringsprotocols_RSSMTPSvrNoHello System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrNoHello)
+extern PACKAGE System::ResourceString _RSSMTPSvrCmdGeneralError;
+#define Idresourcestringsprotocols_RSSMTPSvrCmdGeneralError System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrCmdGeneralError)
+extern PACKAGE System::ResourceString _RSSMTPSvrXServer;
+#define Idresourcestringsprotocols_RSSMTPSvrXServer System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrXServer)
+extern PACKAGE System::ResourceString _RSSMTPSvrReceivedHeader;
+#define Idresourcestringsprotocols_RSSMTPSvrReceivedHeader System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrReceivedHeader)
+extern PACKAGE System::ResourceString _RSSMTPSvrAuthFailed;
+#define Idresourcestringsprotocols_RSSMTPSvrAuthFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrAuthFailed)
+extern PACKAGE System::ResourceString _RSSMTPSvrAddressWillForward;
+#define Idresourcestringsprotocols_RSSMTPSvrAddressWillForward System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrAddressWillForward)
+extern PACKAGE System::ResourceString _RSSMTPSvrReqSTARTTLS;
+#define Idresourcestringsprotocols_RSSMTPSvrReqSTARTTLS System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrReqSTARTTLS)
+extern PACKAGE System::ResourceString _RSSMTPSvrParmErrMailFrom;
+#define Idresourcestringsprotocols_RSSMTPSvrParmErrMailFrom System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrParmErrMailFrom)
+extern PACKAGE System::ResourceString _RSSMTPSvrParmErrRcptTo;
+#define Idresourcestringsprotocols_RSSMTPSvrParmErrRcptTo System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrParmErrRcptTo)
+extern PACKAGE System::ResourceString _RSSMTPSvrParmErr;
+#define Idresourcestringsprotocols_RSSMTPSvrParmErr System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrParmErr)
+extern PACKAGE System::ResourceString _RSSMTPSvrParmErrNoneAllowed;
+#define Idresourcestringsprotocols_RSSMTPSvrParmErrNoneAllowed System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrParmErrNoneAllowed)
+extern PACKAGE System::ResourceString _RSSMTPSvrReadyForTLS;
+#define Idresourcestringsprotocols_RSSMTPSvrReadyForTLS System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrReadyForTLS)
+extern PACKAGE System::ResourceString _RSSMTPSvrCmdErrSecurity;
+#define Idresourcestringsprotocols_RSSMTPSvrCmdErrSecurity System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrCmdErrSecurity)
+extern PACKAGE System::ResourceString _RSSMTPSvrImplicitTLSRequiresSSL;
+#define Idresourcestringsprotocols_RSSMTPSvrImplicitTLSRequiresSSL System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrImplicitTLSRequiresSSL)
+extern PACKAGE System::ResourceString _RSSMTPSvrBadSequence;
+#define Idresourcestringsprotocols_RSSMTPSvrBadSequence System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrBadSequence)
+extern PACKAGE System::ResourceString _RSSMTPNotLoggedIn;
+#define Idresourcestringsprotocols_RSSMTPNotLoggedIn System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPNotLoggedIn)
+extern PACKAGE System::ResourceString _RSSMTPMailboxUnavailable;
+#define Idresourcestringsprotocols_RSSMTPMailboxUnavailable System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPMailboxUnavailable)
+extern PACKAGE System::ResourceString _RSSMTPUserNotLocal;
+#define Idresourcestringsprotocols_RSSMTPUserNotLocal System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPUserNotLocal)
+extern PACKAGE System::ResourceString _RSSMTPUserNotLocalNoAddr;
+#define Idresourcestringsprotocols_RSSMTPUserNotLocalNoAddr System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPUserNotLocalNoAddr)
+extern PACKAGE System::ResourceString _RSSMTPUserNotLocalFwdAddr;
+#define Idresourcestringsprotocols_RSSMTPUserNotLocalFwdAddr System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPUserNotLocalFwdAddr)
+extern PACKAGE System::ResourceString _RSSMTPTooManyRecipients;
+#define Idresourcestringsprotocols_RSSMTPTooManyRecipients System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPTooManyRecipients)
+extern PACKAGE System::ResourceString _RSSMTPAccountDisabled;
+#define Idresourcestringsprotocols_RSSMTPAccountDisabled System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPAccountDisabled)
+extern PACKAGE System::ResourceString _RSSMTPLocalProcessingError;
+#define Idresourcestringsprotocols_RSSMTPLocalProcessingError System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPLocalProcessingError)
+extern PACKAGE System::ResourceString _RSSMTPNoOnRcptTo;
+#define Idresourcestringsprotocols_RSSMTPNoOnRcptTo System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPNoOnRcptTo)
+extern PACKAGE System::ResourceString _RSSMTPSvrExceededStorageAlloc;
+#define Idresourcestringsprotocols_RSSMTPSvrExceededStorageAlloc System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrExceededStorageAlloc)
+extern PACKAGE System::ResourceString _RSSMTPSvrMailBoxNameNotAllowed;
+#define Idresourcestringsprotocols_RSSMTPSvrMailBoxNameNotAllowed System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrMailBoxNameNotAllowed)
+extern PACKAGE System::ResourceString _RSSMTPSvrTransactionFailed;
+#define Idresourcestringsprotocols_RSSMTPSvrTransactionFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrTransactionFailed)
+extern PACKAGE System::ResourceString _RSSMTPSvrLocalError;
+#define Idresourcestringsprotocols_RSSMTPSvrLocalError System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrLocalError)
+extern PACKAGE System::ResourceString _RSSMTPSvrInsufficientSysStorage;
+#define Idresourcestringsprotocols_RSSMTPSvrInsufficientSysStorage System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrInsufficientSysStorage)
+extern PACKAGE System::ResourceString _RSSMTPMsgLenLimit;
+#define Idresourcestringsprotocols_RSSMTPMsgLenLimit System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPMsgLenLimit)
+extern PACKAGE System::ResourceString _RSSMTPSvrSPFCheckFailed;
+#define Idresourcestringsprotocols_RSSMTPSvrSPFCheckFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrSPFCheckFailed)
+extern PACKAGE System::ResourceString _RSSMTPSvrSPFCheckError;
+#define Idresourcestringsprotocols_RSSMTPSvrSPFCheckError System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPSvrSPFCheckError)
+extern PACKAGE System::ResourceString _RSPOP3SvrImplicitTLSRequiresSSL;
+#define Idresourcestringsprotocols_RSPOP3SvrImplicitTLSRequiresSSL System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrImplicitTLSRequiresSSL)
+extern PACKAGE System::ResourceString _RSPOP3SvrMustUseSTLS;
+#define Idresourcestringsprotocols_RSPOP3SvrMustUseSTLS System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrMustUseSTLS)
+extern PACKAGE System::ResourceString _RSPOP3SvrNotHandled;
+#define Idresourcestringsprotocols_RSPOP3SvrNotHandled System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrNotHandled)
+extern PACKAGE System::ResourceString _RSPOP3SvrNotPermittedWithTLS;
+#define Idresourcestringsprotocols_RSPOP3SvrNotPermittedWithTLS System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrNotPermittedWithTLS)
+extern PACKAGE System::ResourceString _RSPOP3SvrNotInThisState;
+#define Idresourcestringsprotocols_RSPOP3SvrNotInThisState System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrNotInThisState)
+extern PACKAGE System::ResourceString _RSPOP3SvrBeginTLSNegotiation;
+#define Idresourcestringsprotocols_RSPOP3SvrBeginTLSNegotiation System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrBeginTLSNegotiation)
+extern PACKAGE System::ResourceString _RSPOP3SvrLoginFirst;
+#define Idresourcestringsprotocols_RSPOP3SvrLoginFirst System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrLoginFirst)
+extern PACKAGE System::ResourceString _RSPOP3SvrInvalidSyntax;
+#define Idresourcestringsprotocols_RSPOP3SvrInvalidSyntax System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrInvalidSyntax)
+extern PACKAGE System::ResourceString _RSPOP3SvrClosingConnection;
+#define Idresourcestringsprotocols_RSPOP3SvrClosingConnection System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrClosingConnection)
+extern PACKAGE System::ResourceString _RSPOP3SvrPasswordRequired;
+#define Idresourcestringsprotocols_RSPOP3SvrPasswordRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrPasswordRequired)
+extern PACKAGE System::ResourceString _RSPOP3SvrLoginFailed;
+#define Idresourcestringsprotocols_RSPOP3SvrLoginFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrLoginFailed)
+extern PACKAGE System::ResourceString _RSPOP3SvrLoginOk;
+#define Idresourcestringsprotocols_RSPOP3SvrLoginOk System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrLoginOk)
+extern PACKAGE System::ResourceString _RSPOP3SvrWrongState;
+#define Idresourcestringsprotocols_RSPOP3SvrWrongState System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrWrongState)
+extern PACKAGE System::ResourceString _RSPOP3SvrInvalidMsgNo;
+#define Idresourcestringsprotocols_RSPOP3SvrInvalidMsgNo System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrInvalidMsgNo)
+extern PACKAGE System::ResourceString _RSPOP3SvrNoOp;
+#define Idresourcestringsprotocols_RSPOP3SvrNoOp System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrNoOp)
+extern PACKAGE System::ResourceString _RSPOP3SvrReset;
+#define Idresourcestringsprotocols_RSPOP3SvrReset System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrReset)
+extern PACKAGE System::ResourceString _RSPOP3SvrCapaList;
+#define Idresourcestringsprotocols_RSPOP3SvrCapaList System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrCapaList)
+extern PACKAGE System::ResourceString _RSPOP3SvrWelcome;
+#define Idresourcestringsprotocols_RSPOP3SvrWelcome System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrWelcome)
+extern PACKAGE System::ResourceString _RSPOP3SvrUnknownCmd;
+#define Idresourcestringsprotocols_RSPOP3SvrUnknownCmd System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrUnknownCmd)
+extern PACKAGE System::ResourceString _RSPOP3SvrUnknownCmdFmt;
+#define Idresourcestringsprotocols_RSPOP3SvrUnknownCmdFmt System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrUnknownCmdFmt)
+extern PACKAGE System::ResourceString _RSPOP3SvrInternalError;
+#define Idresourcestringsprotocols_RSPOP3SvrInternalError System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrInternalError)
+extern PACKAGE System::ResourceString _RSPOP3SvrHelpFollows;
+#define Idresourcestringsprotocols_RSPOP3SvrHelpFollows System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrHelpFollows)
+extern PACKAGE System::ResourceString _RSPOP3SvrTooManyCons;
+#define Idresourcestringsprotocols_RSPOP3SvrTooManyCons System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrTooManyCons)
+extern PACKAGE System::ResourceString _RSPOP3SvrWelcomeAPOP;
+#define Idresourcestringsprotocols_RSPOP3SvrWelcomeAPOP System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3SvrWelcomeAPOP)
+extern PACKAGE System::ResourceString _RSUnevenSizeInDecodeStream;
+#define Idresourcestringsprotocols_RSUnevenSizeInDecodeStream System::LoadResourceString(&Idresourcestringsprotocols::_RSUnevenSizeInDecodeStream)
+extern PACKAGE System::ResourceString _RSUnevenSizeInEncodeStream;
+#define Idresourcestringsprotocols_RSUnevenSizeInEncodeStream System::LoadResourceString(&Idresourcestringsprotocols::_RSUnevenSizeInEncodeStream)
+extern PACKAGE System::ResourceString _RSIllegalCharInInputString;
+#define Idresourcestringsprotocols_RSIllegalCharInInputString System::LoadResourceString(&Idresourcestringsprotocols::_RSIllegalCharInInputString)
+extern PACKAGE System::ResourceString _RSMessageDecoderNotFound;
+#define Idresourcestringsprotocols_RSMessageDecoderNotFound System::LoadResourceString(&Idresourcestringsprotocols::_RSMessageDecoderNotFound)
+extern PACKAGE System::ResourceString _RSMessageEncoderNotFound;
+#define Idresourcestringsprotocols_RSMessageEncoderNotFound System::LoadResourceString(&Idresourcestringsprotocols::_RSMessageEncoderNotFound)
+extern PACKAGE System::ResourceString _RSMessageCoderMIMEUnrecognizedContentTrasnferEncoding;
+#define Idresourcestringsprotocols_RSMessageCoderMIMEUnrecognizedContentTrasnferEncoding System::LoadResourceString(&Idresourcestringsprotocols::_RSMessageCoderMIMEUnrecognizedContentTrasnferEncoding)
+extern PACKAGE System::ResourceString _RSUnrecognizedUUEEncodingScheme;
+#define Idresourcestringsprotocols_RSUnrecognizedUUEEncodingScheme System::LoadResourceString(&Idresourcestringsprotocols::_RSUnrecognizedUUEEncodingScheme)
+extern PACKAGE System::ResourceString _RSFTPDefaultGreeting;
+#define Idresourcestringsprotocols_RSFTPDefaultGreeting System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDefaultGreeting)
+extern PACKAGE System::ResourceString _RSFTPOpenDataConn;
+#define Idresourcestringsprotocols_RSFTPOpenDataConn System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPOpenDataConn)
+extern PACKAGE System::ResourceString _RSFTPDataConnToOpen;
+#define Idresourcestringsprotocols_RSFTPDataConnToOpen System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnToOpen)
+extern PACKAGE System::ResourceString _RSFTPDataConnList;
+#define Idresourcestringsprotocols_RSFTPDataConnList System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnList)
+extern PACKAGE System::ResourceString _RSFTPDataConnNList;
+#define Idresourcestringsprotocols_RSFTPDataConnNList System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnNList)
+extern PACKAGE System::ResourceString _RSFTPDataConnMLst;
+#define Idresourcestringsprotocols_RSFTPDataConnMLst System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnMLst)
+extern PACKAGE System::ResourceString _RSFTPCmdSuccessful;
+#define Idresourcestringsprotocols_RSFTPCmdSuccessful System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdSuccessful)
+extern PACKAGE System::ResourceString _RSFTPServiceOpen;
+#define Idresourcestringsprotocols_RSFTPServiceOpen System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPServiceOpen)
+extern PACKAGE System::ResourceString _RSFTPServerClosed;
+#define Idresourcestringsprotocols_RSFTPServerClosed System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPServerClosed)
+extern PACKAGE System::ResourceString _RSFTPDataConn;
+#define Idresourcestringsprotocols_RSFTPDataConn System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConn)
+extern PACKAGE System::ResourceString _RSFTPDataConnClosed;
+#define Idresourcestringsprotocols_RSFTPDataConnClosed System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnClosed)
+extern PACKAGE System::ResourceString _RSFTPDataConnEPLFClosed;
+#define Idresourcestringsprotocols_RSFTPDataConnEPLFClosed System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnEPLFClosed)
+extern PACKAGE System::ResourceString _RSFTPDataConnClosedAbnormally;
+#define Idresourcestringsprotocols_RSFTPDataConnClosedAbnormally System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnClosedAbnormally)
+extern PACKAGE System::ResourceString _RSFTPPassiveMode;
+#define Idresourcestringsprotocols_RSFTPPassiveMode System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPassiveMode)
+extern PACKAGE System::ResourceString _RSFTPUserLogged;
+#define Idresourcestringsprotocols_RSFTPUserLogged System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPUserLogged)
+extern PACKAGE System::ResourceString _RSFTPAnonymousUserLogged;
+#define Idresourcestringsprotocols_RSFTPAnonymousUserLogged System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPAnonymousUserLogged)
+extern PACKAGE System::ResourceString _RSFTPFileActionCompleted;
+#define Idresourcestringsprotocols_RSFTPFileActionCompleted System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFileActionCompleted)
+extern PACKAGE System::ResourceString _RSFTPDirFileCreated;
+#define Idresourcestringsprotocols_RSFTPDirFileCreated System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDirFileCreated)
+extern PACKAGE System::ResourceString _RSFTPUserOkay;
+#define Idresourcestringsprotocols_RSFTPUserOkay System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPUserOkay)
+extern PACKAGE System::ResourceString _RSFTPAnonymousUserOkay;
+#define Idresourcestringsprotocols_RSFTPAnonymousUserOkay System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPAnonymousUserOkay)
+extern PACKAGE System::ResourceString _RSFTPNeedLoginWithUser;
+#define Idresourcestringsprotocols_RSFTPNeedLoginWithUser System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNeedLoginWithUser)
+extern PACKAGE System::ResourceString _RSFTPNotAfterAuthentication;
+#define Idresourcestringsprotocols_RSFTPNotAfterAuthentication System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNotAfterAuthentication)
+extern PACKAGE System::ResourceString _RSFTPFileActionPending;
+#define Idresourcestringsprotocols_RSFTPFileActionPending System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFileActionPending)
+extern PACKAGE System::ResourceString _RSFTPServiceNotAvailable;
+#define Idresourcestringsprotocols_RSFTPServiceNotAvailable System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPServiceNotAvailable)
+extern PACKAGE System::ResourceString _RSFTPCantOpenDataConn;
+#define Idresourcestringsprotocols_RSFTPCantOpenDataConn System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCantOpenDataConn)
+extern PACKAGE System::ResourceString _RSFTPFileActionNotTaken;
+#define Idresourcestringsprotocols_RSFTPFileActionNotTaken System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFileActionNotTaken)
+extern PACKAGE System::ResourceString _RSFTPFileActionAborted;
+#define Idresourcestringsprotocols_RSFTPFileActionAborted System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFileActionAborted)
+extern PACKAGE System::ResourceString _RSFTPEnteringEPSV;
+#define Idresourcestringsprotocols_RSFTPEnteringEPSV System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPEnteringEPSV)
+extern PACKAGE System::ResourceString _RSFTPClosingConnection;
+#define Idresourcestringsprotocols_RSFTPClosingConnection System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPClosingConnection)
+extern PACKAGE System::ResourceString _RSFTPPORTDisabled;
+#define Idresourcestringsprotocols_RSFTPPORTDisabled System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPORTDisabled)
+extern PACKAGE System::ResourceString _RSFTPPORTRange;
+#define Idresourcestringsprotocols_RSFTPPORTRange System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPORTRange)
+extern PACKAGE System::ResourceString _RSFTPSameIPAddress;
+#define Idresourcestringsprotocols_RSFTPSameIPAddress System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSameIPAddress)
+extern PACKAGE System::ResourceString _RSFTPCantOpenData;
+#define Idresourcestringsprotocols_RSFTPCantOpenData System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCantOpenData)
+extern PACKAGE System::ResourceString _RSFTPEPSVAllEntered;
+#define Idresourcestringsprotocols_RSFTPEPSVAllEntered System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPEPSVAllEntered)
+extern PACKAGE System::ResourceString _RSFTPNetProtNotSup;
+#define Idresourcestringsprotocols_RSFTPNetProtNotSup System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNetProtNotSup)
+extern PACKAGE System::ResourceString _RSFTPFileOpSuccess;
+#define Idresourcestringsprotocols_RSFTPFileOpSuccess System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFileOpSuccess)
+extern PACKAGE System::ResourceString _RSFTPIsAFile;
+#define Idresourcestringsprotocols_RSFTPIsAFile System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPIsAFile)
+extern PACKAGE System::ResourceString _RSFTPInvalidOps;
+#define Idresourcestringsprotocols_RSFTPInvalidOps System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPInvalidOps)
+extern PACKAGE System::ResourceString _RSFTPOptNotRecog;
+#define Idresourcestringsprotocols_RSFTPOptNotRecog System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPOptNotRecog)
+extern PACKAGE System::ResourceString _RSFTPPropNotNeg;
+#define Idresourcestringsprotocols_RSFTPPropNotNeg System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPropNotNeg)
+extern PACKAGE System::ResourceString _RSFTPClntNoted;
+#define Idresourcestringsprotocols_RSFTPClntNoted System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPClntNoted)
+extern PACKAGE System::ResourceString _RSFTPQuitGoodby;
+#define Idresourcestringsprotocols_RSFTPQuitGoodby System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPQuitGoodby)
+extern PACKAGE System::ResourceString _RSFTPPASVBoundPortMaxMustBeGreater;
+#define Idresourcestringsprotocols_RSFTPPASVBoundPortMaxMustBeGreater System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPASVBoundPortMaxMustBeGreater)
+extern PACKAGE System::ResourceString _RSFTPPASVBoundPortMinMustBeLess;
+#define Idresourcestringsprotocols_RSFTPPASVBoundPortMinMustBeLess System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPASVBoundPortMinMustBeLess)
+extern PACKAGE System::ResourceString _RSFTPRequestedActionNotTaken;
+#define Idresourcestringsprotocols_RSFTPRequestedActionNotTaken System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPRequestedActionNotTaken)
+extern PACKAGE System::ResourceString _RSFTPCmdNotRecognized;
+#define Idresourcestringsprotocols_RSFTPCmdNotRecognized System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdNotRecognized)
+extern PACKAGE System::ResourceString _RSFTPCmdNotImplemented;
+#define Idresourcestringsprotocols_RSFTPCmdNotImplemented System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdNotImplemented)
+extern PACKAGE System::ResourceString _RSFTPCmdHelpNotKnown;
+#define Idresourcestringsprotocols_RSFTPCmdHelpNotKnown System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdHelpNotKnown)
+extern PACKAGE System::ResourceString _RSFTPUserNotLoggedIn;
+#define Idresourcestringsprotocols_RSFTPUserNotLoggedIn System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPUserNotLoggedIn)
+extern PACKAGE System::ResourceString _RSFTPActionNotTaken;
+#define Idresourcestringsprotocols_RSFTPActionNotTaken System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPActionNotTaken)
+extern PACKAGE System::ResourceString _RSFTPActionAborted;
+#define Idresourcestringsprotocols_RSFTPActionAborted System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPActionAborted)
+extern PACKAGE System::ResourceString _RSFTPRequestedFileActionAborted;
+#define Idresourcestringsprotocols_RSFTPRequestedFileActionAborted System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPRequestedFileActionAborted)
+extern PACKAGE System::ResourceString _RSFTPRequestedFileActionNotTaken;
+#define Idresourcestringsprotocols_RSFTPRequestedFileActionNotTaken System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPRequestedFileActionNotTaken)
+extern PACKAGE System::ResourceString _RSFTPMaxConnections;
+#define Idresourcestringsprotocols_RSFTPMaxConnections System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPMaxConnections)
+extern PACKAGE System::ResourceString _RSFTPDataConnToOpenStou;
+#define Idresourcestringsprotocols_RSFTPDataConnToOpenStou System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataConnToOpenStou)
+extern PACKAGE System::ResourceString _RSFTPNeedAccountForLogin;
+#define Idresourcestringsprotocols_RSFTPNeedAccountForLogin System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNeedAccountForLogin)
+extern PACKAGE System::ResourceString _RSFTPAuthSSL;
+#define Idresourcestringsprotocols_RSFTPAuthSSL System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPAuthSSL)
+extern PACKAGE System::ResourceString _RSFTPDataProtBuffer0;
+#define Idresourcestringsprotocols_RSFTPDataProtBuffer0 System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDataProtBuffer0)
+extern PACKAGE System::ResourceString _RSFTPInvalidProtTypeForMechanism;
+#define Idresourcestringsprotocols_RSFTPInvalidProtTypeForMechanism System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPInvalidProtTypeForMechanism)
+extern PACKAGE System::ResourceString _RSFTPProtTypeClear;
+#define Idresourcestringsprotocols_RSFTPProtTypeClear System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPProtTypeClear)
+extern PACKAGE System::ResourceString _RSFTPProtTypePrivate;
+#define Idresourcestringsprotocols_RSFTPProtTypePrivate System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPProtTypePrivate)
+extern PACKAGE System::ResourceString _RSFTPClearCommandConnection;
+#define Idresourcestringsprotocols_RSFTPClearCommandConnection System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPClearCommandConnection)
+extern PACKAGE System::ResourceString _RSFTPClearCommandNotPermitted;
+#define Idresourcestringsprotocols_RSFTPClearCommandNotPermitted System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPClearCommandNotPermitted)
+extern PACKAGE System::ResourceString _RSFTPPBSZAuthDataRequired;
+#define Idresourcestringsprotocols_RSFTPPBSZAuthDataRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPBSZAuthDataRequired)
+extern PACKAGE System::ResourceString _RSFTPPBSZNotAfterCCC;
+#define Idresourcestringsprotocols_RSFTPPBSZNotAfterCCC System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPBSZNotAfterCCC)
+extern PACKAGE System::ResourceString _RSFTPPROTProtBufRequired;
+#define Idresourcestringsprotocols_RSFTPPROTProtBufRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPROTProtBufRequired)
+extern PACKAGE System::ResourceString _RSFTPInvalidForParam;
+#define Idresourcestringsprotocols_RSFTPInvalidForParam System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPInvalidForParam)
+extern PACKAGE System::ResourceString _RSFTPNotAllowedAfterEPSVAll;
+#define Idresourcestringsprotocols_RSFTPNotAllowedAfterEPSVAll System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNotAllowedAfterEPSVAll)
+extern PACKAGE System::ResourceString _RSFTPOTPMethod;
+#define Idresourcestringsprotocols_RSFTPOTPMethod System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPOTPMethod)
+extern PACKAGE System::ResourceString _RSFTPIOHandlerWrong;
+#define Idresourcestringsprotocols_RSFTPIOHandlerWrong System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPIOHandlerWrong)
+extern PACKAGE System::ResourceString _RSFTPFileNameCanNotBeEmpty;
+#define Idresourcestringsprotocols_RSFTPFileNameCanNotBeEmpty System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFileNameCanNotBeEmpty)
+extern PACKAGE System::ResourceString _RSFTPCurrentDirectoryIs;
+#define Idresourcestringsprotocols_RSFTPCurrentDirectoryIs System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCurrentDirectoryIs)
+extern PACKAGE System::ResourceString _RSFTPTYPEChanged;
+#define Idresourcestringsprotocols_RSFTPTYPEChanged System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPTYPEChanged)
+extern PACKAGE System::ResourceString _RSFTPMODEChanged;
+#define Idresourcestringsprotocols_RSFTPMODEChanged System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPMODEChanged)
+extern PACKAGE System::ResourceString _RSFTPMODENotSupported;
+#define Idresourcestringsprotocols_RSFTPMODENotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPMODENotSupported)
+extern PACKAGE System::ResourceString _RSFTPSTRUChanged;
+#define Idresourcestringsprotocols_RSFTPSTRUChanged System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSTRUChanged)
+extern PACKAGE System::ResourceString _RSFTPSITECmdsSupported;
+#define Idresourcestringsprotocols_RSFTPSITECmdsSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSITECmdsSupported)
+extern PACKAGE System::ResourceString _RSFTPDirectorySTRU;
+#define Idresourcestringsprotocols_RSFTPDirectorySTRU System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDirectorySTRU)
+extern PACKAGE System::ResourceString _RSFTPCmdStartOfStat;
+#define Idresourcestringsprotocols_RSFTPCmdStartOfStat System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdStartOfStat)
+extern PACKAGE System::ResourceString _RSFTPCmdEndOfStat;
+#define Idresourcestringsprotocols_RSFTPCmdEndOfStat System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdEndOfStat)
+extern PACKAGE System::ResourceString _RSFTPCmdExtsSupportedStart;
+#define Idresourcestringsprotocols_RSFTPCmdExtsSupportedStart System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdExtsSupportedStart)
+extern PACKAGE System::ResourceString _RSFTPCmdExtsSupportedEnd;
+#define Idresourcestringsprotocols_RSFTPCmdExtsSupportedEnd System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCmdExtsSupportedEnd)
+extern PACKAGE System::ResourceString _RSFTPNoOnDirEvent;
+#define Idresourcestringsprotocols_RSFTPNoOnDirEvent System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPNoOnDirEvent)
+extern PACKAGE System::ResourceString _RSFTPImplicitTLSRequiresSSL;
+#define Idresourcestringsprotocols_RSFTPImplicitTLSRequiresSSL System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPImplicitTLSRequiresSSL)
+extern PACKAGE System::ResourceString _RSFTPSiteATTRIBMsg;
+#define Idresourcestringsprotocols_RSFTPSiteATTRIBMsg System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSiteATTRIBMsg)
+extern PACKAGE System::ResourceString _RSFTPSiteATTRIBInvalid;
+#define Idresourcestringsprotocols_RSFTPSiteATTRIBInvalid System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSiteATTRIBInvalid)
+extern PACKAGE System::ResourceString _RSFTPSiteATTRIBDone;
+#define Idresourcestringsprotocols_RSFTPSiteATTRIBDone System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPSiteATTRIBDone)
+extern PACKAGE System::ResourceString _RSFTPUMaskIs;
+#define Idresourcestringsprotocols_RSFTPUMaskIs System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPUMaskIs)
+extern PACKAGE System::ResourceString _RSFTPUMaskSet;
+#define Idresourcestringsprotocols_RSFTPUMaskSet System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPUMaskSet)
+extern PACKAGE System::ResourceString _RSFTPPermissionDenied;
+#define Idresourcestringsprotocols_RSFTPPermissionDenied System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPPermissionDenied)
+extern PACKAGE System::ResourceString _RSFTPCHMODSuccessful;
+#define Idresourcestringsprotocols_RSFTPCHMODSuccessful System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPCHMODSuccessful)
+extern PACKAGE System::ResourceString _RSFTPHelpBegining;
+#define Idresourcestringsprotocols_RSFTPHelpBegining System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPHelpBegining)
+extern PACKAGE System::ResourceString _RSFTPOn;
+#define Idresourcestringsprotocols_RSFTPOn System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPOn)
+extern PACKAGE System::ResourceString _RSFTPOff;
+#define Idresourcestringsprotocols_RSFTPOff System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPOff)
+extern PACKAGE System::ResourceString _RSFTPDirStyle;
+#define Idresourcestringsprotocols_RSFTPDirStyle System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPDirStyle)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_KERNEL;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_KERNEL System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_KERNEL)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_USER;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_USER System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_USER)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_MAIL;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_MAIL System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_MAIL)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_SYS_DAEMON;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_SYS_DAEMON System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_SYS_DAEMON)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_SECURITY1;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_SECURITY1 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_SECURITY1)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_INTERNAL;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_INTERNAL System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_INTERNAL)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LPR;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LPR System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LPR)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_NNTP;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_NNTP System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_NNTP)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_UUCP;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_UUCP System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_UUCP)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_CLOCK1;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_CLOCK1 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_CLOCK1)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_SECURITY2;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_SECURITY2 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_SECURITY2)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_FTP;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_FTP System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_FTP)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_NTP;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_NTP System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_NTP)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_AUDIT;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_AUDIT System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_AUDIT)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_ALERT;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_ALERT System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_ALERT)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_CLOCK2;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_CLOCK2 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_CLOCK2)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL0;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL0 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL0)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL1;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL1 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL1)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL2;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL2 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL2)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL3;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL3 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL3)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL4;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL4 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL4)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL5;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL5 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL5)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL6;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL6 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL6)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_LOCAL7;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_LOCAL7 System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_LOCAL7)
+extern PACKAGE System::ResourceString _STR_SYSLOG_FACILITY_UNKNOWN;
+#define Idresourcestringsprotocols_STR_SYSLOG_FACILITY_UNKNOWN System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_FACILITY_UNKNOWN)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_EMERGENCY;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_EMERGENCY System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_EMERGENCY)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_ALERT;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_ALERT System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_ALERT)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_CRITICAL;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_CRITICAL System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_CRITICAL)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_ERROR;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_ERROR System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_ERROR)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_WARNING;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_WARNING System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_WARNING)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_NOTICE;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_NOTICE System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_NOTICE)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_INFORMATIONAL;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_INFORMATIONAL System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_INFORMATIONAL)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_DEBUG;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_DEBUG System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_DEBUG)
+extern PACKAGE System::ResourceString _STR_SYSLOG_SEVERITY_UNKNOWN;
+#define Idresourcestringsprotocols_STR_SYSLOG_SEVERITY_UNKNOWN System::LoadResourceString(&Idresourcestringsprotocols::_STR_SYSLOG_SEVERITY_UNKNOWN)
+extern PACKAGE System::ResourceString _RSLPRError;
+#define Idresourcestringsprotocols_RSLPRError System::LoadResourceString(&Idresourcestringsprotocols::_RSLPRError)
+extern PACKAGE System::ResourceString _RSLPRUnknown;
+#define Idresourcestringsprotocols_RSLPRUnknown System::LoadResourceString(&Idresourcestringsprotocols::_RSLPRUnknown)
+extern PACKAGE System::ResourceString _RSIRCCanNotConnect;
+#define Idresourcestringsprotocols_RSIRCCanNotConnect System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCCanNotConnect)
+extern PACKAGE System::ResourceString _RSIRCNotConnected;
+#define Idresourcestringsprotocols_RSIRCNotConnected System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCNotConnected)
+extern PACKAGE System::ResourceString _RSIRCClientVersion;
+#define Idresourcestringsprotocols_RSIRCClientVersion System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCClientVersion)
+extern PACKAGE System::ResourceString _RSIRCClientInfo;
+#define Idresourcestringsprotocols_RSIRCClientInfo System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCClientInfo)
+extern PACKAGE System::ResourceString _RSIRCNick;
+#define Idresourcestringsprotocols_RSIRCNick System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCNick)
+extern PACKAGE System::ResourceString _RSIRCAltNick;
+#define Idresourcestringsprotocols_RSIRCAltNick System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCAltNick)
+extern PACKAGE System::ResourceString _RSIRCUserName;
+#define Idresourcestringsprotocols_RSIRCUserName System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCUserName)
+extern PACKAGE System::ResourceString _RSIRCRealName;
+#define Idresourcestringsprotocols_RSIRCRealName System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCRealName)
+extern PACKAGE System::ResourceString _RSIRCTimeIsNow;
+#define Idresourcestringsprotocols_RSIRCTimeIsNow System::LoadResourceString(&Idresourcestringsprotocols::_RSIRCTimeIsNow)
+extern PACKAGE System::ResourceString _RSHL7StatusStopped;
+#define Idresourcestringsprotocols_RSHL7StatusStopped System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7StatusStopped)
+extern PACKAGE System::ResourceString _RSHL7StatusNotConnected;
+#define Idresourcestringsprotocols_RSHL7StatusNotConnected System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7StatusNotConnected)
+extern PACKAGE System::ResourceString _RSHL7StatusFailedToStart;
+#define Idresourcestringsprotocols_RSHL7StatusFailedToStart System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7StatusFailedToStart)
+extern PACKAGE System::ResourceString _RSHL7StatusFailedToStop;
+#define Idresourcestringsprotocols_RSHL7StatusFailedToStop System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7StatusFailedToStop)
+extern PACKAGE System::ResourceString _RSHL7StatusConnected;
+#define Idresourcestringsprotocols_RSHL7StatusConnected System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7StatusConnected)
+extern PACKAGE System::ResourceString _RSHL7StatusConnecting;
+#define Idresourcestringsprotocols_RSHL7StatusConnecting System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7StatusConnecting)
+extern PACKAGE System::ResourceString _RSHL7StatusReConnect;
+#define Idresourcestringsprotocols_RSHL7StatusReConnect System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7StatusReConnect)
+extern PACKAGE System::ResourceString _RSHL7NotWhileWorking;
+#define Idresourcestringsprotocols_RSHL7NotWhileWorking System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7NotWhileWorking)
+extern PACKAGE System::ResourceString _RSHL7NotWorking;
+#define Idresourcestringsprotocols_RSHL7NotWorking System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7NotWorking)
+extern PACKAGE System::ResourceString _RSHL7NotFailedToStop;
+#define Idresourcestringsprotocols_RSHL7NotFailedToStop System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7NotFailedToStop)
+extern PACKAGE System::ResourceString _RSHL7AlreadyStarted;
+#define Idresourcestringsprotocols_RSHL7AlreadyStarted System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7AlreadyStarted)
+extern PACKAGE System::ResourceString _RSHL7AlreadyStopped;
+#define Idresourcestringsprotocols_RSHL7AlreadyStopped System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7AlreadyStopped)
+extern PACKAGE System::ResourceString _RSHL7ModeNotSet;
+#define Idresourcestringsprotocols_RSHL7ModeNotSet System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ModeNotSet)
+extern PACKAGE System::ResourceString _RSHL7NoAsynEvent;
+#define Idresourcestringsprotocols_RSHL7NoAsynEvent System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7NoAsynEvent)
+extern PACKAGE System::ResourceString _RSHL7NoSynEvent;
+#define Idresourcestringsprotocols_RSHL7NoSynEvent System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7NoSynEvent)
+extern PACKAGE System::ResourceString _RSHL7InvalidPort;
+#define Idresourcestringsprotocols_RSHL7InvalidPort System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7InvalidPort)
+extern PACKAGE System::ResourceString _RSHL7ImpossibleMessage;
+#define Idresourcestringsprotocols_RSHL7ImpossibleMessage System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ImpossibleMessage)
+extern PACKAGE System::ResourceString _RSHL7UnexpectedMessage;
+#define Idresourcestringsprotocols_RSHL7UnexpectedMessage System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7UnexpectedMessage)
+extern PACKAGE System::ResourceString _RSHL7UnknownMode;
+#define Idresourcestringsprotocols_RSHL7UnknownMode System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7UnknownMode)
+extern PACKAGE System::ResourceString _RSHL7ClientThreadNotStopped;
+#define Idresourcestringsprotocols_RSHL7ClientThreadNotStopped System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ClientThreadNotStopped)
+extern PACKAGE System::ResourceString _RSHL7SendMessage;
+#define Idresourcestringsprotocols_RSHL7SendMessage System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7SendMessage)
+extern PACKAGE System::ResourceString _RSHL7NoConnectionFound;
+#define Idresourcestringsprotocols_RSHL7NoConnectionFound System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7NoConnectionFound)
+extern PACKAGE System::ResourceString _RSHL7WaitForAnswer;
+#define Idresourcestringsprotocols_RSHL7WaitForAnswer System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7WaitForAnswer)
+extern PACKAGE System::ResourceString _RSMFDIvalidObjectType;
+#define Idresourcestringsprotocols_RSMFDIvalidObjectType System::LoadResourceString(&Idresourcestringsprotocols::_RSMFDIvalidObjectType)
+extern PACKAGE System::ResourceString _RSHL7ErrInternalsrNone;
+#define Idresourcestringsprotocols_RSHL7ErrInternalsrNone System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ErrInternalsrNone)
+extern PACKAGE System::ResourceString _RSHL7ErrNotConn;
+#define Idresourcestringsprotocols_RSHL7ErrNotConn System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ErrNotConn)
+extern PACKAGE System::ResourceString _RSHL7ErrInternalsrSent;
+#define Idresourcestringsprotocols_RSHL7ErrInternalsrSent System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ErrInternalsrSent)
+extern PACKAGE System::ResourceString _RSHL7ErrNoResponse;
+#define Idresourcestringsprotocols_RSHL7ErrNoResponse System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ErrNoResponse)
+extern PACKAGE System::ResourceString _RSHL7ErrInternalUnknownVal;
+#define Idresourcestringsprotocols_RSHL7ErrInternalUnknownVal System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7ErrInternalUnknownVal)
+extern PACKAGE System::ResourceString _RSHL7Broken;
+#define Idresourcestringsprotocols_RSHL7Broken System::LoadResourceString(&Idresourcestringsprotocols::_RSHL7Broken)
+extern PACKAGE System::ResourceString _RSURINoProto;
+#define Idresourcestringsprotocols_RSURINoProto System::LoadResourceString(&Idresourcestringsprotocols::_RSURINoProto)
+extern PACKAGE System::ResourceString _RSURINoHost;
+#define Idresourcestringsprotocols_RSURINoHost System::LoadResourceString(&Idresourcestringsprotocols::_RSURINoHost)
+extern PACKAGE System::ResourceString _RSIHTChainedNotAssigned;
+#define Idresourcestringsprotocols_RSIHTChainedNotAssigned System::LoadResourceString(&Idresourcestringsprotocols::_RSIHTChainedNotAssigned)
+extern PACKAGE System::ResourceString _RSSNPPNoMultiLine;
+#define Idresourcestringsprotocols_RSSNPPNoMultiLine System::LoadResourceString(&Idresourcestringsprotocols::_RSSNPPNoMultiLine)
+extern PACKAGE System::ResourceString _RSUnassignedUserPassProv;
+#define Idresourcestringsprotocols_RSUnassignedUserPassProv System::LoadResourceString(&Idresourcestringsprotocols::_RSUnassignedUserPassProv)
+extern PACKAGE System::ResourceString _RSDirSMTPInvalidEMailAddress;
+#define Idresourcestringsprotocols_RSDirSMTPInvalidEMailAddress System::LoadResourceString(&Idresourcestringsprotocols::_RSDirSMTPInvalidEMailAddress)
+extern PACKAGE System::ResourceString _RSDirSMTPNoMXRecordsForDomain;
+#define Idresourcestringsprotocols_RSDirSMTPNoMXRecordsForDomain System::LoadResourceString(&Idresourcestringsprotocols::_RSDirSMTPNoMXRecordsForDomain)
+extern PACKAGE System::ResourceString _RSDirSMTPCantConnectToSMTPSvr;
+#define Idresourcestringsprotocols_RSDirSMTPCantConnectToSMTPSvr System::LoadResourceString(&Idresourcestringsprotocols::_RSDirSMTPCantConnectToSMTPSvr)
+extern PACKAGE System::ResourceString _RSDirSMTPCantAssignHost;
+#define Idresourcestringsprotocols_RSDirSMTPCantAssignHost System::LoadResourceString(&Idresourcestringsprotocols::_RSDirSMTPCantAssignHost)
+extern PACKAGE System::ResourceString _RSYencFileCorrupted;
+#define Idresourcestringsprotocols_RSYencFileCorrupted System::LoadResourceString(&Idresourcestringsprotocols::_RSYencFileCorrupted)
+extern PACKAGE System::ResourceString _RSYencInvalidSize;
+#define Idresourcestringsprotocols_RSYencInvalidSize System::LoadResourceString(&Idresourcestringsprotocols::_RSYencInvalidSize)
+extern PACKAGE System::ResourceString _RSYencInvalidCRC;
+#define Idresourcestringsprotocols_RSYencInvalidCRC System::LoadResourceString(&Idresourcestringsprotocols::_RSYencInvalidCRC)
+extern PACKAGE System::ResourceString _RSSocksSvrNotSupported;
+#define Idresourcestringsprotocols_RSSocksSvrNotSupported System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrNotSupported)
+extern PACKAGE System::ResourceString _RSSocksSvrInvalidLogin;
+#define Idresourcestringsprotocols_RSSocksSvrInvalidLogin System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrInvalidLogin)
+extern PACKAGE System::ResourceString _RSSocksSvrWrongATYP;
+#define Idresourcestringsprotocols_RSSocksSvrWrongATYP System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrWrongATYP)
+extern PACKAGE System::ResourceString _RSSocksSvrWrongSocksVersion;
+#define Idresourcestringsprotocols_RSSocksSvrWrongSocksVersion System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrWrongSocksVersion)
+extern PACKAGE System::ResourceString _RSSocksSvrWrongSocksCommand;
+#define Idresourcestringsprotocols_RSSocksSvrWrongSocksCommand System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrWrongSocksCommand)
+extern PACKAGE System::ResourceString _RSSocksSvrAccessDenied;
+#define Idresourcestringsprotocols_RSSocksSvrAccessDenied System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrAccessDenied)
+extern PACKAGE System::ResourceString _RSSocksSvrUnexpectedClose;
+#define Idresourcestringsprotocols_RSSocksSvrUnexpectedClose System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrUnexpectedClose)
+extern PACKAGE System::ResourceString _RSSocksSvrPeerMismatch;
+#define Idresourcestringsprotocols_RSSocksSvrPeerMismatch System::LoadResourceString(&Idresourcestringsprotocols::_RSSocksSvrPeerMismatch)
+extern PACKAGE System::ResourceString _RSTLSSSLIOHandlerRequired;
+#define Idresourcestringsprotocols_RSTLSSSLIOHandlerRequired System::LoadResourceString(&Idresourcestringsprotocols::_RSTLSSSLIOHandlerRequired)
+extern PACKAGE System::ResourceString _RSTLSSSLCanNotSetWhileActive;
+#define Idresourcestringsprotocols_RSTLSSSLCanNotSetWhileActive System::LoadResourceString(&Idresourcestringsprotocols::_RSTLSSSLCanNotSetWhileActive)
+extern PACKAGE System::ResourceString _RSTLSSLCanNotSetWhileConnected;
+#define Idresourcestringsprotocols_RSTLSSLCanNotSetWhileConnected System::LoadResourceString(&Idresourcestringsprotocols::_RSTLSSLCanNotSetWhileConnected)
+extern PACKAGE System::ResourceString _RSTLSSLSSLNotAvailable;
+#define Idresourcestringsprotocols_RSTLSSLSSLNotAvailable System::LoadResourceString(&Idresourcestringsprotocols::_RSTLSSLSSLNotAvailable)
+extern PACKAGE System::ResourceString _RSTLSSLSSLCmdFailed;
+#define Idresourcestringsprotocols_RSTLSSLSSLCmdFailed System::LoadResourceString(&Idresourcestringsprotocols::_RSTLSSLSSLCmdFailed)
+extern PACKAGE System::ResourceString _RSPOP3ReplyInvalidEnhancedCode;
+#define Idresourcestringsprotocols_RSPOP3ReplyInvalidEnhancedCode System::LoadResourceString(&Idresourcestringsprotocols::_RSPOP3ReplyInvalidEnhancedCode)
+extern PACKAGE System::ResourceString _RSSMTPReplyInvalidReplyStr;
+#define Idresourcestringsprotocols_RSSMTPReplyInvalidReplyStr System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPReplyInvalidReplyStr)
+extern PACKAGE System::ResourceString _RSSMTPReplyInvalidClass;
+#define Idresourcestringsprotocols_RSSMTPReplyInvalidClass System::LoadResourceString(&Idresourcestringsprotocols::_RSSMTPReplyInvalidClass)
+extern PACKAGE System::ResourceString _RSUnsupportedOperation;
+#define Idresourcestringsprotocols_RSUnsupportedOperation System::LoadResourceString(&Idresourcestringsprotocols::_RSUnsupportedOperation)
+extern PACKAGE System::ResourceString _RSEmptyHost;
+#define Idresourcestringsprotocols_RSEmptyHost System::LoadResourceString(&Idresourcestringsprotocols::_RSEmptyHost)
+extern PACKAGE System::ResourceString _RSPop3ProxyGreeting;
+#define Idresourcestringsprotocols_RSPop3ProxyGreeting System::LoadResourceString(&Idresourcestringsprotocols::_RSPop3ProxyGreeting)
+extern PACKAGE System::ResourceString _RSPop3UnknownCommand;
+#define Idresourcestringsprotocols_RSPop3UnknownCommand System::LoadResourceString(&Idresourcestringsprotocols::_RSPop3UnknownCommand)
+extern PACKAGE System::ResourceString _RSPop3QuitMsg;
+#define Idresourcestringsprotocols_RSPop3QuitMsg System::LoadResourceString(&Idresourcestringsprotocols::_RSPop3QuitMsg)
+extern PACKAGE System::ResourceString _RSIMAP4SvrBeginTLSNegotiation;
+#define Idresourcestringsprotocols_RSIMAP4SvrBeginTLSNegotiation System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4SvrBeginTLSNegotiation)
+extern PACKAGE System::ResourceString _RSIMAP4SvrNotPermittedWithTLS;
+#define Idresourcestringsprotocols_RSIMAP4SvrNotPermittedWithTLS System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4SvrNotPermittedWithTLS)
+extern PACKAGE System::ResourceString _RSIMAP4SvrImplicitTLSRequiresSSL;
+#define Idresourcestringsprotocols_RSIMAP4SvrImplicitTLSRequiresSSL System::LoadResourceString(&Idresourcestringsprotocols::_RSIMAP4SvrImplicitTLSRequiresSSL)
+extern PACKAGE System::ResourceString _RSFTPFSysErrMsg;
+#define Idresourcestringsprotocols_RSFTPFSysErrMsg System::LoadResourceString(&Idresourcestringsprotocols::_RSFTPFSysErrMsg)
+extern PACKAGE System::ResourceString _RSOTPUnknownMethod;
+#define Idresourcestringsprotocols_RSOTPUnknownMethod System::LoadResourceString(&Idresourcestringsprotocols::_RSOTPUnknownMethod)
+
+}	/* namespace Idresourcestringsprotocols */
+using namespace Idresourcestringsprotocols;
+#pragma pack(pop)
+#pragma option pop
+
+#pragma delphiheader end.
+//-- end unit ----------------------------------------------------------------
+#endif	// IdresourcestringsprotocolsHPP

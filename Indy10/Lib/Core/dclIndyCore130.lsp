@@ -1,0 +1,1 @@
+-+.\IdRegisterCore.obj -+.\IdDsnPropEdBindingVCL.obj -+.\IdDsnCoreResourceStrings.obj -+.\IdCoreSelectionEditors.obj -+.\IdCoreDsnRegister.obj -+.\IdAntiFreeze.obj -+.\IdAboutVCL.obj -+c:\program files\codegear\rad studio\6.0\lib\SysInit.obj 

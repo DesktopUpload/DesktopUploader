@@ -1,0 +1,6 @@
+#ifndef SVNINFO_H
+#define SVNINFO_H
+
+#define SVN_REV         $WCREV$
+
+#endif
