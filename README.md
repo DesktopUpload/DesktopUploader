@@ -5,9 +5,9 @@ Desktop Uploader is a Windows application for mass uploading.
 <br>
 Patches welcome.
 <br><br>
-URL: http://desktopupload.com
+URL:&nbsp;&nbsp;http://desktopupload.com
 <br>
-License: Affero General Public License v3 http://www.gnu.org/licenses/agpl-3.0.html
+License:&nbsp;&nbsp;<a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">Affero General Public License v3</a>
 <br><br>
 <img src="http://desktopupload.com/images/github/info.jpg" border="0">
 
